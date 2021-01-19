@@ -3,18 +3,18 @@ GO
 
 -----------------------
 --
--- Deletes an entry from the OwnsIndividualBrick table using its Username and BrickID as inputs.
+-- Deletes an entry from the WantsBrick table using its Username and BrickID as inputs.
 --
 -----------------------
 -- Demo:
 -- DECLARE @Status SMALLINT
--- EXEC @Status = [delete_OwnsIndividualBrick] @Username = validationUser, @LegoBrick = '1234567/8900'
+-- EXEC @Status = [delete_WantsBrick] @Username = validationUser, @LegoBrick = '1234567/8900'
 -- SELECT Status = @Status
 -----------------------
 -- Revision History
 -- Created - 1/19/2021 - Luke Ferderer
 
-CREATE PROCEDURE [delete_OwnsIndividualBrick]
+CREATE PROCEDURE [delete_WantsBrick]
 (	
 	@Username dbo.Username,
 	@LegoBrick dbo.BrickID
@@ -34,7 +34,7 @@ BEGIN
 	RETURN 2;
 END
 -- Ensure an entry with Username @Username and LegoBrick @LegoBrick exists in the table
-IF (SELECT Count(Username) FROM [OwnsIndividualBrick] WHERE Username = @Username AND LegoBrick = @LegoBrick) = 0
+IF (SELECT Count(Username) FROM [WantsBrick] WHERE Username = @Username AND LegoBrick = @LegoBrick) = 0
 BEGIN
 	RAISERROR('An entry with Username @Username and LegoBrick @LegoBrick does not exist in the table', 14, 1);
 	RETURN 5;
@@ -44,7 +44,7 @@ END
 ----- Table Manipulation -----
 BEGIN TRY
 	-- The requested column is deleted from the Order Details table
-	DELETE [OwnsIndividualBrick]
+	DELETE [WantsBrick]
 	WHERE (Username = @Username AND LegoBrick = @LegoBrick)
 END TRY
 BEGIN CATCH
