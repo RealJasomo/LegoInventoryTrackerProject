@@ -51,7 +51,11 @@ export default class App extends Component {
                         {['Bricks', 'Models', 'Sets'].map((text, index, arr) => (
                           <Link to={`/${arr[index].toLowerCase()}`} className={styles.link}>
                             <ListItem button key={text}>
-                              <ListItemIcon><SvgIcon><BrickLogo/></SvgIcon></ListItemIcon>
+                              <ListItemIcon>
+                                  <SvgIcon>
+                                    <BrickLogo/>
+                                  </SvgIcon>
+                                </ListItemIcon>
                               <ListItemText primary={text} />
                             </ListItem>
                           </Link>
