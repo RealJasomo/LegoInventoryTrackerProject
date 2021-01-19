@@ -8,3 +8,6 @@ CREATE TABLE [User](
 	LastName nvarchar(30),
 	PRIMARY KEY (Username)
 )
+
+ALTER TABLE [User]
+ALTER COLUMN Password nvarchar(30) NOT NULL;
