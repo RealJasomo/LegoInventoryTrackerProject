@@ -7,11 +7,10 @@ import {Card,
         CardMedia,
         Typography} from '@material-ui/core'
 
-export default class BrickCard extends Component {
+export default class ModelCard extends Component {
     static propTypes = {
         id: PropTypes.string,
         url: PropTypes.string,
-        color: PropTypes.string,
         name: PropTypes.string
     }
     render() {
@@ -25,10 +24,10 @@ export default class BrickCard extends Component {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                  Brick {this.props.id}
+                  Model {this.props.id}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                Color: {this.props.color}&nbsp;&nbsp;&nbsp;Name: {this.props.name}
+                  Name: {this.props.name}
                 </Typography>
               </CardContent>
             </CardActionArea>

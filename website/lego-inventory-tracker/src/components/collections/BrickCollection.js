@@ -1,4 +1,4 @@
-import styles from '../../css/BrickCollection.module.css'
+import styles from '../../css/Collection.module.css'
 import React, { Component } from 'react'
 import {BrickCard} from '../cards'
 export default class BrickCollection extends Component {
