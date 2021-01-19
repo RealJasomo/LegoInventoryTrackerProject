@@ -1,7 +1,7 @@
 USE LegoInventoryTracker
 GO
 
-CREATE TABLE [Wants]
+CREATE TABLE [WantsBrick]
 (
 	Username Username,
 	LegoBrick BrickID,
