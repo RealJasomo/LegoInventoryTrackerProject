@@ -7,7 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {Homepage, BrickCollection, ModelCollection, SetCollection} from './components'
+import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection} from './components'
 import {AppBar, Toolbar,  IconButton, Typography, 
         Button, Drawer, List, ListItem, ListItemIcon, ListItemText, SvgIcon} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -34,10 +34,12 @@ export default class App extends Component {
                       <IconButton edge="start" className={styles.menuButton} onClick={this.toggleDrawer(true)}color="inherit" aria-label="menu">
                       <MenuIcon />
                       </IconButton>
-                      <Typography variant="h6" className={`${styles.flexGrow} ${styles.link}`} component={Link} to='/'>
-                      Lego Inventory Tracker
-                      </Typography>
-                      <Button color="inherit">Login / Sign Up</Button>
+                      <div id="logo-text" className={styles.flexGrow}>
+                        <Typography variant="h6" className={styles.link} component={Link} to='/'>
+                        Lego Inventory Tracker
+                        </Typography>
+                      </div>
+                      <Button color="inherit" className={styles.link} component={Link} to='/login'>Login / Sign Up</Button>
                   </Toolbar>
                   </AppBar>
                   <Drawer open={this.state.menuOpen} onClose={this.toggleDrawer(false)}>
@@ -49,8 +51,8 @@ export default class App extends Component {
                     >
                        <List>
                         {['Bricks', 'Models', 'Sets'].map((text, index, arr) => (
-                          <Link to={`/${arr[index].toLowerCase()}`} className={styles.link}>
-                            <ListItem button key={text}>
+                          <Link to={`/${arr[index].toLowerCase()}`} className={styles.link} key={text}>
+                            <ListItem button>
                               <ListItemIcon>
                                   <SvgIcon>
                                     <BrickLogo/>
@@ -83,6 +85,11 @@ export default class App extends Component {
             <Switch>
               <Route path="/bricks">
                 <BrickCollection />
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/login">
+                <LoginPage />
               </Route>
             </Switch>
         </div>
