@@ -24,5 +24,21 @@ router.post('/brick/wants/:brickid', legoBrickController.wantsLegoBrick);
 //POST owns brick with id
 router.post('/brick/owns/:brickid', legoBrickController.ownsLegoBrick);
 
+// Lego Model Routes //
+
+// GET all models
+router.get('/models', legoModelController.legoModelsList); 
+
+//GET the nth page of n lego models
+router.get('/models/:page/:count', legoModelController.legoModelsListByPageCount);
+
+//GET model information with id
+router.get('/model/:modelid', legoModelController.legoModelInformation);
+
+//GET included bricks from model with id
+router.get('/model/:modelid/includes', legoModelController.legoModelIncludes);
+
+//POST builds model with id
+router.post('/model/build/:modelid', legoModelController.buildsLegoModel);
 
 module.exports = router;

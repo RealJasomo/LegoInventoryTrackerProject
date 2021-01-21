@@ -4,7 +4,7 @@
  */
 
  //tedious will be used for database connection
-var tedious = require('tedious').Connection;
+var Connection = require('tedious').Connection;
 
 
 //return all lego bricks ROUTE:: /api/bricks/
@@ -25,13 +25,13 @@ exports.legoBrickInformation = (req, res) =>{
     res.send(`NOT IMPLEMENTED YET brick information ${brickID}`)
 };
 
-//return all lego bricks ROUTE:: /api/brick/wants/:brickid
+//Post user wants lego brick with id :brickid ROUTE:: /api/brick/wants/:brickid
 exports.wantsLegoBrick = (req, res) => {
     var brickID = req.params.brickid;
     res.send(`NOT IMPLEMENTED YET wants brick ${brickID}`);
 };
 
-//return count :count lego bricks of page :page   ROUTE:: /api/brick/owns/:brickid
+//Post user owns lego brick with id :brickid   ROUTE:: /api/brick/owns/:brickid
 exports.ownsLegoBrick = (req, res) => {
     var brickID = req.params.brickid;
     res.send(`NOT IMPLEMENTED YET owns brick ${brickID}`);
