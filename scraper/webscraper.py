@@ -37,18 +37,15 @@ def getBrickInfoOLD(inputURL):
             time.sleep(1)
 
             name = browser.find_element_by_xpath('/html/body/div[5]/div/aside/div/div[2]/div/p/span')
-            print('THE NAME IS ' + name.get_attribute('innerHTML'))
-            #nameArr.append(name.get_attribute('innerHTML'))
+            #print('THE NAME IS ' + name.get_attribute('innerHTML'))
             outputArr[0].append(name.get_attribute('innerHTML'))
 
             name = browser.find_element_by_xpath('/html/body/div[5]/div/aside/div/div[2]/div/span[2]/span/span')
-            print('THE COLOR IS '+ name.get_attribute('innerHTML'))
-            #colorArr.append(name.get_attribute('innerHTML'))
+            #print('THE COLOR IS '+ name.get_attribute('innerHTML'))
             outputArr[1].append(name.get_attribute('innerHTML'))
 
             name = browser.find_element_by_xpath('/html/body/div[5]/div/aside/div/div[2]/div/span[4]/span/span')
-            print('THE ELEMENT ID IS '+ name.get_attribute('innerHTML'))
-            #elementArr.append(name.get_attribute('innerHTML'))
+            #print('THE ELEMENT ID IS '+ name.get_attribute('innerHTML'))
             outputArr[2].append(name.get_attribute('innerHTML'))
 
             name = browser.find_element_by_xpath('/html/body/div[5]/div/aside/div/div[2]/div/span[5]/span/span')
@@ -110,9 +107,8 @@ def getBrickInfo():
         for i in range(1, 501):
             try:
                 color = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article[' + str(i) + ']/div[2]/div[1]/a[5]')
-                print('COLOR IS ' + color.text)
+                #print('COLOR IS ' + color.text)
                 tempArr.append(color.text)
-                #outputArr[0].append(color.text)
 
             except selenium.common.exceptions.NoSuchElementException:
                 print("incomplete data, skipping this entry")
@@ -121,33 +117,28 @@ def getBrickInfo():
             try:
                 img = browser.find_element_by_xpath(
                     '/html/body/div[2]/div/div/section/article[' + str(i) + ']/a').get_attribute('href')
-                print('IMG LINK IS' + img)
+                #print('IMG LINK IS' + img)
                 tempArr.append(img)
-                #outputArr[1].append(img)
 
             except selenium.common.exceptions.NoSuchElementException:
                 print("no image found, replacing with a 404 instead")
                 tempArr.append('https://www.lego.com/cdn/cs/stores/assets/blt44cddd0b8360e0e2/404.jpg?disable=upscale&width=1920&quality=40')
-                #outputArr[1].append('https://www.lego.com/cdn/cs/stores/assets/blt44cddd0b8360e0e2/404.jpg?disable=upscale&width=1920&quality=40')
 
 
             elementID = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article['+str(i)+']/div[2]/div[1]/a[1]')
-            print('ELEMENT ID IS '+elementID.text)
+            #print('ELEMENT ID IS '+elementID.text)
             tempArr.append(elementID.text)
-            #outputArr[2].append(elementID.text)
 
             designID = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article['+str(i)+']/div[2]/div[1]/a[2]')
-            print('DESIGN ID IS '+designID.text)
+            #print('DESIGN ID IS '+designID.text)
             tempArr.append(designID.text)
-            #outputArr[3].append(designID.text)
 
             name = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article[' + str(i) + ']/div[2]/h1/a').text
-            print('NAME IS ' + name.split(' ', 1)[1])
+            #print('NAME IS ' + name.split(' ', 1)[1])
             tempArr.append(name.split(' ', 1)[1])
 
             outputArr.append(tempArr)
             tempArr = []
-            #outputArr[4].append(name.split(' ', 1)[1])
 
     return outputArr
 
@@ -168,11 +159,11 @@ def getSetContents(inputID):
         #main case, where we're just iterating through bricks
         try:
             elementID = browser.find_element_by_xpath('/html/body/div['+str(ads)+']/div/div[1]/section/table/tbody/tr['+str(i)+']/td[1]/a').text
-            print('ELEMENT ID IS ' + elementID)
+            #print('ELEMENT ID IS ' + elementID)
             qty = browser.find_element_by_xpath('/html/body/div['+str(ads)+']/div/div[1]/section/table/tbody/tr['+str(i)+']/td[3]').text
-            print('QTY IS ' + qty)
+            #print('QTY IS ' + qty)
             designID = browser.find_element_by_xpath('/html/body/div['+str(ads)+']/div/div[1]/section/table/tbody/tr['+str(i)+']/td[6]/a').text
-            print('DESIGN ID IS '+designID)
+            #('DESIGN ID IS '+designID)
 
             tempArr.append(elementID)
             tempArr.append(designID)
@@ -217,31 +208,29 @@ def getSetInfo(theme):
             try:
                 year = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article['+str(i)+']/div[2]/div[1]/a[4]')
             except selenium.common.exceptions.NoSuchElementException:
-                print("incomplete data, skipping this entry")
+                #print("incomplete data, skipping this entry")
                 continue
 
             if browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article['+str(i)+']/div[2]/div[1]/a[3]').text == "MINIFIG PACK":
-                print("no minifigs")
+                #print("no minifigs")
                 continue
 
             try:
                 img = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article['+str(i)+']/a/img').get_attribute('src')
-                print('IMG LINK IS ' + img)
+                #print('IMG LINK IS ' + img)
                 tempArr.append(img)
 
             except selenium.common.exceptions.NoSuchElementException:
-                print("no image found, replacing with a 404 instead")
+                #print("no image found, replacing with a 404 instead")
                 tempArr.append(
                     'https://www.lego.com/cdn/cs/stores/assets/blt44cddd0b8360e0e2/404.jpg?disable=upscale&width=1920&quality=40')
 
             elementID = browser.find_element_by_xpath('/html/body/div[2]/div/div/section/article['+str(i)+']/div[2]/div[1]/a[1]')
-            print('ELEMENT ID IS ' + elementID.text.split('-', 1)[0])
+            #print('ELEMENT ID IS ' + elementID.text.split('-', 1)[0])
             tempArr.append(elementID.text.split('-', 1)[0])
-            # outputArr[2].append(elementID.text)
 
             outputArr.append(tempArr)
             tempArr = []
-            # outputArr[4].append(name.split(' ', 1)[1])
 
     return outputArr
 
@@ -269,21 +258,21 @@ def getSetInfo(theme):
 
 
 baseTheme = 'Star-Wars'
-baseID = 'FANEXPO001'
+baseID = '7191'
 browser = webdriver.Chrome()#chrome_options=options)
-
+holder = [0]
 
 #To call getBrickInfo:
 #holder = getBrickInfo()
 
 #To call getSetInfo:
 #baseTheme is starwars, currently it can't scrape anything with more than 1000 entries (don't think things that huge exist for themes anyway)
-holder =getSetInfo(baseTheme)
+#holder =getSetInfo(baseTheme)
 
 #to call getSetContents:
 #base ID is a random starwars set, make sure you do NOT include the -1 that brickset appends to id's
 #holder = getSetContents(baseID)
-#holder = [0]
+
 
 for x in holder:
     print(x)
