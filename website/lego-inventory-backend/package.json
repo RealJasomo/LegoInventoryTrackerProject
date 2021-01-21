@@ -1,0 +1,22 @@
+{
+  "name": "lego-inventory-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API for lego-inventory-tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon ./server.js"
+  },
+  "author": "Jason Cramer, Jamari Morrison, Luke Ferderer",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0",
+    "tedious": "^9.2.3"
+  }
+}
