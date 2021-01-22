@@ -3,7 +3,7 @@ var router = express.Router();
 
 //Controllers
 var userController = require('./controllers/UserController');
-var legoSeController = require('./controllers/LegoSetController');
+var legoSetController = require('./controllers/LegoSetController');
 var legoModelController = require('./controllers/LegoModelController');
 var legoBrickController = require('./controllers/LegoBrickController');
 
@@ -40,5 +40,39 @@ router.get('/model/:modelid/includes', legoModelController.legoModelIncludes);
 
 //POST builds model with id
 router.post('/model/build/:modelid', legoModelController.buildsLegoModel);
+
+// Lego Set Routes //
+
+// GET all sets
+router.get('/sets', legoSetController.legoSetsList); 
+
+//GET the nth page of n lego sets
+router.get('/sets/:page/:count', legoSetController.legoSetsListByPageCount);
+
+//GET set information with id
+router.get('/set/:setid', legoSetController.legoSetInformation);
+
+//GET included bricks from set with id
+router.get('/set/:setid/includes', legoSetController.legoSetIncludes);
+
+//POST wants set with id
+router.post('/set/wants/:setid', legoSetController.wantsLegoSet);
+
+//POST owns set with id
+router.post('/set/owns/:setid', legoSetController.ownsLegoSet);
+
+// User Routes //
+
+//GET login user
+router.get('/users/login', userController.loginUser);
+
+//POST create new user
+router.post('/users/create', userController.createUser);
+
+//PUT update password
+router.put('/users/updatePassword', userController.updateUserPassword);
+
+//DELETE delete user
+router.delete('/users/delete', userController.deleteUser);
 
 module.exports = router;

@@ -33,5 +33,5 @@ exports.legoModelInformation = (req, res) =>{
 //Post user builds model with id :modelid   ROUTE:: /api/model/build/:modelid
 exports.buildsLegoModel = (req, res) => {
     var modelID = req.params.modelid;
-    res.send(`NOT IMPLEMENTED YET owns Model ${modelID}`);
+    res.send(`NOT IMPLEMENTED YET builds Model ${modelID}`);
 };
