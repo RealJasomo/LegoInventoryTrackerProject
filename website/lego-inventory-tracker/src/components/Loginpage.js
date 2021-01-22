@@ -3,15 +3,22 @@ import React, { Component } from 'react'
 import {TextField, Link, Grid, Button, Typography, CssBaseline, Container} from '@material-ui/core'
 
 export default class LoginPage extends Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            email: "",
+            password: ""
+        }
+    }
+    
     render() {
         return (
             <Container component="main" maxWidth="xs">
             <CssBaseline />
             <div className={styles.paper}>
                 <Typography component="h1" variant="h5">
-                Login / Registration
+                    Login
                 </Typography>
-                <form className={styles.form} noValidate>
                 <TextField
                     variant="outlined"
                     margin="normal"
@@ -44,15 +51,6 @@ export default class LoginPage extends Component {
                     >
                         Login
                     </Button>
-                    <Button
-                        type="submit"
-                        fullWidth
-                        variant="contained"
-                        color="primary"
-                        className={styles.submit}
-                    >
-                        Sign up
-                    </Button>
                 </div>
                 <Grid container>
                     <Grid item xs>
@@ -60,8 +58,12 @@ export default class LoginPage extends Component {
                         Forgot password?
                     </Link>
                     </Grid>
+                    <Grid item xs>
+                    <Link href="/signup" variant="body2">
+                        Sign up
+                    </Link>
+                    </Grid>
                 </Grid>
-                </form>
             </div>
             </Container>
         )

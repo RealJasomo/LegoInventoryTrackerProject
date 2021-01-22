@@ -39,7 +39,7 @@ export default class App extends Component {
                         Lego Inventory Tracker
                         </Typography>
                       </div>
-                      <Button color="inherit" className={styles.link} component={Link} to='/login'>Login / Sign Up</Button>
+                      <Button color="inherit" className={styles.link} component={Link} to='/login'>Login</Button>
                   </Toolbar>
                   </AppBar>
                   <Drawer open={this.state.menuOpen} onClose={this.toggleDrawer(false)}>
@@ -89,7 +89,7 @@ export default class App extends Component {
             </Switch>
             <Switch>
               <Route path="/login">
-                <LoginPage />
+                <LoginPage type="Login"/>
               </Route>
             </Switch>
         </div>
