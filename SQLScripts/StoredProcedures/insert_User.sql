@@ -20,7 +20,7 @@ GO
 ALTER PROCEDURE [insert_User]
 (
 	@Username dbo.Username,
-	@Password nvarchar(30),
+	@Password nvarchar(70),
 	@FirstName nvarchar(30) = NULL,
 	@LastName nvarchar(30) = NULL
 )

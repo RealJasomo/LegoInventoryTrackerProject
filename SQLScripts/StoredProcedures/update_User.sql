@@ -17,10 +17,10 @@ GO
 -- Revision History
 -- Created - 1/19/2021 - Luke Ferderer
 
-CREATE PROCEDURE [update_User]
+ALTER PROCEDURE [update_User]
 (
 	@Username dbo.Username,
-	@Password nvarchar(30) = NULL,
+	@Password nvarchar(70) = NULL,
 	@FirstName nvarchar(30) = NULL,
 	@LastName nvarchar(30) = NULL
 )
