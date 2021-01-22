@@ -1,4 +1,5 @@
-
+USE LegoInventoryTracker
+GO
 
 CREATE TABLE LegoBrick(
 ID [BrickID],
@@ -7,3 +8,4 @@ Name varchar(80),
 Color varchar(30),
 Primary Key(ID)
 )
+GO
