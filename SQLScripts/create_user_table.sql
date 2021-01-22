@@ -11,3 +11,6 @@ CREATE TABLE [User](
 
 ALTER TABLE [User]
 ALTER COLUMN Password nvarchar(30) NOT NULL;
+
+ALTER TABLE [User]
+ALTER COLUMN Password nvarchar(70) NOT NULL
