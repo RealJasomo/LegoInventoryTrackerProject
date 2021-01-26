@@ -12,6 +12,10 @@ var sql = require("mssql");
 //bcrypt for password hashing
 var bcrypt = require('bcrypt');
 
+//Json web tokens for session
+var jwt = require('jsonwebtoken');
+
+
 
  var config = {
     user: process.env.DATABASE_USER,
@@ -37,12 +41,16 @@ var bcrypt = require('bcrypt');
                return;
             }
             request.input('Password', sql.NVarChar(70), hash);
-            request.execute('insert_User', (err, result) => {
+            request.execute('insert_User', (err, _) => {
                if(err){
                   res.status(403).json({error: "Error creating the user, please try again"});
+                  console.log(err);
                   return;
-               }console.log(result);
-               res.json({message: 'user created sucessfully', user: req.body.username});
+               }
+               res.json({
+                  message: 'user created sucessfully', 
+                  user: req.body.username,
+                  token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET)});
             });
 
          });
@@ -57,7 +65,28 @@ var bcrypt = require('bcrypt');
          console.log(err);
          res.status(400).send("database connection error");
       }else{
-         res.send("Successfully connected");
+         const request = new sql.Request();
+         request.input('Username', sql.VarChar(20), req.body.username);
+         request.execute('login_User', (err, result) => {
+            if(err){
+               res.status(403).json({error: "Error login of the user, please try again"});
+               console.log(err);
+               return;
+            }
+            const hashedPass = result.recordset[0].hashpassword;
+            bcrypt.compare(req.body.password, hashedPass, (err, same) => {
+               if(err || !same){
+                  res.status(403).json({error: "Unable to verify credentials"});
+                  return;
+               }
+               res.json({
+                  message: "Signed in successfully",
+                  token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET),
+                  user: req.body.username
+               });
+               return;
+            });
+         });
       }
     });
     //res.send('NOT IMPLEMENTED YET login user');
