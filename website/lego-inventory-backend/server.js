@@ -9,12 +9,13 @@ var express = require('express');
 var morgan = require('morgan');
 var cors = require('cors');
 var helmet = require('helmet');
-
+var bodyParser = require('body-parser');
 //api
 var api = require('./api.js');
 
 //Application
 var app = express();
+
 
 
 const port = process.env.PORT || 3001;
@@ -26,6 +27,7 @@ app.use('/api',api);
 
 //Routes 
 app.get('/', (req, res) => {
+   
     console.log(req);
     res.json({ message:"working", status:200});
 });

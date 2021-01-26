@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
-
+var bodyParser = require('body-parser');
+router.use(bodyParser.json());
 //Controllers
 var userController = require('./controllers/UserController');
 var legoSetController = require('./controllers/LegoSetController');
