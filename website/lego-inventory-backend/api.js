@@ -8,6 +8,8 @@ var legoSetController = require('./controllers/LegoSetController');
 var legoModelController = require('./controllers/LegoModelController');
 var legoBrickController = require('./controllers/LegoBrickController');
 
+//Middleware
+var loginAttemptLimiter = require('./middleware/loginAttempt');
 // Lego Brick Routes //
 
 // GET all bricks
@@ -65,7 +67,7 @@ router.post('/set/owns/:setid', legoSetController.ownsLegoSet);
 // User Routes //
 
 //GET login user
-router.get('/users/login', userController.loginUser);
+router.get('/users/login',loginAttemptLimiter.loginAttempt,userController.loginUser);
 
 //POST create new user
 router.post('/users/create', userController.createUser);
