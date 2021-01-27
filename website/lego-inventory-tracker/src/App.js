@@ -7,8 +7,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage} from './components'
-import { UserModels, UserBricks, UserSets} from './components/userCollections'
+import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage, UserCollection } from './components'
 import {AppBar, Toolbar,  IconButton, Typography, 
         Button, Drawer, List, ListItem, ListItemIcon, ListItemText, SvgIcon} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -39,17 +38,17 @@ class App extends Component {
     }
     const models = () => {
       if(this.props.auth.token)
-        return <UserModels />
+        return <UserCollection component={ModelCollection} />
       return <ModelCollection />
     }
     const sets = () => {
       if(this.props.auth.token)
-        return <UserSets />
+        return <UserCollection component={SetCollection} />
       return <SetCollection />
     }
     const bricks = () => {
       if(this.props.auth.token)
-        return <UserBricks />
+        return <UserCollection component={BrickCollection} />
       return <BrickCollection />
     }
     return (

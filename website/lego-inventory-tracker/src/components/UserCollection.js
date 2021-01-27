@@ -1,24 +1,23 @@
-import styles from '../../css/Usercollection.module.css'
-
+import styles from '../css/Usercollection.module.css'
 import React, { Component } from 'react'
-import { ModelCollection } from '..';
 
-export default class UserModels extends Component {
+export default class UserCollection extends Component {
     constructor(props){
         super(props);
     }
     
     render() {
+        const CollectionComponent = this.props.component;
         return (
             <>
-                <div id="favoriteModels">
+            <div id="favorites">
                     <h1 className={styles.marginLeft}>Favorites:</h1>
-                    <ModelCollection/>
+                    <CollectionComponent />
                 </div>
-                <div id="ownedModels">
+                <div id="owned">
                     <h1 className={styles.marginLeft}>Collection:</h1>
-                    <ModelCollection/>
-                </div>
+                    <CollectionComponent />
+            </div>
             </>
         )
     }
