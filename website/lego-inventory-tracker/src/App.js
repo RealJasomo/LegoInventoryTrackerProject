@@ -7,14 +7,16 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection} from './components'
+import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage} from './components'
 import {AppBar, Toolbar,  IconButton, Typography, 
         Button, Drawer, List, ListItem, ListItemIcon, ListItemText, SvgIcon} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
+import { setToken } from './store/actions/actions'
+import {connect} from 'react-redux'
 
-export default class App extends Component {
-  constructor(){
-  super();
+class App extends Component {
+  constructor(props){
+  super(props);
    this.state = {
     menuOpen: false
   }
@@ -24,7 +26,16 @@ export default class App extends Component {
       menuOpen: isOpen
     })
   }
+  handleSignout = () => {
+    this.props.setToken("");
+  }
   render() {
+    const loginButton = () => {
+      if(this.props.auth.token)
+        return <Button color="inherit" onClick={this.handleSignout}>Sign out</Button>
+      else
+        return<Button color="inherit" className={styles.link} component={Link} to='/login'>Login</Button> 
+    }
     return (
       <>
       <Router>
@@ -39,7 +50,7 @@ export default class App extends Component {
                         Lego Inventory Tracker
                         </Typography>
                       </div>
-                      <Button color="inherit" className={styles.link} component={Link} to='/login'>Login</Button>
+                    {loginButton()}             
                   </Toolbar>
                   </AppBar>
                   <Drawer open={this.state.menuOpen} onClose={this.toggleDrawer(false)}>
@@ -89,7 +100,12 @@ export default class App extends Component {
             </Switch>
             <Switch>
               <Route path="/login">
-                <LoginPage type="Login"/>
+                <LoginPage/>
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/signup">
+                <SignUpPage />
               </Route>
             </Switch>
         </div>
@@ -99,3 +115,7 @@ export default class App extends Component {
   }
 }
 
+const mapState = state => ({
+    auth: state.authToken
+})
+export default connect(mapState, {setToken})(App);

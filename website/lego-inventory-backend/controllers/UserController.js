@@ -15,7 +15,7 @@ var bcrypt = require('bcrypt');
 //Json web tokens for session
 var jwt = require('jsonwebtoken');
 
-
+var attempts = require('../middleware/loginAttempt').attempts;
 
  var config = {
     user: process.env.DATABASE_USER,
@@ -60,7 +60,8 @@ var jwt = require('jsonwebtoken');
 
  //Sign in user  ROUTE:: /api/users/login
  exports.loginUser = (req, res) => {
-    sql.connect(config, (err) => {
+   var ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+   sql.connect(config, (err) => {
       if(err){
          console.log(err);
          res.status(400).send("database connection error");
@@ -80,6 +81,8 @@ var jwt = require('jsonwebtoken');
                   res.status(403).json({error: "Unable to verify credentials"});
                   return;
                }
+               attempts[ip] = {count: 0};
+               
                res.json({
                   message: "Signed in successfully",
                   token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET),
