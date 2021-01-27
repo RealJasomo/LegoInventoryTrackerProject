@@ -1,0 +1,325 @@
+<data>
+  <set ID="0012" imageURL="https://images.brickset.com/sets/small/0012-1.jpg?200912131024" name="Space minifigures"/>
+  <set ID="0013" imageURL="https://images.brickset.com/sets/small/0013-1.jpg?200912131024" name="Space minifigures"/>
+  <set ID="0014" imageURL="https://images.brickset.com/sets/small/0014-1.jpg?200912131024" name="Space minifigures"/>
+  <set ID="0015" imageURL="https://images.brickset.com/sets/small/0015-1.jpg?200912031122" name="Space Mini-Figures"/>
+  <set ID="54" imageURL="https://images.brickset.com/sets/small/54-1.jpg?201302280329" name="UFO Action Pack"/>
+  <set ID="305" imageURL="https://images.brickset.com/sets/small/305-1.jpg?201011140512" name="Two Crater Plates"/>
+  <set ID="306" imageURL="https://images.brickset.com/sets/small/306-1.jpg" name="Two Lunar Landing Plates"/>
+  <set ID="442" imageURL="https://images.brickset.com/sets/small/442-1.jpg" name="Space Shuttle"/>
+  <set ID="452" imageURL="https://images.brickset.com/sets/small/452-1.jpg" name="Mobile Ground Tracking Station"/>
+  <set ID="453" imageURL="https://images.brickset.com/sets/small/453-1.jpg" name="Two Crater Plates"/>
+  <set ID="454" imageURL="https://images.brickset.com/sets/small/454-1.jpg" name="Two Lunar Landing Plates"/>
+  <set ID="462" imageURL="https://images.brickset.com/sets/small/462-1.jpg" name="Mobile Rocket Launcher"/>
+  <set ID="483" imageURL="https://images.brickset.com/sets/small/483-1.jpg?201011030423" name="Alpha-1 Rocket Base"/>
+  <set ID="487" imageURL="https://images.brickset.com/sets/small/487-1.jpg?201011030423" name="Space Cruiser"/>
+  <set ID="493" imageURL="https://images.brickset.com/sets/small/493-1.jpg" name="Space Command Center"/>
+  <set ID="497" imageURL="https://images.brickset.com/sets/small/497-1.jpg" name="Galaxy Explorer"/>
+  <set ID="885" imageURL="https://images.brickset.com/sets/small/885-1.jpg" name="Space Scooter"/>
+  <set ID="886" imageURL="https://images.brickset.com/sets/small/886-1.jpg" name="Space Buggy"/>
+  <set ID="889" imageURL="https://images.brickset.com/sets/small/889-1.jpg" name="Radar Truck"/>
+  <set ID="891" imageURL="https://images.brickset.com/sets/small/891-1.jpg?200706300821" name="Two Seater Space Scooter"/>
+  <set ID="894" imageURL="https://images.brickset.com/sets/small/894-1.jpg?200706300821" name="Mobile Ground Tracking Station"/>
+  <set ID="897" imageURL="https://images.brickset.com/sets/small/897-1.jpg?200505171253" name="Mobile rocket launcher"/>
+  <set ID="918" imageURL="https://images.brickset.com/sets/small/918-1.jpg?201011030422" name="One Man Space Ship"/>
+  <set ID="920" imageURL="https://images.brickset.com/sets/small/920-2.jpg?200706300822" name="Rocket Launch Pad"/>
+  <set ID="924" imageURL="https://images.brickset.com/sets/small/924-1.jpg?200706300823" name="Space Cruiser"/>
+  <set ID="926" imageURL="https://images.brickset.com/sets/small/926-1.jpg?200706300823" name="Command Centre"/>
+  <set ID="928" imageURL="https://images.brickset.com/sets/small/928-1.jpg?200706300823" name="Space Cruiser And Moonbase"/>
+  <set ID="1195" imageURL="https://images.brickset.com/sets/small/1195-1.jpg?200801240240" name="Alien Encounter"/>
+  <set ID="1413" imageURL="https://images.brickset.com/sets/small/1413-1.jpg?200106101200" name="Rover"/>
+  <set ID="1414" imageURL="https://images.brickset.com/sets/small/1414-1.jpg?200106101200" name="Double Hover"/>
+  <set ID="1415" imageURL="https://images.brickset.com/sets/small/1415-1.jpg?200106101200" name="Jet Scooter"/>
+  <set ID="1416" imageURL="https://images.brickset.com/sets/small/1416-1.jpg?200106101200" name="Worker Robot"/>
+  <set ID="1462" imageURL="https://images.brickset.com/sets/small/1462-1.jpg" name="Galactic Scout"/>
+  <set ID="1478" imageURL="https://images.brickset.com/sets/small/1478-1.jpg" name="Mobile Satellite Up-Link"/>
+  <set ID="1479" imageURL="https://images.brickset.com/sets/small/1479-1.jpg" name="Two-Pilot Craft"/>
+  <set ID="1498" imageURL="https://images.brickset.com/sets/small/1498-1.jpg" name="Spy-Bot"/>
+  <set ID="1499" imageURL="https://images.brickset.com/sets/small/1499-1.jpg" name="Twin Starfire"/>
+  <set ID="1507" imageURL="https://images.brickset.com/sets/small/1507-1.jpg?200507010454" name="Special Two-Set Space Pack"/>
+  <set ID="1510" imageURL="https://images.brickset.com/sets/small/1510-1.jpg?200507010455" name="Special Two-Set Space Pack"/>
+  <set ID="1526" imageURL="https://images.brickset.com/sets/small/1526-1.jpg?200807230636" name="Unknown"/>
+  <set ID="1530" imageURL="https://images.brickset.com/sets/small/1530-2.jpg?201302280330" name="Space Value Pack"/>
+  <set ID="1557" imageURL="https://images.brickset.com/sets/small/1557-1.jpg" name="Scooter"/>
+  <set ID="1558" imageURL="https://images.brickset.com/sets/small/1558-1.jpg" name="Mobile Command Trailer"/>
+  <set ID="1580" imageURL="https://images.brickset.com/sets/small/1580-1.jpg" name="Lunar Scout"/>
+  <set ID="1593" imageURL="https://images.brickset.com/sets/small/1593-1.jpg?201010090259" name="Super Model Building Instructions"/>
+  <set ID="1616" imageURL="https://images.brickset.com/sets/small/1616-1.jpg?200507010458" name="Special Two-Set Space Pack"/>
+  <set ID="1620" imageURL="https://images.brickset.com/sets/small/1620-1.jpg" name="Astro Dart"/>
+  <set ID="1621" imageURL="https://images.brickset.com/sets/small/1621-1.jpg" name="Lunar MPV Vehicle"/>
+  <set ID="1694" imageURL="https://images.brickset.com/sets/small/1694-1.jpg" name="Galactic Scout"/>
+  <set ID="1704" imageURL="https://images.brickset.com/sets/small/1704-1.jpg" name="(Unnamed)"/>
+  <set ID="1711" imageURL="https://images.brickset.com/sets/small/1711-1.jpg" name="Ice Planet Scooter"/>
+  <set ID="1714" imageURL="https://images.brickset.com/sets/small/1714-1.jpg" name="Surveillance Scooter"/>
+  <set ID="1731" imageURL="https://images.brickset.com/sets/small/1731-1.jpg" name="Ice Planet Scooter"/>
+  <set ID="1737" imageURL="https://images.brickset.com/sets/small/1737-1.jpg" name="Scorpion Detector"/>
+  <set ID="1785" imageURL="https://images.brickset.com/sets/small/1785-1.jpg" name="Crater Critters"/>
+  <set ID="1787" imageURL="https://images.brickset.com/sets/small/1787-1.jpg" name="Crater Cruiser"/>
+  <set ID="1789" imageURL="https://images.brickset.com/sets/small/1789-1.jpg" name="Star Hawk II"/>
+  <set ID="1793" imageURL="https://images.brickset.com/sets/small/1793-1.jpg" name="Space Station Zenon"/>
+  <set ID="1843" imageURL="https://images.brickset.com/sets/small/1843-1.jpg" name="(Unnamed)"/>
+  <set ID="1858" imageURL="https://images.brickset.com/sets/small/1858-1.jpg" name="Droid Scout"/>
+  <set ID="1875" imageURL="https://images.brickset.com/sets/small/1875-1.jpg?200507010504" name="Meteor Monitor"/>
+  <set ID="1887" imageURL="https://images.brickset.com/sets/small/1887-1.jpg" name="Scout Patrol Ship"/>
+  <set ID="1916" imageURL="https://images.brickset.com/sets/small/1916-1.jpg" name="Starion Patrol"/>
+  <set ID="1954" imageURL="https://images.brickset.com/sets/small/1954-1.jpg" name="Surveillance Scooter"/>
+  <set ID="1968" imageURL="https://images.brickset.com/sets/small/1968-1.jpg?201010090301" name="(Unnamed)"/>
+  <set ID="1969" imageURL="https://images.brickset.com/sets/small/1969-1.jpg" name="Mini Robot"/>
+  <set ID="1969" imageURL="https://images.brickset.com/sets/small/1969-2.jpg?200507010506" name="Space Value Pack"/>
+  <set ID="1974" imageURL="https://images.brickset.com/sets/small/1974-4.jpg" name="Star Quest"/>
+  <set ID="1977" imageURL="https://images.brickset.com/sets/small/1977-1.jpg?200507010507" name="Special Three-Set Space Pack"/>
+  <set ID="1983" imageURL="https://images.brickset.com/sets/small/1983-1.jpg?201710230900" name="Space Value Pack"/>
+  <set ID="1999" imageURL="https://images.brickset.com/sets/small/1999-1.jpg?200507010508" name="Space Value Pack"/>
+  <set ID="2151" imageURL="https://images.brickset.com/sets/small/2151-1.jpg" name="Robo Raider"/>
+  <set ID="2152" imageURL="https://images.brickset.com/sets/small/2152-1.jpg" name="Robo Raptor"/>
+  <set ID="2153" imageURL="https://images.brickset.com/sets/small/2153-1.jpg" name="Robo Stalker"/>
+  <set ID="2154" imageURL="https://images.brickset.com/sets/small/2154-1.jpg" name="Robo Master"/>
+  <set ID="2490" imageURL="https://images.brickset.com/sets/small/2490-1.jpg?201302280330" name="Insectoids Combined Set"/>
+  <set ID="2543" imageURL="https://images.brickset.com/sets/small/2543-1.jpg" name="Spacecraft"/>
+  <set ID="2847" imageURL="https://images.brickset.com/sets/small/2847-1.jpg" name="Flyer"/>
+  <set ID="2847" imageURL="https://images.brickset.com/sets/small/2847-2.jpg?202009231055" name="Big Value Collectors' Bucket"/>
+  <set ID="2964" imageURL="https://images.brickset.com/sets/small/2964-1.jpg?199811060807" name="Space Spider"/>
+  <set ID="2965" imageURL="https://images.brickset.com/sets/small/2965-1.jpg?199807201200" name="Hornet Scout"/>
+  <set ID="3012" imageURL="https://images.brickset.com/sets/small/3012-1.jpg?199810180832" name="Space Hover"/>
+  <set ID="3013" imageURL="https://images.brickset.com/sets/small/3013-1.jpg?199810180833" name="Space Jet"/>
+  <set ID="3014" imageURL="https://images.brickset.com/sets/small/3014-1.jpg?199810180833" name="Ice Planet Scooter"/>
+  <set ID="3015" imageURL="https://images.brickset.com/sets/small/3015-1.jpg?199810180833" name="Space Police Car"/>
+  <set ID="3070" imageURL="https://images.brickset.com/sets/small/3070-1.jpg?199905310807" name="Mosquito"/>
+  <set ID="3071" imageURL="https://images.brickset.com/sets/small/3071-1.jpg?199905310807" name="Light Flyer"/>
+  <set ID="3072" imageURL="https://images.brickset.com/sets/small/3072-1.jpg?199905310807" name="Megatax"/>
+  <set ID="3073" imageURL="https://images.brickset.com/sets/small/3073-1.jpg?199905310807" name="Kana Booster"/>
+  <set ID="4305" imageURL="https://images.brickset.com/sets/small/4305-1.jpg?202005140636" name="Cyborg Scout"/>
+  <set ID="4741" imageURL="https://images.brickset.com/sets/small/4741-1.jpg?201302280330" name="Blacktron II Space Value Pack"/>
+  <set ID="5616" imageURL="https://images.brickset.com/sets/small/5616-1.jpg?200712131054" name="Mini Robot"/>
+  <set ID="5617" imageURL="https://images.brickset.com/sets/small/5617-1.jpg?200712310227" name="Alien Jet"/>
+  <set ID="5619" imageURL="https://images.brickset.com/sets/small/5619-1.jpg?200805200220" name="Crystal Hawk"/>
+  <set ID="5969" imageURL="https://images.brickset.com/sets/small/5969-1.jpg?200903131039" name="Squidman Escape"/>
+  <set ID="5970" imageURL="https://images.brickset.com/sets/small/5970-1.jpg?200903131039" name="Freeze Ray Frenzy"/>
+  <set ID="5971" imageURL="https://images.brickset.com/sets/small/5971-1.jpg?200903131039" name="Gold Heist"/>
+  <set ID="5972" imageURL="https://images.brickset.com/sets/small/5972-1.jpg?200903131039" name="Container Heist"/>
+  <set ID="5973" imageURL="https://images.brickset.com/sets/small/5973-1.jpg?200903131039" name="Hyperspeed Pursuit"/>
+  <set ID="5974" imageURL="https://images.brickset.com/sets/small/5974-1.jpg?200903131040" name="Galactic Enforcer"/>
+  <set ID="5979" imageURL="https://images.brickset.com/sets/small/5979-1.jpg?200907020526" name="Max Security Transport"/>
+  <set ID="5980" imageURL="https://images.brickset.com/sets/small/5980-1.jpg?200906170536" name="Squidman's Pitstop"/>
+  <set ID="5981" imageURL="https://images.brickset.com/sets/small/5981-1.jpg?200911150423" name="Raid VPR"/>
+  <set ID="5982" imageURL="https://images.brickset.com/sets/small/5982-1.jpg?200911150423" name="Smash 'n' Grab"/>
+  <set ID="5983" imageURL="https://images.brickset.com/sets/small/5983-1.jpg?201005151208" name="Undercover Cruiser"/>
+  <set ID="5984" imageURL="https://images.brickset.com/sets/small/5984-1.jpg?201005151208" name="Lunar Limo"/>
+  <set ID="5985" imageURL="https://images.brickset.com/sets/small/5985-1.jpg?201005151208" name="Space Police Central"/>
+  <set ID="6701" imageURL="https://images.brickset.com/sets/small/6701-1.jpg" name="Minifig Pack"/>
+  <set ID="6702" imageURL="https://images.brickset.com/sets/small/6702-1.jpg" name="Space Mini-Figures"/>
+  <set ID="6703" imageURL="https://images.brickset.com/sets/small/6703-1.jpg" name="Minifig Pack"/>
+  <set ID="6704" imageURL="https://images.brickset.com/sets/small/6704-1.jpg" name="Minifig Pack"/>
+  <set ID="6705" imageURL="https://images.brickset.com/sets/small/6705-1.jpg" name="Space Explorers"/>
+  <set ID="6710" imageURL="https://images.brickset.com/sets/small/6710-1.jpg" name="Space Landing Pads"/>
+  <set ID="6711" imageURL="https://images.brickset.com/sets/small/6711-1.jpg?200212211048" name="Minifig Pack"/>
+  <set ID="6750" imageURL="https://images.brickset.com/sets/small/6750-1.jpg" name="Sonic Robot"/>
+  <set ID="6770" imageURL="https://images.brickset.com/sets/small/6770-1.jpg" name="Lunar Transporter Patroller"/>
+  <set ID="6780" imageURL="https://images.brickset.com/sets/small/6780-1.jpg" name="XT Starship"/>
+  <set ID="6781" imageURL="https://images.brickset.com/sets/small/6781-1.jpg" name="SP-Striker"/>
+  <set ID="6783" imageURL="https://images.brickset.com/sets/small/6783-1.jpg" name="Sonar Transmitting Cruiser"/>
+  <set ID="6800" imageURL="https://images.brickset.com/sets/small/6800-1.jpg" name="Cyber Blaster"/>
+  <set ID="6801" imageURL="https://images.brickset.com/sets/small/6801-1.jpg" name="Moon Buggy"/>
+  <set ID="6802" imageURL="https://images.brickset.com/sets/small/6802-1.jpg" name="Space Probe"/>
+  <set ID="6803" imageURL="https://images.brickset.com/sets/small/6803-1.jpg" name="Space Patrol"/>
+  <set ID="6804" imageURL="https://images.brickset.com/sets/small/6804-1.jpg" name="Surface Rover"/>
+  <set ID="6805" imageURL="https://images.brickset.com/sets/small/6805-1.jpg" name="Astro Dasher"/>
+  <set ID="6806" imageURL="https://images.brickset.com/sets/small/6806-1.jpg" name="Surface Hopper"/>
+  <set ID="6807" imageURL="https://images.brickset.com/sets/small/6807-1.jpg" name="Space Sledge with Astronaut and Robot"/>
+  <set ID="6808" imageURL="https://images.brickset.com/sets/small/6808-1.jpg" name="Galaxy Trekkor"/>
+  <set ID="6809" imageURL="https://images.brickset.com/sets/small/6809-1.jpg" name="XT-5 and Droid"/>
+  <set ID="6810" imageURL="https://images.brickset.com/sets/small/6810-1.jpg" name="Laser Ranger"/>
+  <set ID="6811" imageURL="https://images.brickset.com/sets/small/6811-1.jpg" name="Pulsar Charger"/>
+  <set ID="6812" imageURL="https://images.brickset.com/sets/small/6812-1.jpg" name="Grid Trekkor"/>
+  <set ID="6813" imageURL="https://images.brickset.com/sets/small/6813-1.jpg" name="Galactic Chief"/>
+  <set ID="6814" imageURL="https://images.brickset.com/sets/small/6814-1.jpg" name="Ice Tunnelator"/>
+  <set ID="6815" imageURL="https://images.brickset.com/sets/small/6815-1.jpg" name="Hovertron"/>
+  <set ID="6816" imageURL="https://images.brickset.com/sets/small/6816-1.jpg" name="Cyber Blaster"/>
+  <set ID="6817" imageURL="https://images.brickset.com/sets/small/6817-1.jpg" name="Beta Buzzer"/>
+  <set ID="6818" imageURL="https://images.brickset.com/sets/small/6818-1.jpg" name="Cyborg Scout"/>
+  <set ID="6820" imageURL="https://images.brickset.com/sets/small/6820-1.jpg" name="Starfire I"/>
+  <set ID="6821" imageURL="https://images.brickset.com/sets/small/6821-1.jpg" name="Shovel Buggy"/>
+  <set ID="6822" imageURL="https://images.brickset.com/sets/small/6822-1.jpg" name="Space Digger"/>
+  <set ID="6823" imageURL="https://images.brickset.com/sets/small/6823-1.jpg" name="Surface Transport"/>
+  <set ID="6824" imageURL="https://images.brickset.com/sets/small/6824-1.jpg" name="Space Dart I"/>
+  <set ID="6825" imageURL="https://images.brickset.com/sets/small/6825-1.jpg" name="Cosmic Comet"/>
+  <set ID="6826" imageURL="https://images.brickset.com/sets/small/6826-1.jpg" name="Crater Crawler"/>
+  <set ID="6827" imageURL="https://images.brickset.com/sets/small/6827-1.jpg" name="Strata Scooter"/>
+  <set ID="6828" imageURL="https://images.brickset.com/sets/small/6828-1.jpg" name="Twin-Winged Spoiler"/>
+  <set ID="6829" imageURL="https://images.brickset.com/sets/small/6829-1.jpg" name="Radon Rover"/>
+  <set ID="6830" imageURL="https://images.brickset.com/sets/small/6830-1.jpg" name="Space Patroller"/>
+  <set ID="6831" imageURL="https://images.brickset.com/sets/small/6831-1.jpg" name="Message Decoder"/>
+  <set ID="6832" imageURL="https://images.brickset.com/sets/small/6832-1.jpg" name="Super Nova II"/>
+  <set ID="6833" imageURL="https://images.brickset.com/sets/small/6833-1.jpg" name="Beacon Tracer"/>
+  <set ID="6834" imageURL="https://images.brickset.com/sets/small/6834-1.jpg" name="Celestial Sled"/>
+  <set ID="6835" imageURL="https://images.brickset.com/sets/small/6835-1.jpg" name="Saucer Scout"/>
+  <set ID="6836" imageURL="https://images.brickset.com/sets/small/6836-1.jpg" name="V-Wing Fighter"/>
+  <set ID="6837" imageURL="https://images.brickset.com/sets/small/6837-1.jpg" name="Cosmic Creeper"/>
+  <set ID="6841" imageURL="https://images.brickset.com/sets/small/6841-1.jpg" name="Mineral Detector"/>
+  <set ID="6842" imageURL="https://images.brickset.com/sets/small/6842-1.jpg" name="Small Space Shuttle Craft"/>
+  <set ID="6844" imageURL="https://images.brickset.com/sets/small/6844-1.jpg" name="Sismobile"/>
+  <set ID="6845" imageURL="https://images.brickset.com/sets/small/6845-1.jpg" name="Cosmic Charger"/>
+  <set ID="6846" imageURL="https://images.brickset.com/sets/small/6846-1.jpg" name="Tri-Star Voyager"/>
+  <set ID="6847" imageURL="https://images.brickset.com/sets/small/6847-1.jpg" name="Space Dozer"/>
+  <set ID="6848" imageURL="https://images.brickset.com/sets/small/6848-1.jpg" name="Strategic Pursuer"/>
+  <set ID="6848" imageURL="https://images.brickset.com/sets/small/6848-2.jpg" name="Inter-Planetary Shuttle"/>
+  <set ID="6849" imageURL="https://images.brickset.com/sets/small/6849-1.jpg" name="Satellite Patroller"/>
+  <set ID="6850" imageURL="https://images.brickset.com/sets/small/6850-1.jpg" name="Auxiliary Patroller"/>
+  <set ID="6851" imageURL="https://images.brickset.com/sets/small/6851-1.jpg" name="Tri-Wheeled Tyrax"/>
+  <set ID="6852" imageURL="https://images.brickset.com/sets/small/6852-1.jpg" name="Sonar Security"/>
+  <set ID="6854" imageURL="https://images.brickset.com/sets/small/6854-1.jpg" name="Alien Fossilizer"/>
+  <set ID="6856" imageURL="https://images.brickset.com/sets/small/6856-1.jpg" name="Planetary Decoder"/>
+  <set ID="6861" imageURL="https://images.brickset.com/sets/small/6861-1.jpg" name="X1 Patrol Craft"/>
+  <set ID="6861" imageURL="https://images.brickset.com/sets/small/6861-2.jpg" name="Super Model Building Instruction"/>
+  <set ID="6862" imageURL="https://images.brickset.com/sets/small/6862-1.jpg" name="Secret Space Voyager"/>
+  <set ID="6870" imageURL="https://images.brickset.com/sets/small/6870-1.jpg" name="Space Probe Launcher"/>
+  <set ID="6871" imageURL="https://images.brickset.com/sets/small/6871-1.jpg" name="Star Patrol Launcher"/>
+  <set ID="6872" imageURL="https://images.brickset.com/sets/small/6872-1.jpg" name="Xenon X-Craft"/>
+  <set ID="6874" imageURL="https://images.brickset.com/sets/small/6874-1.jpg" name="Moon Rover"/>
+  <set ID="6875" imageURL="https://images.brickset.com/sets/small/6875-1.jpg" name="Hovercraft"/>
+  <set ID="6876" imageURL="https://images.brickset.com/sets/small/6876-1.jpg" name="Alienator"/>
+  <set ID="6877" imageURL="https://images.brickset.com/sets/small/6877-1.jpg" name="Vector Detector"/>
+  <set ID="6878" imageURL="https://images.brickset.com/sets/small/6878-1.jpg" name="Sub Orbital Guardian"/>
+  <set ID="6879" imageURL="https://images.brickset.com/sets/small/6879-1.jpg" name="Blizzard Baron"/>
+  <set ID="6880" imageURL="https://images.brickset.com/sets/small/6880-1.jpg" name="Surface Explorer"/>
+  <set ID="6881" imageURL="https://images.brickset.com/sets/small/6881-1.jpg" name="Lunar Rocket Launcher"/>
+  <set ID="6882" imageURL="https://images.brickset.com/sets/small/6882-1.jpg" name="Walking Astro Grappler"/>
+  <set ID="6883" imageURL="https://images.brickset.com/sets/small/6883-1.jpg" name="Terrestrial Rover"/>
+  <set ID="6884" imageURL="https://images.brickset.com/sets/small/6884-1.jpg" name="Aero Module"/>
+  <set ID="6885" imageURL="https://images.brickset.com/sets/small/6885-1.jpg" name="Crater Crawler"/>
+  <set ID="6886" imageURL="https://images.brickset.com/sets/small/6886-1.jpg" name="Galactic Peace Keeper"/>
+  <set ID="6887" imageURL="https://images.brickset.com/sets/small/6887-1.jpg" name="Allied Avenger"/>
+  <set ID="6889" imageURL="https://images.brickset.com/sets/small/6889-1.jpg" name="Recon Robot"/>
+  <set ID="6890" imageURL="https://images.brickset.com/sets/small/6890-1.jpg" name="Cosmic Cruiser"/>
+  <set ID="6891" imageURL="https://images.brickset.com/sets/small/6891-1.jpg" name="Gamma V Laser Craft"/>
+  <set ID="6892" imageURL="https://images.brickset.com/sets/small/6892-1.jpg" name="Modular Space Transport"/>
+  <set ID="6893" imageURL="https://images.brickset.com/sets/small/6893-1.jpg" name="Orion II Hyperspace"/>
+  <set ID="6894" imageURL="https://images.brickset.com/sets/small/6894-1.jpg" name="Invader"/>
+  <set ID="6895" imageURL="https://images.brickset.com/sets/small/6895-1.jpg" name="Spy Trak 1"/>
+  <set ID="6896" imageURL="https://images.brickset.com/sets/small/6896-1.jpg" name="Celestial Forager"/>
+  <set ID="6897" imageURL="https://images.brickset.com/sets/small/6897-1.jpg" name="Rebel Hunter"/>
+  <set ID="6898" imageURL="https://images.brickset.com/sets/small/6898-1.jpg" name="Ice-Sat V"/>
+  <set ID="6899" imageURL="https://images.brickset.com/sets/small/6899-1.jpg" name="Nebula Outpost"/>
+  <set ID="6900" imageURL="https://images.brickset.com/sets/small/6900-1.jpg" name="Cyber Saucer"/>
+  <set ID="6901" imageURL="https://images.brickset.com/sets/small/6901-1.jpg" name="Mobile Lab"/>
+  <set ID="6901" imageURL="https://images.brickset.com/sets/small/6901-2.jpg" name="Space Plane"/>
+  <set ID="6902" imageURL="https://images.brickset.com/sets/small/6902-1.jpg" name="Space Plane"/>
+  <set ID="6903" imageURL="https://images.brickset.com/sets/small/6903-1.jpg" name="Bug Blaster"/>
+  <set ID="6905" imageURL="https://images.brickset.com/sets/small/6905-1.jpg" name="Bi-Wing Blaster"/>
+  <set ID="6907" imageURL="https://images.brickset.com/sets/small/6907-1.jpg" name="Sonic Stinger"/>
+  <set ID="6909" imageURL="https://images.brickset.com/sets/small/6909-1.jpg" name="Sonic Stinger (Promotional Pack)"/>
+  <set ID="6915" imageURL="https://images.brickset.com/sets/small/6915-1.jpg" name="Warp Wing Fighter"/>
+  <set ID="6919" imageURL="https://images.brickset.com/sets/small/6919-1.jpg" name="Planetary Prowler"/>
+  <set ID="6921" imageURL="https://images.brickset.com/sets/small/6921-1.jpg?200508050358" name="Monorail Accessory Track"/>
+  <set ID="6923" imageURL="https://images.brickset.com/sets/small/6923-1.jpg" name="Particle Ioniser"/>
+  <set ID="6925" imageURL="https://images.brickset.com/sets/small/6925-1.jpg" name="Interplanetary Rover"/>
+  <set ID="6926" imageURL="https://images.brickset.com/sets/small/6926-1.jpg" name="Mobile Recovery Vehicle"/>
+  <set ID="6927" imageURL="https://images.brickset.com/sets/small/6927-1.jpg" name="All-Terrain Vehicle"/>
+  <set ID="6928" imageURL="https://images.brickset.com/sets/small/6928-1.jpg" name="Uranium Search Vehicle"/>
+  <set ID="6929" imageURL="https://images.brickset.com/sets/small/6929-1.jpg" name="Star Fleet Voyager"/>
+  <set ID="6930" imageURL="https://images.brickset.com/sets/small/6930-1.jpg" name="Space Supply Station"/>
+  <set ID="6931" imageURL="https://images.brickset.com/sets/small/6931-1.jpg" name="FX Star Patroller"/>
+  <set ID="6932" imageURL="https://images.brickset.com/sets/small/6932-1.jpg" name="Stardefender 200"/>
+  <set ID="6933" imageURL="https://images.brickset.com/sets/small/6933-1.jpg" name="Spectral Starguider"/>
+  <set ID="6938" imageURL="https://images.brickset.com/sets/small/6938-1.jpg" name="Scorpion Detector"/>
+  <set ID="6939" imageURL="https://images.brickset.com/sets/small/6939-1.jpg" name="Saucer Centurion"/>
+  <set ID="6940" imageURL="https://images.brickset.com/sets/small/6940-1.jpg" name="Alien Moon Stalker"/>
+  <set ID="6941" imageURL="https://images.brickset.com/sets/small/6941-1.jpg" name="Battrax"/>
+  <set ID="6942" imageURL="https://images.brickset.com/sets/small/6942-1.jpg" name="Zo Weevil"/>
+  <set ID="6943" imageURL="https://images.brickset.com/sets/small/6943-1.jpg" name="Speed Sled"/>
+  <set ID="6949" imageURL="https://images.brickset.com/sets/small/6949-1.jpg" name="Robo-Guardian"/>
+  <set ID="6950" imageURL="https://images.brickset.com/sets/small/6950-1.jpg" name="Mobile Rocket Transport"/>
+  <set ID="6951" imageURL="https://images.brickset.com/sets/small/6951-1.jpg" name="Robot Command Center"/>
+  <set ID="6952" imageURL="https://images.brickset.com/sets/small/6952-1.jpg" name="Solar Power Transporter"/>
+  <set ID="6953" imageURL="https://images.brickset.com/sets/small/6953-1.jpg" name="Cosmic Laser Launcher"/>
+  <set ID="6954" imageURL="https://images.brickset.com/sets/small/6954-1.jpg" name="Renegade"/>
+  <set ID="6955" imageURL="https://images.brickset.com/sets/small/6955-1.jpg" name="Space Lock-Up Isolation Base"/>
+  <set ID="6956" imageURL="https://images.brickset.com/sets/small/6956-1.jpg" name="Stellar Recon Voyager"/>
+  <set ID="6957" imageURL="https://images.brickset.com/sets/small/6957-1.jpg" name="Solar Snooper"/>
+  <set ID="6958" imageURL="https://images.brickset.com/sets/small/6958-1.jpg" name="Android Base"/>
+  <set ID="6959" imageURL="https://images.brickset.com/sets/small/6959-1.jpg" name="Lunar Launch Site"/>
+  <set ID="6969" imageURL="https://images.brickset.com/sets/small/6969-1.jpg" name="Celestial Stinger"/>
+  <set ID="6970" imageURL="https://images.brickset.com/sets/small/6970-1.jpg" name="Beta I Command Base"/>
+  <set ID="6971" imageURL="https://images.brickset.com/sets/small/6971-1.jpg" name="Inter-Galactic Command Base"/>
+  <set ID="6972" imageURL="https://images.brickset.com/sets/small/6972-1.jpg" name="Polaris I Space Lab"/>
+  <set ID="6973" imageURL="https://images.brickset.com/sets/small/6973-1.jpg" name="Deep Freeze Defender"/>
+  <set ID="6975" imageURL="https://images.brickset.com/sets/small/6975-1.jpg" name="Alien Avenger"/>
+  <set ID="6977" imageURL="https://images.brickset.com/sets/small/6977-1.jpg" name="Arachnoid Star Base"/>
+  <set ID="6979" imageURL="https://images.brickset.com/sets/small/6979-1.jpg" name="Interstellar Starfighter"/>
+  <set ID="6980" imageURL="https://images.brickset.com/sets/small/6980-1.jpg" name="Galaxy Commander"/>
+  <set ID="6981" imageURL="https://images.brickset.com/sets/small/6981-1.jpg" name="Aerial Intruder"/>
+  <set ID="6982" imageURL="https://images.brickset.com/sets/small/6982-1.jpg" name="Explorien Starship"/>
+  <set ID="6983" imageURL="https://images.brickset.com/sets/small/6983-1.jpg" name="Ice Station Odyssey"/>
+  <set ID="6984" imageURL="https://images.brickset.com/sets/small/6984-1.jpg" name="Galactic Mediator"/>
+  <set ID="6985" imageURL="https://images.brickset.com/sets/small/6985-1.jpg" name="Cosmic Fleet Voyager"/>
+  <set ID="6986" imageURL="https://images.brickset.com/sets/small/6986-1.jpg" name="Mission Commander"/>
+  <set ID="6987" imageURL="https://images.brickset.com/sets/small/6987-1.jpg" name="Message Intercept Base"/>
+  <set ID="6988" imageURL="https://images.brickset.com/sets/small/6988-1.jpg" name="Alpha Centauri Outpost"/>
+  <set ID="6989" imageURL="https://images.brickset.com/sets/small/6989-1.jpg" name="Mega Core Magnetizer"/>
+  <set ID="6990" imageURL="https://images.brickset.com/sets/small/6990-1.jpg" name="Monorail Transport System"/>
+  <set ID="6991" imageURL="https://images.brickset.com/sets/small/6991-1.jpg" name="Monorail Transport Base"/>
+  <set ID="6999" imageURL="https://images.brickset.com/sets/small/6999-1.jpg" name="Cyber Saucer"/>
+  <set ID="7049" imageURL="https://images.brickset.com/sets/small/7049-1.jpg?201102270338" name="Alien Striker"/>
+  <set ID="7050" imageURL="https://images.brickset.com/sets/small/7050-1.jpg?201102221213" name="Alien Defender"/>
+  <set ID="7051" imageURL="https://images.brickset.com/sets/small/7051-1.jpg?201102211259" name="Tripod Invader"/>
+  <set ID="7052" imageURL="https://images.brickset.com/sets/small/7052-1.jpg?201102200223" name="UFO Abduction"/>
+  <set ID="7065" imageURL="https://images.brickset.com/sets/small/7065-1.jpg?201102221213" name="Alien Mothership"/>
+  <set ID="7066" imageURL="https://images.brickset.com/sets/small/7066-1.jpg?201102211259" name="Earth Defense HQ"/>
+  <set ID="7067" imageURL="https://images.brickset.com/sets/small/7067-1.jpg?201102211259" name="Jet-Copter Encounter"/>
+  <set ID="7300" imageURL="https://images.brickset.com/sets/small/7300-1.jpg?200012021200" name="Double Hover"/>
+  <set ID="7301" imageURL="https://images.brickset.com/sets/small/7301-1.jpg?200012021200" name="Rover"/>
+  <set ID="7302" imageURL="https://images.brickset.com/sets/small/7302-1.jpg?200012021200" name="Worker Robot"/>
+  <set ID="7303" imageURL="https://images.brickset.com/sets/small/7303-1.jpg?200012211200" name="Jet Scooter"/>
+  <set ID="7308" imageURL="https://images.brickset.com/sets/small/7308-1.jpg?200012211200" name="Double Hover"/>
+  <set ID="7309" imageURL="https://images.brickset.com/sets/small/7309-1.jpg?200012211200" name="Rover"/>
+  <set ID="7310" imageURL="https://images.brickset.com/sets/small/7310-1.jpg?200010221200" name="Mono Jet"/>
+  <set ID="7311" imageURL="https://images.brickset.com/sets/small/7311-1.jpg?200010221200" name="Red Planet Cruiser"/>
+  <set ID="7312" imageURL="https://images.brickset.com/sets/small/7312-1.jpg?200010221200" name="T-3 Trike"/>
+  <set ID="7313" imageURL="https://images.brickset.com/sets/small/7313-1.jpg?200010221200" name="Red Planet Protector"/>
+  <set ID="7314" imageURL="https://images.brickset.com/sets/small/7314-1.jpg?200010221200" name="Recon Mech RP"/>
+  <set ID="7315" imageURL="https://images.brickset.com/sets/small/7315-1.jpg?200010221200" name="Solar Explorer"/>
+  <set ID="7316" imageURL="https://images.brickset.com/sets/small/7316-1.jpg?200010221200" name="Excavation Searcher"/>
+  <set ID="7317" imageURL="https://images.brickset.com/sets/small/7317-1.jpg?200010221200" name="Aero Tube Hanger"/>
+  <set ID="7320" imageURL="https://images.brickset.com/sets/small/7320-1.jpg?200012311200" name="Vega"/>
+  <set ID="7321" imageURL="https://images.brickset.com/sets/small/7321-1.jpg?200806280534" name="Mizar"/>
+  <set ID="7322" imageURL="https://images.brickset.com/sets/small/7322-1.jpg?200012311200" name="Altair"/>
+  <set ID="7323" imageURL="https://images.brickset.com/sets/small/7323-1.jpg?200012311200" name="Guard"/>
+  <set ID="7644" imageURL="https://images.brickset.com/sets/small/7644-1.jpg?200805090103" name="MX-81 Hypersonic Operations Aircraft"/>
+  <set ID="7645" imageURL="https://images.brickset.com/sets/small/7645-1.jpg?200805120226" name="MT-61 Crystal Reaper"/>
+  <set ID="7646" imageURL="https://images.brickset.com/sets/small/7646-1.jpg?200805090103" name="ETX Alien Infiltrator"/>
+  <set ID="7647" imageURL="https://images.brickset.com/sets/small/7647-1.jpg?200712060152" name="MX-41 Switch Fighter"/>
+  <set ID="7648" imageURL="https://images.brickset.com/sets/small/7648-1.jpg?200712060152" name="MT-21 Mobile Mining Unit"/>
+  <set ID="7649" imageURL="https://images.brickset.com/sets/small/7649-1.jpg?200805090315" name="MT-201 Ultra-Drill Walker"/>
+  <set ID="7690" imageURL="https://images.brickset.com/sets/small/7690-1.jpg?200706210238" name="MB-01 Eagle Command Base"/>
+  <set ID="7691" imageURL="https://images.brickset.com/sets/small/7691-1.jpg?200706210237" name="ETX Alien Mothership Assault"/>
+  <set ID="7692" imageURL="https://images.brickset.com/sets/small/7692-1.jpg?200706210232" name="MX-71 Recon Dropship"/>
+  <set ID="7693" imageURL="https://images.brickset.com/sets/small/7693-1.jpg?200706210233" name="ETX Alien Strike"/>
+  <set ID="7694" imageURL="https://images.brickset.com/sets/small/7694-1.jpg?200706210234" name="MT-31 Trike"/>
+  <set ID="7695" imageURL="https://images.brickset.com/sets/small/7695-1.jpg?200706210235" name="MX-11 Astro Fighter"/>
+  <set ID="7697" imageURL="https://images.brickset.com/sets/small/7697-1.jpg?200706210236" name="MT-51 Claw-Tank Ambush"/>
+  <set ID="7699" imageURL="https://images.brickset.com/sets/small/7699-1.jpg?200710041209" name="MT-101 Armoured Drilling Unit"/>
+  <set ID="7728" imageURL="https://images.brickset.com/sets/small/7728-1.jpg?201511020947" name="Jet Pack"/>
+  <set ID="7729" imageURL="https://images.brickset.com/sets/small/7729-1.jpg?201511020947" name="Alien Flyer"/>
+  <set ID="8399" imageURL="https://images.brickset.com/sets/small/8399-1.jpg?200812230110" name="K-9 Bot"/>
+  <set ID="8400" imageURL="https://images.brickset.com/sets/small/8400-1.jpg?200812230111" name="Space Speeder"/>
+  <set ID="11910" imageURL="https://images.brickset.com/sets/small/11910-1.jpg?201507301135" name="Micro-Scale Space Cruiser"/>
+  <set ID="30140" imageURL="https://images.brickset.com/sets/small/30140-1.jpg?201107050111" name="ADU Walker"/>
+  <set ID="30141" imageURL="https://images.brickset.com/sets/small/30141-1.jpg?201104060604" name="Jetpack"/>
+  <set ID="30230" imageURL="https://images.brickset.com/sets/small/30230-1.jpg?201212020705" name="Mini Mech"/>
+  <set ID="30231" imageURL="https://images.brickset.com/sets/small/30231-1.jpg?201212020705" name="Space Insectoid"/>
+  <set ID="70700" imageURL="https://images.brickset.com/sets/small/70700-1.jpg?201211200303" name="Space Swarmer"/>
+  <set ID="70701" imageURL="https://images.brickset.com/sets/small/70701-1.jpg?201211210320" name="Swarm Interceptor"/>
+  <set ID="70702" imageURL="https://images.brickset.com/sets/small/70702-1.jpg?201211210320" name="Warp Stinger"/>
+  <set ID="70703" imageURL="https://images.brickset.com/sets/small/70703-1.jpg?201211210320" name="Star Slicer"/>
+  <set ID="70704" imageURL="https://images.brickset.com/sets/small/70704-1.jpg?201211210320" name="Vermin Vaporizer"/>
+  <set ID="70705" imageURL="https://images.brickset.com/sets/small/70705-1.jpg?201211200303" name="Bug Obliterator"/>
+  <set ID="70706" imageURL="https://images.brickset.com/sets/small/70706-1.jpg?201302101034" name="Crater Creeper"/>
+  <set ID="70707" imageURL="https://images.brickset.com/sets/small/70707-1.jpg?201302101035" name="CLS-89 Eradicator Mech"/>
+  <set ID="70708" imageURL="https://images.brickset.com/sets/small/70708-1.jpg?201302101035" name="Hive Crawler"/>
+  <set ID="70709" imageURL="https://images.brickset.com/sets/small/70709-1.jpg?201302101035" name="Galactic Titan"/>
+  <set ID="78777" imageURL="https://images.brickset.com/sets/small/78777-1.jpg?201009240936" name="Alien Discovery"/>
+  <set ID="853301" imageURL="https://images.brickset.com/sets/small/853301-1.jpg?201105171147" name="Alien Conquest Battle Pack"/>
+  <set ID="4117463" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Cyber Saucer"/>
+  <set ID="5002812" imageURL="https://images.brickset.com/sets/small/5002812-1.jpg?201406230652" name="Classic Spaceman Minifigure"/>
+  <set ID="VP5" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="UFO Value Pack"/>
+</data>

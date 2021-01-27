@@ -1,0 +1,170 @@
+<data>
+  <set ID="4529" imageURL="https://images.brickset.com/sets/small/4529-1.jpg?201201290540" name="Iron Man"/>
+  <set ID="4530" imageURL="https://images.brickset.com/sets/small/4530-1.jpg?201201290540" name="The Hulk"/>
+  <set ID="4597" imageURL="https://images.brickset.com/sets/small/4597-1.jpg?201201290540" name="Captain America"/>
+  <set ID="6865" imageURL="https://images.brickset.com/sets/small/6865-1.jpg?201202240235" name="Captain America's Avenging Cycle"/>
+  <set ID="6866" imageURL="https://images.brickset.com/sets/small/6866-1.jpg?201202240235" name="Wolverine's Chopper Showdown"/>
+  <set ID="6867" imageURL="https://images.brickset.com/sets/small/6867-1.jpg?201202240235" name="Loki's Cosmic Cube Escape"/>
+  <set ID="6868" imageURL="https://images.brickset.com/sets/small/6868-1.jpg?201202240235" name="Hulk's Helicarrier Breakout"/>
+  <set ID="6869" imageURL="https://images.brickset.com/sets/small/6869-1.jpg?201202240237" name="Quinjet Aerial Battle"/>
+  <set ID="6873" imageURL="https://images.brickset.com/sets/small/6873-1.jpg?201207021113" name="Spider-Man's Doc Ock Ambush"/>
+  <set ID="30162" imageURL="https://images.brickset.com/sets/small/30162-1.jpg?201205020335" name="Quinjet"/>
+  <set ID="30163" imageURL="https://images.brickset.com/sets/small/30163-1.jpg?201205020336" name="Thor and the Cosmic Cube"/>
+  <set ID="30165" imageURL="https://images.brickset.com/sets/small/30165-1.jpg?201205020336" name="Hawkeye with equipment"/>
+  <set ID="30167" imageURL="https://images.brickset.com/sets/small/30167-1.jpg?201301050356" name="Iron Man vs. Fighting Drone"/>
+  <set ID="30168" imageURL="https://images.brickset.com/sets/small/30168-1.jpg?201510151032" name="Gun mounting system"/>
+  <set ID="30302" imageURL="https://images.brickset.com/sets/small/30302-1.jpg?201311220849" name="Spider-Man"/>
+  <set ID="30304" imageURL="https://images.brickset.com/sets/small/30304-1.jpg?201503130212" name="The Avengers Quinjet"/>
+  <set ID="30305" imageURL="https://images.brickset.com/sets/small/30305-1.jpg?201503130212" name="Spider-Man Super Jumper"/>
+  <set ID="30447" imageURL="https://images.brickset.com/sets/small/30447-1.jpg?201606010942" name="Captain America's Motorcycle"/>
+  <set ID="30448" imageURL="https://images.brickset.com/sets/small/30448-1.jpg?201601191056" name="Spider-Man vs. The Venom Symbiote"/>
+  <set ID="30449" imageURL="https://images.brickset.com/sets/small/30449-1.jpg?201705110852" name="The Milano"/>
+  <set ID="30450" imageURL="https://images.brickset.com/sets/small/30450-1.jpg?201712310940" name="Royal Talon Fighter"/>
+  <set ID="30451" imageURL="https://images.brickset.com/sets/small/30451-1.jpg?201907130955" name="Spider-Man's Mini Spider Crawler"/>
+  <set ID="30452" imageURL="https://images.brickset.com/sets/small/30452-1.jpg?201903270711" name="Iron Man and Dum-E"/>
+  <set ID="30453" imageURL="https://images.brickset.com/sets/small/30453-1.jpg?202001031108" name="Captain Marvel and Nick Fury"/>
+  <set ID="30525" imageURL="https://images.brickset.com/sets/small/30525-1.jpg?201803181018" name="The Guardians' Ship"/>
+  <set ID="30610" imageURL="https://images.brickset.com/sets/small/30610-1.jpg?201711290245" name="Giant Man Hank Pym"/>
+  <set ID="40334" imageURL="https://images.brickset.com/sets/small/40334-1.jpg?201904230852" name="Avengers Tower"/>
+  <set ID="40343" imageURL="https://images.brickset.com/sets/small/40343-1.jpg?201905310930" name="Spider-Man and the Museum Break-In"/>
+  <set ID="40418" imageURL="https://images.brickset.com/sets/small/40418-1.jpg?202006010819" name="Falcon &amp; Black Widow Team-Up"/>
+  <set ID="66635" imageURL="https://images.brickset.com/sets/small/66635-1.jpg?202008041004" name="Super mech pack"/>
+  <set ID="75997" imageURL="https://images.brickset.com/sets/small/75997-1.jpg?201807060315" name="Ant-Man and the Wasp"/>
+  <set ID="76004" imageURL="https://images.brickset.com/sets/small/76004-1.jpg?201210180438" name="Spider-Man: Spider-Cycle Chase"/>
+  <set ID="76005" imageURL="https://images.brickset.com/sets/small/76005-1.jpg?201210111018" name="Spider-Man: Daily Bugle Showdown"/>
+  <set ID="76006" imageURL="https://images.brickset.com/sets/small/76006-1.jpg?201302190551" name="Iron Man: Extremis Sea Port Battle"/>
+  <set ID="76007" imageURL="https://images.brickset.com/sets/small/76007-1.jpg?201302190551" name="Iron Man: Malibu Mansion Attack"/>
+  <set ID="76008" imageURL="https://images.brickset.com/sets/small/76008-1.jpg?201302190551" name="Iron Man vs. The Mandarin: Ultimate Showdown"/>
+  <set ID="76014" imageURL="https://images.brickset.com/sets/small/76014-1.jpg?201312140257" name="Spider-Trike vs. Electro"/>
+  <set ID="76015" imageURL="https://images.brickset.com/sets/small/76015-1.jpg?201312140257" name="Doc Ock Truck Heist"/>
+  <set ID="76016" imageURL="https://images.brickset.com/sets/small/76016-1.jpg?201312140257" name="Spider-Helicopter Rescue"/>
+  <set ID="76017" imageURL="https://images.brickset.com/sets/small/76017-1.jpg?201312140257" name="Avengers: Captain America vs. Hydra"/>
+  <set ID="76018" imageURL="https://images.brickset.com/sets/small/76018-1.jpg?201312140257" name="Avengers: Hulk Lab Smash"/>
+  <set ID="76019" imageURL="https://images.brickset.com/sets/small/76019-1.jpg?201404040702" name="Starblaster Showdown"/>
+  <set ID="76020" imageURL="https://images.brickset.com/sets/small/76020-1.jpg?201404040702" name="Knowhere Escape Mission"/>
+  <set ID="76021" imageURL="https://images.brickset.com/sets/small/76021-1.jpg?201402150844" name="The Milano Spaceship Rescue"/>
+  <set ID="76022" imageURL="https://images.brickset.com/sets/small/76022-1.jpg?201402170929" name="X-Men vs. The Sentinel"/>
+  <set ID="76029" imageURL="https://images.brickset.com/sets/small/76029-1.jpg?201502271018" name="Iron Man vs. Ultron"/>
+  <set ID="76030" imageURL="https://images.brickset.com/sets/small/76030-1.jpg?201502271018" name="Avengers Hydra Showdown"/>
+  <set ID="76031" imageURL="https://images.brickset.com/sets/small/76031-1.jpg?201502271018" name="The Hulk Buster Smash"/>
+  <set ID="76032" imageURL="https://images.brickset.com/sets/small/76032-1.jpg?201502271018" name="The Avengers Quinjet City Chase"/>
+  <set ID="76036" imageURL="https://images.brickset.com/sets/small/76036-1.jpg?201505291100" name="Carnage's SHIELD Sky Attack"/>
+  <set ID="76037" imageURL="https://images.brickset.com/sets/small/76037-1.jpg?201505291100" name="Rhino and Sandman Super Villain Team-up"/>
+  <set ID="76038" imageURL="https://images.brickset.com/sets/small/76038-1.jpg?201504260923" name="Attack on Avengers Tower"/>
+  <set ID="76039" imageURL="https://images.brickset.com/sets/small/76039-1.jpg?201510140806" name="Ant-Man Final Battle"/>
+  <set ID="76041" imageURL="https://images.brickset.com/sets/small/76041-1.jpg?201502271018" name="The Hydra Fortress Smash"/>
+  <set ID="76042" imageURL="https://images.brickset.com/sets/small/76042-1.jpg?201502100852" name="The SHIELD Helicarrier"/>
+  <set ID="76047" imageURL="https://images.brickset.com/sets/small/76047-1.jpg?201602281011" name="Black Panther Pursuit"/>
+  <set ID="76048" imageURL="https://images.brickset.com/sets/small/76048-1.jpg?201601050913" name="Iron Skull Sub Attack"/>
+  <set ID="76049" imageURL="https://images.brickset.com/sets/small/76049-1.jpg?201601050913" name="Avenjet Space Mission"/>
+  <set ID="76050" imageURL="https://images.brickset.com/sets/small/76050-1.jpg?201602281011" name="Crossbones' Hazard Heist"/>
+  <set ID="76051" imageURL="https://images.brickset.com/sets/small/76051-1.jpg?201602281011" name="Super Hero Airport Battle"/>
+  <set ID="76057" imageURL="https://images.brickset.com/sets/small/76057-1.jpg?201605201119" name="Spider-Man: Web Warriors Ultimate Bridge Battle"/>
+  <set ID="76058" imageURL="https://images.brickset.com/sets/small/76058-1.jpg?201605201119" name="Spider-Man: Ghost Rider Team-Up"/>
+  <set ID="76059" imageURL="https://images.brickset.com/sets/small/76059-1.jpg?201605201119" name="Spider-Man: Doc Ock's Tentacle Trap"/>
+  <set ID="76060" imageURL="https://images.brickset.com/sets/small/76060-1.jpg?201607190200" name="Doctor Strange's Sanctum Sanctorum"/>
+  <set ID="76064" imageURL="https://images.brickset.com/sets/small/76064-1.jpg?201602281011" name="Mighty Micros: Spider-Man vs. Green Goblin"/>
+  <set ID="76065" imageURL="https://images.brickset.com/sets/small/76065-1.jpg?201602281011" name="Mighty Micros: Captain America vs. Red Skull"/>
+  <set ID="76066" imageURL="https://images.brickset.com/sets/small/76066-1.jpg?201602281011" name="Mighty Micros: Hulk vs. Ultron"/>
+  <set ID="76067" imageURL="https://images.brickset.com/sets/small/76067-1.jpg?201608080843" name="Tanker Truck Takedown"/>
+  <set ID="76071" imageURL="https://images.brickset.com/sets/small/76071-1.jpg?201612010859" name="Mighty Micros: Spider-Man vs. Scorpion"/>
+  <set ID="76072" imageURL="https://images.brickset.com/sets/small/76072-1.jpg?201612010859" name="Mighty Micros: Iron Man vs. Thanos"/>
+  <set ID="76073" imageURL="https://images.brickset.com/sets/small/76073-1.jpg?201611300919" name="Mighty Micros: Wolverine vs. Magneto"/>
+  <set ID="76076" imageURL="https://images.brickset.com/sets/small/76076-1.jpg?201611300919" name="Captain America Jet Pursuit"/>
+  <set ID="76077" imageURL="https://images.brickset.com/sets/small/76077-1.jpg?201611300919" name="Iron Man: Detroit Steel Strikes"/>
+  <set ID="76078" imageURL="https://images.brickset.com/sets/small/76078-1.jpg?201611300919" name="Hulk vs. Red Hulk"/>
+  <set ID="76079" imageURL="https://images.brickset.com/sets/small/76079-1.jpg?201702230820" name="Ravager Attack"/>
+  <set ID="76080" imageURL="https://images.brickset.com/sets/small/76080-1.jpg?201702230820" name="Ayesha's Revenge"/>
+  <set ID="76081" imageURL="https://images.brickset.com/sets/small/76081-1.jpg?201702230820" name="The Milano vs. The Abilisk"/>
+  <set ID="76082" imageURL="https://images.brickset.com/sets/small/76082-1.jpg?201705170344" name="ATM Heist Battle"/>
+  <set ID="76083" imageURL="https://images.brickset.com/sets/small/76083-1.jpg?201705170344" name="Beware the Vulture"/>
+  <set ID="76084" imageURL="https://images.brickset.com/sets/small/76084-1.jpg?201705170344" name="The Ultimate Battle for Asgard"/>
+  <set ID="76088" imageURL="https://images.brickset.com/sets/small/76088-1.jpg?201705170344" name="Thor vs. Hulk: Arena Clash"/>
+  <set ID="76089" imageURL="https://images.brickset.com/sets/small/76089-1.jpg?201712180101" name="Mighty Micros: Scarlet Spider vs. Sandman"/>
+  <set ID="76090" imageURL="https://images.brickset.com/sets/small/76090-1.jpg?201712141130" name="Mighty Micros: Star-Lord vs. Nebula"/>
+  <set ID="76091" imageURL="https://images.brickset.com/sets/small/76091-1.jpg?201712180101" name="Mighty Micros: Thor vs. Loki"/>
+  <set ID="76099" imageURL="https://images.brickset.com/sets/small/76099-1.jpg?201712141130" name="Rhino Face-Off by the Mine"/>
+  <set ID="76100" imageURL="https://images.brickset.com/sets/small/76100-1.jpg?201712141130" name="Royal Talon Fighter Attack"/>
+  <set ID="76101" imageURL="https://images.brickset.com/sets/small/76101-1.jpg?201803181018" name="Outrider Dropship Attack"/>
+  <set ID="76102" imageURL="https://images.brickset.com/sets/small/76102-1.jpg?201803181018" name="Thor's Weapon Quest"/>
+  <set ID="76103" imageURL="https://images.brickset.com/sets/small/76103-1.jpg?201803181018" name="Corvus Glaive Thresher Attack"/>
+  <set ID="76104" imageURL="https://images.brickset.com/sets/small/76104-1.jpg?201803181018" name="The Hulkbuster Smash-Up"/>
+  <set ID="76105" imageURL="https://images.brickset.com/sets/small/76105-1.jpg?201802171230" name="The Hulkbuster: Ultron Edition"/>
+  <set ID="76107" imageURL="https://images.brickset.com/sets/small/76107-1.jpg?201803181018" name="Thanos: Ultimate Battle"/>
+  <set ID="76108" imageURL="https://images.brickset.com/sets/small/76108-1.jpg?201803181018" name="Sanctum Sanctorum Showdown"/>
+  <set ID="76109" imageURL="https://images.brickset.com/sets/small/76109-1.jpg?201805260756" name="Quantum Realm Explorers"/>
+  <set ID="76113" imageURL="https://images.brickset.com/sets/small/76113-1.jpg?201811201001" name="Spider-Man Bike Rescue"/>
+  <set ID="76114" imageURL="https://images.brickset.com/sets/small/76114-1.jpg?201811201001" name="Spider-Man's Spider Crawler"/>
+  <set ID="76115" imageURL="https://images.brickset.com/sets/small/76115-1.jpg?201811201001" name="Spider Mech vs. Venom"/>
+  <set ID="76123" imageURL="https://images.brickset.com/sets/small/76123-1.jpg?201904040109" name="Captain America: Outriders Attack"/>
+  <set ID="76124" imageURL="https://images.brickset.com/sets/small/76124-1.jpg?201904040109" name="War Machine Buster"/>
+  <set ID="76125" imageURL="https://images.brickset.com/sets/small/76125-1.jpg?201904040109" name="Iron Man Hall of Armour"/>
+  <set ID="76126" imageURL="https://images.brickset.com/sets/small/76126-1.jpg?201904040109" name="Avengers Ultimate Quinjet"/>
+  <set ID="76127" imageURL="https://images.brickset.com/sets/small/76127-1.jpg?201812140830" name="Captain Marvel and The Skrull Attack"/>
+  <set ID="76128" imageURL="https://images.brickset.com/sets/small/76128-1.jpg?201904230852" name="Molten Man Battle"/>
+  <set ID="76129" imageURL="https://images.brickset.com/sets/small/76129-1.jpg?201904230852" name="Hydro-Man Attack"/>
+  <set ID="76130" imageURL="https://images.brickset.com/sets/small/76130-1.jpg?201904230852" name="Stark Jet and the Drone Attack"/>
+  <set ID="76131" imageURL="https://images.brickset.com/sets/small/76131-1.jpg?201904040109" name="Avengers Compound Battle"/>
+  <set ID="76133" imageURL="https://images.brickset.com/sets/small/76133-1.jpg?201811201001" name="Spider-Man Car Chase"/>
+  <set ID="76134" imageURL="https://images.brickset.com/sets/small/76134-1.jpg?201811201001" name="Spider-Man: Doc Ock Diamond Heist"/>
+  <set ID="76140" imageURL="https://images.brickset.com/sets/small/76140-1.jpg?201912110132" name="Iron Man Mech"/>
+  <set ID="76141" imageURL="https://images.brickset.com/sets/small/76141-1.jpg?201912110132" name="Thanos Mech"/>
+  <set ID="76142" imageURL="https://images.brickset.com/sets/small/76142-1.jpg?201912110132" name="Avengers Speeder Bike Attack"/>
+  <set ID="76143" imageURL="https://images.brickset.com/sets/small/76143-1.jpg?201912110132" name="Avengers Truck Take-down"/>
+  <set ID="76144" imageURL="https://images.brickset.com/sets/small/76144-1.jpg?201911241006" name="Avengers Hulk Helicopter Rescue"/>
+  <set ID="76145" imageURL="https://images.brickset.com/sets/small/76145-1.jpg?202009170528" name="Eternals' Aerial Assault"/>
+  <set ID="76146" imageURL="https://images.brickset.com/sets/small/76146-1.jpg?201912110132" name="Spider-Man Mech"/>
+  <set ID="76147" imageURL="https://images.brickset.com/sets/small/76147-1.jpg?202001051057" name="Vulture's Trucker Robbery"/>
+  <set ID="76148" imageURL="https://images.brickset.com/sets/small/76148-1.jpg?201912110132" name="Spider-Man vs. Doc Ock"/>
+  <set ID="76149" imageURL="https://images.brickset.com/sets/small/76149-1.jpg?201912110132" name="The Menace of Mysterio"/>
+  <set ID="76150" imageURL="https://images.brickset.com/sets/small/76150-1.jpg?201912110132" name="Spiderjet vs. Venom Mech"/>
+  <set ID="76151" imageURL="https://images.brickset.com/sets/small/76151-1.jpg?202002240346" name="Venomosaurus Ambush"/>
+  <set ID="76152" imageURL="https://images.brickset.com/sets/small/76152-1.jpg?202005030106" name="Avengers Wrath of Loki"/>
+  <set ID="76153" imageURL="https://images.brickset.com/sets/small/76153-1.jpg?202005211123" name="Avengers Helicarrier"/>
+  <set ID="76154" imageURL="https://images.brickset.com/sets/small/76154-1.jpg?202009170829" name="Deviant Ambush!"/>
+  <set ID="76155" imageURL="https://images.brickset.com/sets/small/76155-1.jpg?202009170829" name="In Arishem's Shadow"/>
+  <set ID="76156" imageURL="https://images.brickset.com/sets/small/76156-1.jpg?202009170829" name="Rise of the Domo"/>
+  <set ID="76162" imageURL="https://images.brickset.com/sets/small/76162-1.jpg?202002170858" name="Black Widow's Helicopter Chase"/>
+  <set ID="76163" imageURL="https://images.brickset.com/sets/small/76163-1.jpg?202002170900" name="Venom Crawler"/>
+  <set ID="76164" imageURL="https://images.brickset.com/sets/small/76164-1.jpg?202006061146" name="Iron Man Hulkbuster versus A.I.M. Agent"/>
+  <set ID="76165" imageURL="https://images.brickset.com/sets/small/76165-1.jpg?202007031155" name="Iron Man"/>
+  <set ID="76166" imageURL="https://images.brickset.com/sets/small/76166-1.jpg?202006061144" name="Avengers Tower Battle"/>
+  <set ID="76167" imageURL="https://images.brickset.com/sets/small/76167-1.jpg?202007021047" name="Iron Man Armory"/>
+  <set ID="76168" imageURL="https://images.brickset.com/sets/small/76168-1.jpg?202009170529" name="Captain America Mech Armor"/>
+  <set ID="76169" imageURL="https://images.brickset.com/sets/small/76169-1.jpg?202009170529" name="Thor Mech Armor"/>
+  <set ID="76170" imageURL="https://images.brickset.com/sets/small/76170-1.jpg?202009170529" name="Iron Man vs. Thanos"/>
+  <set ID="76171" imageURL="https://images.brickset.com/sets/small/76171-1.jpg?202009170530" name="Miles Morales Mech Armor"/>
+  <set ID="76172" imageURL="https://images.brickset.com/sets/small/76172-1.jpg?202009170530" name="Spider-Man and Sandman Showdown"/>
+  <set ID="76173" imageURL="https://images.brickset.com/sets/small/76173-1.jpg?202009170530" name="Spider-Man and Ghost Rider vs. Carnage"/>
+  <set ID="76174" imageURL="https://images.brickset.com/sets/small/76174-1.jpg?202009170530" name="Spider-Man's Monster Truck vs. Mysterio"/>
+  <set ID="76175" imageURL="https://images.brickset.com/sets/small/76175-1.jpg?202009170531" name="Attack on the Spider Lair"/>
+  <set ID="77902" imageURL="https://images.brickset.com/sets/small/77902-1.jpg?201906170354" name="Captain Marvel and the Asis"/>
+  <set ID="77905" imageURL="https://images.brickset.com/sets/small/77905-1.jpg?202010010643" name="Taskmaster's Ambush"/>
+  <set ID="242001" imageURL="https://images.brickset.com/sets/small/242001-1.jpg?202008181008" name="Spider-man"/>
+  <set ID="242002" imageURL="https://images.brickset.com/sets/small/242002-1.jpg?202010180919" name="Iron Man"/>
+  <set ID="242003" imageURL="https://images.brickset.com/sets/small/242003-1.jpg?202012121250" name="Captain Marvel"/>
+  <set ID="5000022" imageURL="https://images.brickset.com/sets/small/5000022-1.jpg?201205180447" name="The Hulk"/>
+  <set ID="5002125" imageURL="https://images.brickset.com/sets/small/5002125-1.jpg?201410060836" name="Electro"/>
+  <set ID="5002145" imageURL="https://images.brickset.com/sets/small/5002145-1.jpg?201503130234" name="Rocket Raccoon"/>
+  <set ID="5002943" imageURL="https://images.brickset.com/sets/small/5002943-1.jpg?201605160801" name="Winter Soldier"/>
+  <set ID="5002946" imageURL="https://images.brickset.com/sets/small/5002946-1.jpg?201510120310" name="Silver Centurion"/>
+  <set ID="5003084" imageURL="https://images.brickset.com/sets/small/5003084-1.jpg?201511020710" name="The Hulk"/>
+  <set ID="5005256" imageURL="https://images.brickset.com/sets/small/5005256-1.jpg?201808220511" name="Marvel Super Heroes Minifigure Collection"/>
+  <set ID="CAPTAINMARVEL" imageURL="https://images.brickset.com/sets/small/CAPTAINMARVEL-1.jpg?202101201119" name="Mini Captain Marvel Ship"/>
+  <set ID="COMCON021" imageURL="https://images.brickset.com/sets/small/COMCON021-1.jpg?201207300343" name="Phoenix (SDCC 2012 exclusive)"/>
+  <set ID="COMCON023" imageURL="https://images.brickset.com/sets/small/COMCON023-1.jpg?201207300343" name="Spider-Man in Black Symbiote Costume"/>
+  <set ID="COMCON027" imageURL="https://images.brickset.com/sets/small/COMCON027-1.jpg?201307280310" name="Spider-Woman"/>
+  <set ID="COMCON028" imageURL="https://images.brickset.com/sets/small/COMCON028-1.jpg?201307201231" name="Spider-Man"/>
+  <set ID="COMCON034" imageURL="https://images.brickset.com/sets/small/COMCON034-1.jpg?201407190450" name="Rocket Raccoon's Warbird"/>
+  <set ID="COMCON035" imageURL="https://images.brickset.com/sets/small/COMCON035-1.jpg?201407190450" name="The Collector"/>
+  <set ID="LCP2012" imageURL="https://images.brickset.com/sets/small/LCP2012-1.jpg?201203050258" name="Iron Man &amp; Captain America (2012 Collectors Preview)"/>
+  <set ID="SDCC2015" imageURL="https://images.brickset.com/sets/small/SDCC2015-1.jpg?201506220929" name="Throne of Ultron"/>
+  <set ID="SDCC2015" imageURL="https://images.brickset.com/sets/small/SDCC2015-4.jpg?201506221027" name="All New Captain America (Sam Wilson)"/>
+  <set ID="SDCC2016" imageURL="https://images.brickset.com/sets/small/SDCC2016-5.jpg?201607210806" name="Steve Rogers Captain America"/>
+  <set ID="SDCC2017" imageURL="https://images.brickset.com/sets/small/SDCC2017-2.jpg?201707200325" name="Deadpool Duck"/>
+  <set ID="SDCC2018" imageURL="https://images.brickset.com/sets/small/SDCC2018-1.jpg?201807090240" name="Sheriff Deadpool"/>
+  <set ID="SDCC2019" imageURL="https://images.brickset.com/sets/small/SDCC2019-1.jpg?201906290507" name="PS4 Spider-Man"/>
+  <set ID="SMMM" imageURL="https://images.brickset.com/sets/small/SMMM-1.jpg?202010160442" name="Classic Suit Miles Morales"/>
+  <set ID="STORMBREAKER" imageURL="https://images.brickset.com/sets/small/STORMBREAKER-1.jpg?201905170842" name="Stormbreaker"/>
+  <set ID="TRUSHIELD" imageURL="https://images.brickset.com/sets/small/TRUSHIELD-3.jpg?202001051135" name="Captain America's Shield"/>
+</data>

@@ -1,0 +1,703 @@
+<data>
+  <set ID="2064" imageURL="https://images.brickset.com/sets/small/2064-1.jpg?200801230257" name="Rescue plane"/>
+  <set ID="2230" imageURL="https://images.brickset.com/sets/small/2230-1.jpg?200803090732" name="In-flight Helicopter and Raft"/>
+  <set ID="2824" imageURL="https://images.brickset.com/sets/small/2824-1.jpg?201009010134" name="City Advent Calendar"/>
+  <set ID="2928" imageURL="https://images.brickset.com/sets/small/2928-1.jpg?200801230258" name="City In-Flight 2006"/>
+  <set ID="2928" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="City in-Flight 2016 (ANA version)"/>
+  <set ID="3177" imageURL="https://images.brickset.com/sets/small/3177-1.jpg?200910090537" name="Small Car"/>
+  <set ID="3178" imageURL="https://images.brickset.com/sets/small/3178-1.jpg?201009020514" name="Seaplane"/>
+  <set ID="3179" imageURL="https://images.brickset.com/sets/small/3179-1.jpg?201009020514" name="Repair Truck"/>
+  <set ID="3180" imageURL="https://images.brickset.com/sets/small/3180-1.jpg?201009020514" name="Tank Truck"/>
+  <set ID="3181" imageURL="https://images.brickset.com/sets/small/3181-1.jpg?201001220330" name="Passenger Plane"/>
+  <set ID="3181" imageURL="https://images.brickset.com/sets/small/3181-1.jpg?202011190341" name="Passenger Plane - ANA version"/>
+  <set ID="3182" imageURL="https://images.brickset.com/sets/small/3182-1.jpg?201001220330" name="Airport"/>
+  <set ID="3221" imageURL="https://images.brickset.com/sets/small/3221-1.jpg?201004180755" name="LEGO City Truck"/>
+  <set ID="3222" imageURL="https://images.brickset.com/sets/small/3222-1.jpg?201001280547" name="Helicopter and Limousine"/>
+  <set ID="3365" imageURL="https://images.brickset.com/sets/small/3365-1.jpg?201012090229" name="Space Moon Buggy"/>
+  <set ID="3366" imageURL="https://images.brickset.com/sets/small/3366-1.jpg?201012090229" name="Satellite Launch Pad"/>
+  <set ID="3367" imageURL="https://images.brickset.com/sets/small/3367-1.jpg?201012090229" name="Space Shuttle"/>
+  <set ID="3368" imageURL="https://images.brickset.com/sets/small/3368-1.jpg?201012090229" name="Space Centre"/>
+  <set ID="3648" imageURL="https://images.brickset.com/sets/small/3648-1.jpg?201012170346" name="Police Chase"/>
+  <set ID="3658" imageURL="https://images.brickset.com/sets/small/3658-1.jpg?201012191240" name="Police Helicopter"/>
+  <set ID="3661" imageURL="https://images.brickset.com/sets/small/3661-1.jpg?201012230321" name="Bank &amp; Money Transfer"/>
+  <set ID="3677" imageURL="https://images.brickset.com/sets/small/3677-1.jpg?201103230757" name="Red Cargo Train"/>
+  <set ID="4200" imageURL="https://images.brickset.com/sets/small/4200-1.jpg?201112191130" name="Mining 4x4"/>
+  <set ID="4201" imageURL="https://images.brickset.com/sets/small/4201-1.jpg?201112191130" name="Loader and Tipper"/>
+  <set ID="4202" imageURL="https://images.brickset.com/sets/small/4202-1.jpg?201204120807" name="Mining Truck"/>
+  <set ID="4203" imageURL="https://images.brickset.com/sets/small/4203-1.jpg?201204120807" name="Excavator Transporter"/>
+  <set ID="4204" imageURL="https://images.brickset.com/sets/small/4204-1.jpg?201204120807" name="The Mine"/>
+  <set ID="4205" imageURL="https://images.brickset.com/sets/small/4205-1.jpg?201112140516" name="Off-Road Command Centre"/>
+  <set ID="4206" imageURL="https://images.brickset.com/sets/small/4206-2.jpg?201110160418" name="Recycling Truck"/>
+  <set ID="4207" imageURL="https://images.brickset.com/sets/small/4207-1.jpg?201205090244" name="City Garage"/>
+  <set ID="4208" imageURL="https://images.brickset.com/sets/small/4208-1.jpg?201110160418" name="Fire Truck"/>
+  <set ID="4209" imageURL="https://images.brickset.com/sets/small/4209-1.jpg?201110160418" name="Fire Plane"/>
+  <set ID="4210" imageURL="https://images.brickset.com/sets/small/4210-1.jpg?200806210239" name="Coast Guard Platform"/>
+  <set ID="4427" imageURL="https://images.brickset.com/sets/small/4427-1.jpg?201110160418" name="Fire ATV"/>
+  <set ID="4428" imageURL="https://images.brickset.com/sets/small/4428-1.jpg?201605181112" name="City Advent Calendar"/>
+  <set ID="4429" imageURL="https://images.brickset.com/sets/small/4429-1.jpg?201112191131" name="Helicopter Rescue"/>
+  <set ID="4430" imageURL="https://images.brickset.com/sets/small/4430-1.jpg?201110160418" name="Fire Transporter"/>
+  <set ID="4431" imageURL="https://images.brickset.com/sets/small/4431-1.jpg?201109141049" name="Ambulance"/>
+  <set ID="4432" imageURL="https://images.brickset.com/sets/small/4432-1.jpg?201110160418" name="Garbage Truck"/>
+  <set ID="4433" imageURL="https://images.brickset.com/sets/small/4433-1.jpg?201110160419" name="Dirt Bike Transporter"/>
+  <set ID="4434" imageURL="https://images.brickset.com/sets/small/4434-1.jpg?201110160419" name="Dump Truck"/>
+  <set ID="4435" imageURL="https://images.brickset.com/sets/small/4435-1.jpg?201110160419" name="Car and Caravan"/>
+  <set ID="4436" imageURL="https://images.brickset.com/sets/small/4436-1.jpg?201110160419" name="Patrol Car"/>
+  <set ID="4437" imageURL="https://images.brickset.com/sets/small/4437-1.jpg?201110160419" name="Police Pursuit"/>
+  <set ID="4438" imageURL="https://images.brickset.com/sets/small/4438-1.jpg?201110140259" name="Robbers' Hideout"/>
+  <set ID="4439" imageURL="https://images.brickset.com/sets/small/4439-1.jpg?201110160419" name="Heavy-Lift Helicopter"/>
+  <set ID="4440" imageURL="https://images.brickset.com/sets/small/4440-1.jpg?201110160225" name="Forest Police Station"/>
+  <set ID="4441" imageURL="https://images.brickset.com/sets/small/4441-1.jpg?201110160225" name="Police Dog Van"/>
+  <set ID="4442" imageURL="https://images.brickset.com/sets/small/4442-1.jpg?201204080334" name="Glider"/>
+  <set ID="4473" imageURL="https://images.brickset.com/sets/small/4473-1.jpg?201207310538" name="Police Helicopter"/>
+  <set ID="4641" imageURL="https://images.brickset.com/sets/small/4641-1.jpg?201102221212" name="Speedboat"/>
+  <set ID="4642" imageURL="https://images.brickset.com/sets/small/4642-1.jpg?201801291037" name="Fishing Boat"/>
+  <set ID="4643" imageURL="https://images.brickset.com/sets/small/4643-1.jpg?201102221212" name="Power Boat Transporter"/>
+  <set ID="4644" imageURL="https://images.brickset.com/sets/small/4644-1.jpg?201102221212" name="Marina"/>
+  <set ID="4645" imageURL="https://images.brickset.com/sets/small/4645-1.jpg?201102221212" name="Harbour"/>
+  <set ID="4778" imageURL="https://images.brickset.com/sets/small/4778-1.jpg?201012270727" name="Airline Promotional Set"/>
+  <set ID="4897" imageURL="https://images.brickset.com/sets/small/4897-1.jpg?200811030332" name="Police Trike"/>
+  <set ID="4898" imageURL="https://images.brickset.com/sets/small/4898-1.jpg?200808271116" name="Coast Guard Boat"/>
+  <set ID="4899" imageURL="https://images.brickset.com/sets/small/4899-1.jpg?200902250417" name="Tractor"/>
+  <set ID="4900" imageURL="https://images.brickset.com/sets/small/4900-1.jpg?200811030332" name="Fire Helicopter"/>
+  <set ID="4912" imageURL="https://images.brickset.com/sets/small/4912-1.jpg?200801230259" name="Police Jet Ski"/>
+  <set ID="4914" imageURL="https://images.brickset.com/sets/small/4914-1.jpg?200801230300" name="Fire Chief's Car"/>
+  <set ID="4933" imageURL="https://images.brickset.com/sets/small/4933-1.jpg?200804120442" name="Street Sweeper"/>
+  <set ID="4934" imageURL="https://images.brickset.com/sets/small/4934-1.jpg?200804120442" name="Police Swamp Boat"/>
+  <set ID="4936" imageURL="https://images.brickset.com/sets/small/4936-1.jpg?200710250147" name="Doc &amp; Patient"/>
+  <set ID="4937" imageURL="https://images.brickset.com/sets/small/4937-1.jpg?200801230301" name="Life Guard"/>
+  <set ID="4938" imageURL="https://images.brickset.com/sets/small/4938-1.jpg?200801230301" name="Fire 4x4"/>
+  <set ID="4991" imageURL="https://images.brickset.com/sets/small/4991-1.jpg?200711130351" name="Police Helicopter"/>
+  <set ID="4992" imageURL="https://images.brickset.com/sets/small/4992-1.jpg?200801230302" name="Fire Boat"/>
+  <set ID="5531" imageURL="https://images.brickset.com/sets/small/5531-1.jpg?201012270718" name="Police Motorcycle"/>
+  <set ID="5532" imageURL="https://images.brickset.com/sets/small/5532-1.jpg?201012270718" name="Fire Car"/>
+  <set ID="5610" imageURL="https://images.brickset.com/sets/small/5610-1.jpg?200712310226" name="Builder"/>
+  <set ID="5611" imageURL="https://images.brickset.com/sets/small/5611-1.jpg?200712310227" name="Public Works"/>
+  <set ID="5612" imageURL="https://images.brickset.com/sets/small/5612-1.jpg?200712131053" name="Police Officer"/>
+  <set ID="5613" imageURL="https://images.brickset.com/sets/small/5613-1.jpg?200712131054" name="Firefighter"/>
+  <set ID="5620" imageURL="https://images.brickset.com/sets/small/5620-1.jpg?200805200220" name="Street Cleaner"/>
+  <set ID="5621" imageURL="https://images.brickset.com/sets/small/5621-1.jpg?200805200220" name="Coast Guard Kayak"/>
+  <set ID="5625" imageURL="https://images.brickset.com/sets/small/5625-1.jpg?200811030332" name="Police 4x4"/>
+  <set ID="5626" imageURL="https://images.brickset.com/sets/small/5626-1.jpg?200810170158" name="Coast Guard Bike"/>
+  <set ID="5627" imageURL="https://images.brickset.com/sets/small/5627-1.jpg?200810170159" name="Mini Dozer"/>
+  <set ID="5642" imageURL="https://images.brickset.com/sets/small/5642-1.jpg?200901030103" name="Tipper Truck"/>
+  <set ID="7206" imageURL="https://images.brickset.com/sets/small/7206-1.jpg?200912120708" name="Fire Helicopter"/>
+  <set ID="7207" imageURL="https://images.brickset.com/sets/small/7207-1.jpg?200911160217" name="Fire Boat"/>
+  <set ID="7208" imageURL="https://images.brickset.com/sets/small/7208-1.jpg?200911160217" name="Fire Station"/>
+  <set ID="7213" imageURL="https://images.brickset.com/sets/small/7213-1.jpg?200912230326" name="Off-Road Fire Truck &amp; Fireboat"/>
+  <set ID="7235" imageURL="https://images.brickset.com/sets/small/7235-1.jpg?200411060233" name="Police Motorcycle"/>
+  <set ID="7235" imageURL="https://images.brickset.com/sets/small/7235-2.jpg?201409140329" name="Police Motorcycle"/>
+  <set ID="7236" imageURL="https://images.brickset.com/sets/small/7236-1.jpg?200411060234" name="Police Car"/>
+  <set ID="7236" imageURL="https://images.brickset.com/sets/small/7236-2.jpg?201408190320" name="Police Car"/>
+  <set ID="7237" imageURL="https://images.brickset.com/sets/small/7237-1.jpg?200411060235" name="Police Station"/>
+  <set ID="7237" imageURL="https://images.brickset.com/sets/small/7237-2.jpg?201108060859" name="Police Station"/>
+  <set ID="7238" imageURL="https://images.brickset.com/sets/small/7238-1.jpg?200411060236" name="Fire Helicopter"/>
+  <set ID="7239" imageURL="https://images.brickset.com/sets/small/7239-1.jpg?200411060237" name="Fire Truck"/>
+  <set ID="7240" imageURL="https://images.brickset.com/sets/small/7240-1.jpg?200411060238" name="Fire Station"/>
+  <set ID="7241" imageURL="https://images.brickset.com/sets/small/7241-1.jpg?200411060239" name="Fire Car"/>
+  <set ID="7242" imageURL="https://images.brickset.com/sets/small/7242-1.jpg?200709260328" name="Street Sweeper"/>
+  <set ID="7243" imageURL="https://images.brickset.com/sets/small/7243-1.jpg?200709260317" name="Construction Site"/>
+  <set ID="7244" imageURL="https://images.brickset.com/sets/small/7244-1.jpg?200801171255" name="Speedboat"/>
+  <set ID="7245" imageURL="https://images.brickset.com/sets/small/7245-1.jpg?200411060243" name="Prisoner Transport"/>
+  <set ID="7245" imageURL="https://images.brickset.com/sets/small/7245-2.jpg?201903270711" name="Prisoner Transport"/>
+  <set ID="7246" imageURL="https://images.brickset.com/sets/small/7246-1.jpg?200709260318" name="Mini Digger"/>
+  <set ID="7248" imageURL="https://images.brickset.com/sets/small/7248-1.jpg?200709260319" name="Digger"/>
+  <set ID="7249" imageURL="https://images.brickset.com/sets/small/7249-1.jpg?200709260320" name="XXL Mobile Crane"/>
+  <set ID="7266" imageURL="https://images.brickset.com/sets/small/7266-1.jpg?200801230306" name="Promotional Set"/>
+  <set ID="7267" imageURL="https://images.brickset.com/sets/small/7267-1.jpg?200709260319" name="Paramedic"/>
+  <set ID="7279" imageURL="https://images.brickset.com/sets/small/7279-1.jpg?201012010439" name="Police Minifigure Collection"/>
+  <set ID="7280" imageURL="https://images.brickset.com/sets/small/7280-1.jpg?200801171255" name="Straight &amp; Crossroad Plates"/>
+  <set ID="7281" imageURL="https://images.brickset.com/sets/small/7281-1.jpg?200801171255" name="T-Junction &amp; Curved Road Plates"/>
+  <set ID="7285" imageURL="https://images.brickset.com/sets/small/7285-1.jpg?201012010511" name="Police Dog Unit"/>
+  <set ID="7286" imageURL="https://images.brickset.com/sets/small/7286-1.jpg?201012010511" name="Prisoner Transport"/>
+  <set ID="7287" imageURL="https://images.brickset.com/sets/small/7287-1.jpg?201012010512" name="Police Boat"/>
+  <set ID="7288" imageURL="https://images.brickset.com/sets/small/7288-1.jpg?201012010510" name="Mobile Police Unit"/>
+  <set ID="7324" imageURL="https://images.brickset.com/sets/small/7324-1.jpg?200603270217" name="City Advent Calendar"/>
+  <set ID="7344" imageURL="https://images.brickset.com/sets/small/7344-1.jpg?200709260320" name="Dump Truck"/>
+  <set ID="7498" imageURL="https://images.brickset.com/sets/small/7498-1.jpg?201012010513" name="Police Station"/>
+  <set ID="7499" imageURL="https://images.brickset.com/sets/small/7499-1.jpg?201012221045" name="Flexible and Straight Tracks"/>
+  <set ID="7553" imageURL="https://images.brickset.com/sets/small/7553-1.jpg?201605181108" name="City Advent Calendar"/>
+  <set ID="7566" imageURL="https://images.brickset.com/sets/small/7566-1.jpg?200912220448" name="Farmer"/>
+  <set ID="7567" imageURL="https://images.brickset.com/sets/small/7567-1.jpg?200912120336" name="Traveller"/>
+  <set ID="7630" imageURL="https://images.brickset.com/sets/small/7630-1.jpg?200812111116" name="Front-End Loader"/>
+  <set ID="7631" imageURL="https://images.brickset.com/sets/small/7631-1.jpg?200811151006" name="Dump Truck"/>
+  <set ID="7632" imageURL="https://images.brickset.com/sets/small/7632-1.jpg?200812081214" name="Crawler Crane"/>
+  <set ID="7633" imageURL="https://images.brickset.com/sets/small/7633-1.jpg?200811190159" name="Construction Site"/>
+  <set ID="7634" imageURL="https://images.brickset.com/sets/small/7634-1.jpg?200901051048" name="Tractor"/>
+  <set ID="7635" imageURL="https://images.brickset.com/sets/small/7635-1.jpg?200811160109" name="4WD with Horse Trailer"/>
+  <set ID="7636" imageURL="https://images.brickset.com/sets/small/7636-1.jpg?200901051048" name="Combine Harvester"/>
+  <set ID="7637" imageURL="https://images.brickset.com/sets/small/7637-1.jpg?200901051048" name="Farm"/>
+  <set ID="7638" imageURL="https://images.brickset.com/sets/small/7638-1.jpg?200904250803" name="Tow Truck"/>
+  <set ID="7639" imageURL="https://images.brickset.com/sets/small/7639-1.jpg?200904250651" name="Camper"/>
+  <set ID="7641" imageURL="https://images.brickset.com/sets/small/7641-1.jpg?200904250802" name="City Corner"/>
+  <set ID="7642" imageURL="https://images.brickset.com/sets/small/7642-1.jpg?200904250644" name="Garage"/>
+  <set ID="7643" imageURL="https://images.brickset.com/sets/small/7643-1.jpg?200812230252" name="Air-Show Plane"/>
+  <set ID="7684" imageURL="https://images.brickset.com/sets/small/7684-1.jpg?201001231100" name="Pig Farm &amp; Tractor"/>
+  <set ID="7685" imageURL="https://images.brickset.com/sets/small/7685-1.jpg?200812150338" name="Dozer"/>
+  <set ID="7686" imageURL="https://images.brickset.com/sets/small/7686-1.jpg?200904250802" name="Helicopter Transporter"/>
+  <set ID="7687" imageURL="https://images.brickset.com/sets/small/7687-1.jpg?200811160134" name="City Advent Calendar"/>
+  <set ID="7688" imageURL="https://images.brickset.com/sets/small/7688-1.jpg?200912120336" name="LEGO Sports Plane"/>
+  <set ID="7696" imageURL="https://images.brickset.com/sets/small/7696-1.jpg?201012210346" name="Commuter Jet"/>
+  <set ID="7723" imageURL="https://images.brickset.com/sets/small/7723-1.jpg?200801200658" name="Police Pontoon Plane"/>
+  <set ID="7724" imageURL="https://images.brickset.com/sets/small/7724-1.jpg?201511020947" name="City Advent Calendar"/>
+  <set ID="7726" imageURL="https://images.brickset.com/sets/small/7726-1.jpg?200805100255" name="Coast Guard Truck with Speed Boat"/>
+  <set ID="7731" imageURL="https://images.brickset.com/sets/small/7731-1.jpg?200801171257" name="Mail Van"/>
+  <set ID="7732" imageURL="https://images.brickset.com/sets/small/7732-1.jpg?200801171257" name="Air Mail"/>
+  <set ID="7733" imageURL="https://images.brickset.com/sets/small/7733-1.jpg?200801171257" name="Truck &amp; Forklift"/>
+  <set ID="7734" imageURL="https://images.brickset.com/sets/small/7734-1.jpg?200801171257" name="Cargo Plane"/>
+  <set ID="7736" imageURL="https://images.brickset.com/sets/small/7736-1.jpg?200805090104" name="Coast Guard Quad Bike"/>
+  <set ID="7737" imageURL="https://images.brickset.com/sets/small/7737-1.jpg?200805090104" name="Coast Guard 4WD &amp; Jet Scooter"/>
+  <set ID="7738" imageURL="https://images.brickset.com/sets/small/7738-1.jpg?200805090104" name="Coast Guard Helicopter &amp; Life Raft"/>
+  <set ID="7739" imageURL="https://images.brickset.com/sets/small/7739-1.jpg?200805090104" name="Coast Guard Patrol Boat &amp; Tower"/>
+  <set ID="7741" imageURL="https://images.brickset.com/sets/small/7741-1.jpg?200712140142" name="Police Helicopter"/>
+  <set ID="7743" imageURL="https://images.brickset.com/sets/small/7743-1.jpg?200712191242" name="Police Command Centre"/>
+  <set ID="7744" imageURL="https://images.brickset.com/sets/small/7744-1.jpg?200712160634" name="Police Headquarters"/>
+  <set ID="7746" imageURL="https://images.brickset.com/sets/small/7746-1.jpg?200901090858" name="Single-Drum Roller"/>
+  <set ID="7747" imageURL="https://images.brickset.com/sets/small/7747-1.jpg?200905200857" name="Wind Turbine Transport"/>
+  <set ID="7848" imageURL="https://images.brickset.com/sets/small/7848-1.jpg?201006240526" name="Toys R Us City Truck"/>
+  <set ID="7890" imageURL="https://images.brickset.com/sets/small/7890-1.jpg?200709260329" name="Ambulance"/>
+  <set ID="7891" imageURL="https://images.brickset.com/sets/small/7891-1.jpg?200709260332" name="Airport Fire Truck"/>
+  <set ID="7892" imageURL="https://images.brickset.com/sets/small/7892-1.jpg?200709260329" name="Hospital"/>
+  <set ID="7893" imageURL="https://images.brickset.com/sets/small/7893-1.jpg?200709260330" name="Passenger Plane"/>
+  <set ID="7893" imageURL="https://images.brickset.com/sets/small/7893-2.jpg?201706140906" name="Passenger Plane - ANA version"/>
+  <set ID="7894" imageURL="https://images.brickset.com/sets/small/7894-1.jpg?200709260329" name="Airport"/>
+  <set ID="7894" imageURL="https://images.brickset.com/sets/small/7894-2.jpg?202101191054" name="Airport - ANA version"/>
+  <set ID="7895" imageURL="https://images.brickset.com/sets/small/7895-1.jpg?201009240945" name="Switching Tracks"/>
+  <set ID="7896" imageURL="https://images.brickset.com/sets/small/7896-1.jpg?201009240945" name="Straight and Curved Rails"/>
+  <set ID="7897" imageURL="https://images.brickset.com/sets/small/7897-1.jpg?201009240945" name="Passenger Train"/>
+  <set ID="7898" imageURL="https://images.brickset.com/sets/small/7898-1.jpg?202006140839" name="Cargo Train Deluxe"/>
+  <set ID="7899" imageURL="https://images.brickset.com/sets/small/7899-1.jpg?200709260320" name="Police Boat"/>
+  <set ID="7900" imageURL="https://images.brickset.com/sets/small/7900-1.jpg?200709260332" name="Heavy Loader"/>
+  <set ID="7901" imageURL="https://images.brickset.com/sets/small/7901-1.jpg?200709260330" name="Airplane Mechanic"/>
+  <set ID="7902" imageURL="https://images.brickset.com/sets/small/7902-1.jpg?200709260325" name="Doctor's Car"/>
+  <set ID="7903" imageURL="https://images.brickset.com/sets/small/7903-1.jpg?200709260325" name="Rescue Helicopter"/>
+  <set ID="7904" imageURL="https://images.brickset.com/sets/small/7904-1.jpg?201511020947" name="City Advent Calendar"/>
+  <set ID="7905" imageURL="https://images.brickset.com/sets/small/7905-1.jpg?200709260324" name="Building Crane"/>
+  <set ID="7906" imageURL="https://images.brickset.com/sets/small/7906-1.jpg?200702151048" name="Fireboat"/>
+  <set ID="7907" imageURL="https://images.brickset.com/sets/small/7907-1.jpg?202001130855" name="City Advent Calendar"/>
+  <set ID="7936" imageURL="https://images.brickset.com/sets/small/7936-1.jpg?201009240945" name="Level Crossing"/>
+  <set ID="7937" imageURL="https://images.brickset.com/sets/small/7937-1.jpg?201009240946" name="Train Station"/>
+  <set ID="7938" imageURL="https://images.brickset.com/sets/small/7938-1.jpg?201009240946" name="Passenger Train"/>
+  <set ID="7939" imageURL="https://images.brickset.com/sets/small/7939-1.jpg?201009240946" name="Cargo Train"/>
+  <set ID="7942" imageURL="https://images.brickset.com/sets/small/7942-1.jpg?200611170347" name="Off-Road Fire Rescue"/>
+  <set ID="7944" imageURL="https://images.brickset.com/sets/small/7944-1.jpg?200611170349" name="Fire Hovercraft"/>
+  <set ID="7945" imageURL="https://images.brickset.com/sets/small/7945-1.jpg?200612050120" name="Fire Station"/>
+  <set ID="7990" imageURL="https://images.brickset.com/sets/small/7990-1.jpg?200801160506" name="Cement Mixer"/>
+  <set ID="7991" imageURL="https://images.brickset.com/sets/small/7991-1.jpg?200709260326" name="Recycle Truck"/>
+  <set ID="7992" imageURL="https://images.brickset.com/sets/small/7992-1.jpg?200709260327" name="Container Stacker"/>
+  <set ID="7993" imageURL="https://images.brickset.com/sets/small/7993-1.jpg?200710041217" name="Service Station"/>
+  <set ID="7994" imageURL="https://images.brickset.com/sets/small/7994-1.jpg?201810250803" name="LEGO City Harbour"/>
+  <set ID="7996" imageURL="https://images.brickset.com/sets/small/7996-1.jpg?202006040714" name="Train Rail Crossing"/>
+  <set ID="7997" imageURL="https://images.brickset.com/sets/small/7997-1.jpg?201009240946" name="Train Station"/>
+  <set ID="7998" imageURL="https://images.brickset.com/sets/small/7998-1.jpg?200709260324" name="Heavy Hauler"/>
+  <set ID="8398" imageURL="https://images.brickset.com/sets/small/8398-1.jpg?200811301227" name="BBQ Stand"/>
+  <set ID="8401" imageURL="https://images.brickset.com/sets/small/8401-1.jpg?200812111121" name="City Minifigure Collection"/>
+  <set ID="8402" imageURL="https://images.brickset.com/sets/small/8402-1.jpg?200904250803" name="Sports Car"/>
+  <set ID="8403" imageURL="https://images.brickset.com/sets/small/8403-1.jpg?201005060850" name="City House"/>
+  <set ID="8404" imageURL="https://images.brickset.com/sets/small/8404-1.jpg?201005111119" name="Public Transport Station"/>
+  <set ID="8867" imageURL="https://images.brickset.com/sets/small/8867-1.jpg?201012250235" name="Flexible Train Tracks"/>
+  <set ID="11900" imageURL="https://images.brickset.com/sets/small/11900-1.jpg?201704101049" name="Brickmaster City parts"/>
+  <set ID="11911" imageURL="https://images.brickset.com/sets/small/11911-1.jpg?201708220151" name="City: Build Your Own Adventure parts"/>
+  <set ID="11936" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Parts for City: Build your own Adventure"/>
+  <set ID="20002" imageURL="https://images.brickset.com/sets/small/20002-1.jpg?200803101239" name="4x4 Fire Truck"/>
+  <set ID="30000" imageURL="https://images.brickset.com/sets/small/30000-1.jpg?200904031152" name="Medic's Car"/>
+  <set ID="30001" imageURL="https://images.brickset.com/sets/small/30001-1.jpg?200910221145" name="Fireman's Car"/>
+  <set ID="30002" imageURL="https://images.brickset.com/sets/small/30002-1.jpg?200910221145" name="Police Boat"/>
+  <set ID="30003" imageURL="https://images.brickset.com/sets/small/30003-1.jpg?200910221145" name="Road Roller"/>
+  <set ID="30010" imageURL="https://images.brickset.com/sets/small/30010-1.jpg?201002160333" name="Fire Chief"/>
+  <set ID="30011" imageURL="https://images.brickset.com/sets/small/30011-1.jpg?201009020210" name="Police Dinghy"/>
+  <set ID="30012" imageURL="https://images.brickset.com/sets/small/30012-1.jpg?201009020457" name="Microlight"/>
+  <set ID="30013" imageURL="https://images.brickset.com/sets/small/30013-1.jpg?201009020210" name="Police Buggy"/>
+  <set ID="30014" imageURL="https://images.brickset.com/sets/small/30014-1.jpg?201101150148" name="Police Helicopter"/>
+  <set ID="30015" imageURL="https://images.brickset.com/sets/small/30015-1.jpg?201102121116" name="Jet Ski"/>
+  <set ID="30016" imageURL="https://images.brickset.com/sets/small/30016-1.jpg?201102121116" name="Satellite"/>
+  <set ID="30017" imageURL="https://images.brickset.com/sets/small/30017-1.jpg?201201010705" name="Police Boat"/>
+  <set ID="30018" imageURL="https://images.brickset.com/sets/small/30018-1.jpg?201201010705" name="Police Microlight"/>
+  <set ID="30019" imageURL="https://images.brickset.com/sets/small/30019-1.jpg?201201010705" name="Fire Helicopter"/>
+  <set ID="30150" imageURL="https://images.brickset.com/sets/small/30150-1.jpg?201201010705" name="Racing Car"/>
+  <set ID="30151" imageURL="https://images.brickset.com/sets/small/30151-1.jpg?201206010652" name="Mining Dozer"/>
+  <set ID="30152" imageURL="https://images.brickset.com/sets/small/30152-1.jpg?201205170201" name="Mining Quad"/>
+  <set ID="30220" imageURL="https://images.brickset.com/sets/small/30220-1.jpg?201301010838" name="Fire Speedboat"/>
+  <set ID="30221" imageURL="https://images.brickset.com/sets/small/30221-1.jpg?201301010838" name="Fire Car"/>
+  <set ID="30222" imageURL="https://images.brickset.com/sets/small/30222-1.jpg?201301050356" name="Police Helicopter"/>
+  <set ID="30224" imageURL="https://images.brickset.com/sets/small/30224-1.jpg?201306020359" name="Ride-On Lawn Mower"/>
+  <set ID="30225" imageURL="https://images.brickset.com/sets/small/30225-1.jpg?201306020359" name="Coast Guard Seaplane"/>
+  <set ID="30226" imageURL="https://images.brickset.com/sets/small/30226-1.jpg?201401020330" name="Police Helicopter"/>
+  <set ID="30227" imageURL="https://images.brickset.com/sets/small/30227-1.jpg?201401021018" name="Police Watercraft"/>
+  <set ID="30228" imageURL="https://images.brickset.com/sets/small/30228-1.jpg?201401021018" name="Police ATV"/>
+  <set ID="30229" imageURL="https://images.brickset.com/sets/small/30229-1.jpg?201510151032" name="Repair Lift"/>
+  <set ID="30310" imageURL="https://images.brickset.com/sets/small/30310-1.jpg?201404060750" name="Arctic Scout"/>
+  <set ID="30311" imageURL="https://images.brickset.com/sets/small/30311-1.jpg?201510151032" name="Swamp Police Helicopter"/>
+  <set ID="30312" imageURL="https://images.brickset.com/sets/small/30312-1.jpg?201510151032" name="Demolition Driller"/>
+  <set ID="30313" imageURL="https://images.brickset.com/sets/small/30313-1.jpg?201503130212" name="Garbage Truck"/>
+  <set ID="30314" imageURL="https://images.brickset.com/sets/small/30314-1.jpg?201510151032" name="Go-Kart Racer"/>
+  <set ID="30315" imageURL="https://images.brickset.com/sets/small/30315-1.jpg?201510151032" name="Space Utility Vehicle"/>
+  <set ID="30346" imageURL="https://images.brickset.com/sets/small/30346-1.jpg?201601050923" name="Prison Island Helicopter"/>
+  <set ID="30347" imageURL="https://images.brickset.com/sets/small/30347-1.jpg?201603060839" name="Fire Car"/>
+  <set ID="30348" imageURL="https://images.brickset.com/sets/small/30348-1.jpg?201601050923" name="Mini Dumper"/>
+  <set ID="30349" imageURL="https://images.brickset.com/sets/small/30349-1.jpg?201601050923" name="Sports Car"/>
+  <set ID="30350" imageURL="https://images.brickset.com/sets/small/30350-1.jpg?201607190200" name="Volcano Jackhammer"/>
+  <set ID="30351" imageURL="https://images.brickset.com/sets/small/30351-1.jpg?201703011253" name="Police Helicopter"/>
+  <set ID="30352" imageURL="https://images.brickset.com/sets/small/30352-1.jpg?201703011253" name="Police Car"/>
+  <set ID="30353" imageURL="https://images.brickset.com/sets/small/30353-1.jpg?201709260815" name="Tractor"/>
+  <set ID="30354" imageURL="https://images.brickset.com/sets/small/30354-1.jpg?201701030431" name="Hot Rod"/>
+  <set ID="30355" imageURL="https://images.brickset.com/sets/small/30355-1.jpg?201704270843" name="Jungle ATV"/>
+  <set ID="30356" imageURL="https://images.brickset.com/sets/small/30356-1.jpg?201712180101" name="Hot Dog Stand"/>
+  <set ID="30357" imageURL="https://images.brickset.com/sets/small/30357-1.jpg?201712160848" name="Road Worker"/>
+  <set ID="30358" imageURL="https://images.brickset.com/sets/small/30358-1.jpg?201712141130" name="Dragster"/>
+  <set ID="30359" imageURL="https://images.brickset.com/sets/small/30359-1.jpg?201712310959" name="Police Water Plane"/>
+  <set ID="30360" imageURL="https://images.brickset.com/sets/small/30360-1.jpg?201808190927" name="Arctic Ice Saw"/>
+  <set ID="30361" imageURL="https://images.brickset.com/sets/small/30361-1.jpg?201901050928" name="Fire ATV"/>
+  <set ID="30362" imageURL="https://images.brickset.com/sets/small/30362-1.jpg?201901060936" name="Sky Police Jetpack"/>
+  <set ID="30363" imageURL="https://images.brickset.com/sets/small/30363-1.jpg?201901050914" name="Race Boat"/>
+  <set ID="30364" imageURL="https://images.brickset.com/sets/small/30364-1.jpg?201901050911" name="Popcorn Cart"/>
+  <set ID="30365" imageURL="https://images.brickset.com/sets/small/30365-1.jpg?201905310930" name="Space Satellite"/>
+  <set ID="30366" imageURL="https://images.brickset.com/sets/small/30366-1.jpg?201912301007" name="Police Car"/>
+  <set ID="30367" imageURL="https://images.brickset.com/sets/small/30367-1.jpg?201912301007" name="Police Helicopter"/>
+  <set ID="30368" imageURL="https://images.brickset.com/sets/small/30368-1.jpg?201912301007" name="Fire Rescue Water Scooter"/>
+  <set ID="30369" imageURL="https://images.brickset.com/sets/small/30369-1.jpg?201912301007" name="Beach Buggy"/>
+  <set ID="30370" imageURL="https://images.brickset.com/sets/small/30370-1.jpg?202004220930" name="Diver"/>
+  <set ID="30566" imageURL="https://images.brickset.com/sets/small/30566-1.jpg?202009140311" name="Fire Helicopter"/>
+  <set ID="30567" imageURL="https://images.brickset.com/sets/small/30567-1.jpg?202011220603" name="Police Water Scooter"/>
+  <set ID="30568" imageURL="https://images.brickset.com/sets/small/30568-1.jpg?202012110711" name="Skater"/>
+  <set ID="30569" imageURL="https://images.brickset.com/sets/small/30569-1.jpg?202011220604" name="LEGO Stand"/>
+  <set ID="40110" imageURL="https://images.brickset.com/sets/small/40110-1.jpg?201510140806" name="LEGO City Coin Bank"/>
+  <set ID="40170" imageURL="https://images.brickset.com/sets/small/40170-1.jpg?201707141123" name="Build My City Accessory Set"/>
+  <set ID="40175" imageURL="https://images.brickset.com/sets/small/40175-1.jpg?201703011253" name="City Police Mission Pack"/>
+  <set ID="40177" imageURL="https://images.brickset.com/sets/small/40177-1.jpg?201707050452" name="City Jungle Explorer Kit"/>
+  <set ID="40302" imageURL="https://images.brickset.com/sets/small/40302-1.jpg?201712280418" name="Become my City Hero"/>
+  <set ID="40303" imageURL="https://images.brickset.com/sets/small/40303-1.jpg?201811201001" name="Vehicle Set"/>
+  <set ID="40345" imageURL="https://images.brickset.com/sets/small/40345-1.jpg?201905310930" name="Mars Exploration Minifigure Pack"/>
+  <set ID="40372" imageURL="https://images.brickset.com/sets/small/40372-1.jpg?201912050531" name="Police MF Accessory Set"/>
+  <set ID="60000" imageURL="https://images.brickset.com/sets/small/60000-1.jpg?201210110437" name="Fire Motorcycle"/>
+  <set ID="60001" imageURL="https://images.brickset.com/sets/small/60001-1.jpg?201210110437" name="Fire Chief Car"/>
+  <set ID="60002" imageURL="https://images.brickset.com/sets/small/60002-1.jpg?201210110437" name="Fire Truck"/>
+  <set ID="60003" imageURL="https://images.brickset.com/sets/small/60003-1.jpg?201210110437" name="Fire Emergency"/>
+  <set ID="60004" imageURL="https://images.brickset.com/sets/small/60004-1.jpg?201210110437" name="Fire Station"/>
+  <set ID="60005" imageURL="https://images.brickset.com/sets/small/60005-1.jpg?201210110437" name="Fire Boat"/>
+  <set ID="60006" imageURL="https://images.brickset.com/sets/small/60006-1.jpg?201210110437" name="Police ATV"/>
+  <set ID="60007" imageURL="https://images.brickset.com/sets/small/60007-1.jpg?201210110437" name="High Speed Chase"/>
+  <set ID="60008" imageURL="https://images.brickset.com/sets/small/60008-1.jpg?201210110437" name="Museum Break-in"/>
+  <set ID="60009" imageURL="https://images.brickset.com/sets/small/60009-1.jpg?201211120754" name="Helicopter Arrest"/>
+  <set ID="60010" imageURL="https://images.brickset.com/sets/small/60010-1.jpg?201210110437" name="Fire Helicopter"/>
+  <set ID="60011" imageURL="https://images.brickset.com/sets/small/60011-1.jpg?201302190356" name="Surfer Rescue"/>
+  <set ID="60012" imageURL="https://images.brickset.com/sets/small/60012-1.jpg?201302101125" name="Coast Guard 4x4 &amp; Diving Boat"/>
+  <set ID="60013" imageURL="https://images.brickset.com/sets/small/60013-1.jpg?201302101125" name="Coast Guard Helicopter"/>
+  <set ID="60014" imageURL="https://images.brickset.com/sets/small/60014-1.jpg?201302101125" name="Coast Guard Patrol"/>
+  <set ID="60015" imageURL="https://images.brickset.com/sets/small/60015-1.jpg?201304141249" name="Coast Guard Plane"/>
+  <set ID="60016" imageURL="https://images.brickset.com/sets/small/60016-1.jpg?201210190522" name="Tanker Truck"/>
+  <set ID="60017" imageURL="https://images.brickset.com/sets/small/60017-1.jpg?201210180522" name="Flatbed Truck"/>
+  <set ID="60018" imageURL="https://images.brickset.com/sets/small/60018-1.jpg?201210180522" name="Cement Mixer"/>
+  <set ID="60019" imageURL="https://images.brickset.com/sets/small/60019-1.jpg?201302190356" name="Stunt Plane"/>
+  <set ID="60020" imageURL="https://images.brickset.com/sets/small/60020-1.jpg?201302101125" name="Cargo Truck"/>
+  <set ID="60021" imageURL="https://images.brickset.com/sets/small/60021-1.jpg?201302101125" name="Cargo Heliplane"/>
+  <set ID="60022" imageURL="https://images.brickset.com/sets/small/60022-1.jpg?201302101125" name="Cargo Terminal"/>
+  <set ID="60023" imageURL="https://images.brickset.com/sets/small/60023-1.jpg?201302190356" name="LEGO City Starter Set"/>
+  <set ID="60024" imageURL="https://images.brickset.com/sets/small/60024-1.jpg?201302101125" name="City Advent Calendar"/>
+  <set ID="60025" imageURL="https://images.brickset.com/sets/small/60025-1.jpg?201302101125" name="Grand Prix Truck"/>
+  <set ID="60026" imageURL="https://images.brickset.com/sets/small/60026-1.jpg?201304141249" name="Town Square"/>
+  <set ID="60027" imageURL="https://images.brickset.com/sets/small/60027-1.jpg?201302190356" name="Monster Truck Transporter"/>
+  <set ID="60031" imageURL="https://images.brickset.com/sets/small/60031-1.jpg?201306030324" name="City Corner"/>
+  <set ID="60032" imageURL="https://images.brickset.com/sets/small/60032-1.jpg?201402140204" name="Arctic Snowmobile"/>
+  <set ID="60033" imageURL="https://images.brickset.com/sets/small/60033-1.jpg?201402140204" name="Arctic Ice Crawler"/>
+  <set ID="60034" imageURL="https://images.brickset.com/sets/small/60034-1.jpg?201402140204" name="Arctic Helicrane"/>
+  <set ID="60035" imageURL="https://images.brickset.com/sets/small/60035-1.jpg?201402140204" name="Arctic Outpost"/>
+  <set ID="60036" imageURL="https://images.brickset.com/sets/small/60036-1.jpg?201402140204" name="Arctic Base Camp"/>
+  <set ID="60041" imageURL="https://images.brickset.com/sets/small/60041-1.jpg?201311100551" name="Crook Pursuit"/>
+  <set ID="60042" imageURL="https://images.brickset.com/sets/small/60042-1.jpg?201311100551" name="High Speed Police Chase"/>
+  <set ID="60043" imageURL="https://images.brickset.com/sets/small/60043-1.jpg?201311100551" name="Prisoner Transporter"/>
+  <set ID="60044" imageURL="https://images.brickset.com/sets/small/60044-1.jpg?201311100551" name="Mobile Police Unit"/>
+  <set ID="60045" imageURL="https://images.brickset.com/sets/small/60045-1.jpg?201311100551" name="Police Patrol"/>
+  <set ID="60046" imageURL="https://images.brickset.com/sets/small/60046-1.jpg?201311100551" name="Helicopter Surveillance"/>
+  <set ID="60047" imageURL="https://images.brickset.com/sets/small/60047-1.jpg?201311100551" name="Police Station"/>
+  <set ID="60048" imageURL="https://images.brickset.com/sets/small/60048-1.jpg?201311300131" name="Police Dog Unit"/>
+  <set ID="60049" imageURL="https://images.brickset.com/sets/small/60049-1.jpg?201311180432" name="Helicopter Transporter"/>
+  <set ID="60050" imageURL="https://images.brickset.com/sets/small/60050-1.jpg?201404020906" name="Train Station"/>
+  <set ID="60051" imageURL="https://images.brickset.com/sets/small/60051-1.jpg?201404220414" name="High-speed Passenger Train"/>
+  <set ID="60052" imageURL="https://images.brickset.com/sets/small/60052-1.jpg?201404020906" name="Cargo Train"/>
+  <set ID="60053" imageURL="https://images.brickset.com/sets/small/60053-1.jpg?201311100551" name="Race Car"/>
+  <set ID="60054" imageURL="https://images.brickset.com/sets/small/60054-1.jpg?201311100551" name="Light Repair Truck"/>
+  <set ID="60055" imageURL="https://images.brickset.com/sets/small/60055-1.jpg?201311100551" name="Monster Truck"/>
+  <set ID="60056" imageURL="https://images.brickset.com/sets/small/60056-1.jpg?201311100552" name="Tow Truck"/>
+  <set ID="60057" imageURL="https://images.brickset.com/sets/small/60057-1.jpg?201311100552" name="Camper Van"/>
+  <set ID="60058" imageURL="https://images.brickset.com/sets/small/60058-1.jpg?201311100552" name="SUV with Watercraft"/>
+  <set ID="60059" imageURL="https://images.brickset.com/sets/small/60059-1.jpg?201311100552" name="Logging Truck"/>
+  <set ID="60060" imageURL="https://images.brickset.com/sets/small/60060-1.jpg?201311020430" name="Auto Transporter"/>
+  <set ID="60061" imageURL="https://images.brickset.com/sets/small/60061-1.jpg?201311120829" name="Airport Fire Truck"/>
+  <set ID="60062" imageURL="https://images.brickset.com/sets/small/60062-1.jpg?201405040846" name="Arctic Icebreaker"/>
+  <set ID="60063" imageURL="https://images.brickset.com/sets/small/60063-1.jpg?201407081035" name="City Advent Calendar"/>
+  <set ID="60064" imageURL="https://images.brickset.com/sets/small/60064-1.jpg?201405270124" name="Arctic Supply Plane"/>
+  <set ID="60065" imageURL="https://images.brickset.com/sets/small/60065-1.jpg?201411050841" name="ATV Patrol"/>
+  <set ID="60066" imageURL="https://images.brickset.com/sets/small/60066-1.jpg?201411050841" name="Swamp Police Starter Set"/>
+  <set ID="60067" imageURL="https://images.brickset.com/sets/small/60067-1.jpg?201410060829" name="Helicopter Pursuit"/>
+  <set ID="60068" imageURL="https://images.brickset.com/sets/small/60068-1.jpg?201411050841" name="Crooks' Hideout"/>
+  <set ID="60069" imageURL="https://images.brickset.com/sets/small/60069-1.jpg?201410060829" name="Swamp Police Station"/>
+  <set ID="60070" imageURL="https://images.brickset.com/sets/small/60070-1.jpg?201412211033" name="Water Plane Chase"/>
+  <set ID="60071" imageURL="https://images.brickset.com/sets/small/60071-1.jpg?201411050841" name="Hovercraft Arrest"/>
+  <set ID="60072" imageURL="https://images.brickset.com/sets/small/60072-1.jpg?201410060829" name="Demolition Starter Set"/>
+  <set ID="60073" imageURL="https://images.brickset.com/sets/small/60073-1.jpg?201410060829" name="Service Truck"/>
+  <set ID="60074" imageURL="https://images.brickset.com/sets/small/60074-1.jpg?201411050841" name="Bulldozer"/>
+  <set ID="60075" imageURL="https://images.brickset.com/sets/small/60075-1.jpg?201411050841" name="Excavator and Truck"/>
+  <set ID="60076" imageURL="https://images.brickset.com/sets/small/60076-1.jpg?201410060829" name="Demolition Site"/>
+  <set ID="60077" imageURL="https://images.brickset.com/sets/small/60077-1.jpg?201505131051" name="Space Starter Set"/>
+  <set ID="60078" imageURL="https://images.brickset.com/sets/small/60078-1.jpg?201505131051" name="Utility Shuttle"/>
+  <set ID="60079" imageURL="https://images.brickset.com/sets/small/60079-1.jpg?201505131051" name="Training Jet Transporter"/>
+  <set ID="60080" imageURL="https://images.brickset.com/sets/small/60080-1.jpg?201505131051" name="Spaceport"/>
+  <set ID="60081" imageURL="https://images.brickset.com/sets/small/60081-1.jpg?201410060829" name="Pickup Tow Truck"/>
+  <set ID="60082" imageURL="https://images.brickset.com/sets/small/60082-1.jpg?201411050841" name="Dune Buggy Trailer"/>
+  <set ID="60083" imageURL="https://images.brickset.com/sets/small/60083-1.jpg?201410060829" name="Snowplough Truck"/>
+  <set ID="60084" imageURL="https://images.brickset.com/sets/small/60084-1.jpg?201411050841" name="Racing Bike Transporter"/>
+  <set ID="60085" imageURL="https://images.brickset.com/sets/small/60085-1.jpg?201411050841" name="4x4 with Powerboat"/>
+  <set ID="60086" imageURL="https://images.brickset.com/sets/small/60086-1.jpg?201410060829" name="LEGO City Starter Set"/>
+  <set ID="60088" imageURL="https://images.brickset.com/sets/small/60088-1.jpg?201410060829" name="Fire Starter Set"/>
+  <set ID="60090" imageURL="https://images.brickset.com/sets/small/60090-1.jpg?201505131051" name="Deep Sea Scuba Scooter"/>
+  <set ID="60091" imageURL="https://images.brickset.com/sets/small/60091-1.jpg?201505131051" name="Deep Sea Starter Set"/>
+  <set ID="60092" imageURL="https://images.brickset.com/sets/small/60092-1.jpg?201505131051" name="Deep Sea Submarine"/>
+  <set ID="60093" imageURL="https://images.brickset.com/sets/small/60093-1.jpg?201505131051" name="Deep Sea Helicopter"/>
+  <set ID="60095" imageURL="https://images.brickset.com/sets/small/60095-1.jpg?201505131051" name="Deep Sea Exploration Vessel"/>
+  <set ID="60096" imageURL="https://images.brickset.com/sets/small/60096-1.jpg?201505261128" name="Deep Sea Operation Base"/>
+  <set ID="60097" imageURL="https://images.brickset.com/sets/small/60097-1.jpg?201505190851" name="City Square"/>
+  <set ID="60098" imageURL="https://images.brickset.com/sets/small/60098-1.jpg?201505261128" name="Heavy-Haul Train"/>
+  <set ID="60099" imageURL="https://images.brickset.com/sets/small/60099-1.jpg?201508271142" name="City Advent Calendar"/>
+  <set ID="60100" imageURL="https://images.brickset.com/sets/small/60100-1.jpg?201605200842" name="Airport Starter Set"/>
+  <set ID="60101" imageURL="https://images.brickset.com/sets/small/60101-1.jpg?201605200842" name="Airport Cargo Plane"/>
+  <set ID="60102" imageURL="https://images.brickset.com/sets/small/60102-1.jpg?201605200842" name="Airport VIP Service"/>
+  <set ID="60103" imageURL="https://images.brickset.com/sets/small/60103-1.jpg?201605200842" name="Airport Air Show"/>
+  <set ID="60104" imageURL="https://images.brickset.com/sets/small/60104-1.jpg?201605200842" name="Airport Passenger Terminal"/>
+  <set ID="60105" imageURL="https://images.brickset.com/sets/small/60105-1.jpg?201511180804" name="Fire ATV"/>
+  <set ID="60106" imageURL="https://images.brickset.com/sets/small/60106-1.jpg?201511180804" name="Fire Starter Set"/>
+  <set ID="60107" imageURL="https://images.brickset.com/sets/small/60107-1.jpg?201511230710" name="Fire Ladder Truck"/>
+  <set ID="60108" imageURL="https://images.brickset.com/sets/small/60108-1.jpg?201511230710" name="Fire Response Unit"/>
+  <set ID="60109" imageURL="https://images.brickset.com/sets/small/60109-1.jpg?201511230710" name="Fire Boat"/>
+  <set ID="60110" imageURL="https://images.brickset.com/sets/small/60110-1.jpg?201511230710" name="Fire Station"/>
+  <set ID="60111" imageURL="https://images.brickset.com/sets/small/60111-1.jpg?201511230710" name="Fire Utility Truck"/>
+  <set ID="60112" imageURL="https://images.brickset.com/sets/small/60112-1.jpg?201511230710" name="Fire Engine"/>
+  <set ID="60113" imageURL="https://images.brickset.com/sets/small/60113-1.jpg?201511180804" name="Rally Car"/>
+  <set ID="60114" imageURL="https://images.brickset.com/sets/small/60114-1.jpg?201511180804" name="Race Boat"/>
+  <set ID="60115" imageURL="https://images.brickset.com/sets/small/60115-1.jpg?201511180804" name="4 x 4 Off Roader"/>
+  <set ID="60116" imageURL="https://images.brickset.com/sets/small/60116-1.jpg?201511180804" name="Ambulance Plane"/>
+  <set ID="60117" imageURL="https://images.brickset.com/sets/small/60117-1.jpg?201511230710" name="Van &amp; Caravan"/>
+  <set ID="60118" imageURL="https://images.brickset.com/sets/small/60118-1.jpg?201511180804" name="Garbage Truck"/>
+  <set ID="60119" imageURL="https://images.brickset.com/sets/small/60119-1.jpg?201601050913" name="Ferry"/>
+  <set ID="60120" imageURL="https://images.brickset.com/sets/small/60120-1.jpg?201605200842" name="Volcano Starter Set"/>
+  <set ID="60121" imageURL="https://images.brickset.com/sets/small/60121-1.jpg?201605200842" name="Volcano Exploration Truck"/>
+  <set ID="60122" imageURL="https://images.brickset.com/sets/small/60122-1.jpg?201605200842" name="Volcano Crawler"/>
+  <set ID="60123" imageURL="https://images.brickset.com/sets/small/60123-1.jpg?201605200842" name="Volcano Supply Helicopter"/>
+  <set ID="60124" imageURL="https://images.brickset.com/sets/small/60124-1.jpg?201605200842" name="Volcano Exploration Base"/>
+  <set ID="60125" imageURL="https://images.brickset.com/sets/small/60125-1.jpg?201605200842" name="Volcano Heavy-Lift Helicopter"/>
+  <set ID="60126" imageURL="https://images.brickset.com/sets/small/60126-1.jpg?201511230710" name="Tire Escape"/>
+  <set ID="60127" imageURL="https://images.brickset.com/sets/small/60127-1.jpg?201511180804" name="Prison Island Starter Set"/>
+  <set ID="60128" imageURL="https://images.brickset.com/sets/small/60128-1.jpg?201511180804" name="Police Pursuit"/>
+  <set ID="60129" imageURL="https://images.brickset.com/sets/small/60129-1.jpg?201511230710" name="Police Patrol Boat"/>
+  <set ID="60130" imageURL="https://images.brickset.com/sets/small/60130-1.jpg?201511230710" name="Prison Island"/>
+  <set ID="60131" imageURL="https://images.brickset.com/sets/small/60131-1.jpg?201511230710" name="Crooks Island"/>
+  <set ID="60132" imageURL="https://images.brickset.com/sets/small/60132-1.jpg?201605200842" name="Service Station"/>
+  <set ID="60133" imageURL="https://images.brickset.com/sets/small/60133-1.jpg?201608210825" name="City Advent Calendar"/>
+  <set ID="60134" imageURL="https://images.brickset.com/sets/small/60134-1.jpg?201604090113" name="Fun in the Park - City People Pack"/>
+  <set ID="60135" imageURL="https://images.brickset.com/sets/small/60135-1.jpg?201611300919" name="ATV Arrest"/>
+  <set ID="60136" imageURL="https://images.brickset.com/sets/small/60136-1.jpg?201611101158" name="Police Starter Set"/>
+  <set ID="60137" imageURL="https://images.brickset.com/sets/small/60137-1.jpg?201611101158" name="Tow Truck Trouble"/>
+  <set ID="60138" imageURL="https://images.brickset.com/sets/small/60138-1.jpg?201611300919" name="High-speed Chase"/>
+  <set ID="60139" imageURL="https://images.brickset.com/sets/small/60139-1.jpg?201611300919" name="Mobile Command Center"/>
+  <set ID="60140" imageURL="https://images.brickset.com/sets/small/60140-1.jpg?201611300919" name="Bulldozer Break-In"/>
+  <set ID="60141" imageURL="https://images.brickset.com/sets/small/60141-1.jpg?201611300919" name="Police Station"/>
+  <set ID="60142" imageURL="https://images.brickset.com/sets/small/60142-1.jpg?201612010859" name="Money Transporter"/>
+  <set ID="60143" imageURL="https://images.brickset.com/sets/small/60143-1.jpg?201611300919" name="Auto Transport Heist"/>
+  <set ID="60144" imageURL="https://images.brickset.com/sets/small/60144-1.jpg?201611070902" name="Race Plane"/>
+  <set ID="60145" imageURL="https://images.brickset.com/sets/small/60145-1.jpg?201611070902" name="Buggy"/>
+  <set ID="60146" imageURL="https://images.brickset.com/sets/small/60146-1.jpg?201611070901" name="Stunt Truck"/>
+  <set ID="60147" imageURL="https://images.brickset.com/sets/small/60147-1.jpg?201611070900" name="Fishing Boat"/>
+  <set ID="60148" imageURL="https://images.brickset.com/sets/small/60148-1.jpg?201611101158" name="ATV Race Team"/>
+  <set ID="60149" imageURL="https://images.brickset.com/sets/small/60149-1.jpg?201611101158" name="4x4 with Catamaran"/>
+  <set ID="60150" imageURL="https://images.brickset.com/sets/small/60150-1.jpg?201611101158" name="Pizza Van"/>
+  <set ID="60151" imageURL="https://images.brickset.com/sets/small/60151-1.jpg?201611220742" name="Dragster Transporter"/>
+  <set ID="60152" imageURL="https://images.brickset.com/sets/small/60152-1.jpg?201611101158" name="Sweeper &amp; Excavator"/>
+  <set ID="60153" imageURL="https://images.brickset.com/sets/small/60153-1.jpg?201705110852" name="People Pack - Fun at the Beach"/>
+  <set ID="60154" imageURL="https://images.brickset.com/sets/small/60154-1.jpg?201705110907" name="Bus Station"/>
+  <set ID="60155" imageURL="https://images.brickset.com/sets/small/60155-1.jpg?201707280831" name="City Advent Calendar"/>
+  <set ID="60156" imageURL="https://images.brickset.com/sets/small/60156-1.jpg?201705110852" name="Jungle Buggy"/>
+  <set ID="60157" imageURL="https://images.brickset.com/sets/small/60157-1.jpg?201705110852" name="Jungle Starter Set"/>
+  <set ID="60158" imageURL="https://images.brickset.com/sets/small/60158-1.jpg?201705110852" name="Jungle Cargo Helicopter"/>
+  <set ID="60159" imageURL="https://images.brickset.com/sets/small/60159-1.jpg?201705110852" name="Jungle Halftrack Mission"/>
+  <set ID="60160" imageURL="https://images.brickset.com/sets/small/60160-1.jpg?201705110852" name="Jungle Mobile Lab"/>
+  <set ID="60161" imageURL="https://images.brickset.com/sets/small/60161-1.jpg?201705110852" name="Jungle Exploration Site"/>
+  <set ID="60162" imageURL="https://images.brickset.com/sets/small/60162-1.jpg?201705100956" name="Jungle Air Drop Helicopter"/>
+  <set ID="60163" imageURL="https://images.brickset.com/sets/small/60163-1.jpg?201705110852" name="Coast Guard Starter Set"/>
+  <set ID="60164" imageURL="https://images.brickset.com/sets/small/60164-1.jpg?201705110852" name="Sea Rescue Plane"/>
+  <set ID="60165" imageURL="https://images.brickset.com/sets/small/60165-1.jpg?201705110852" name="4 x 4 Response Unit"/>
+  <set ID="60166" imageURL="https://images.brickset.com/sets/small/60166-1.jpg?201705110852" name="Heavy-Duty Rescue Helicopter"/>
+  <set ID="60167" imageURL="https://images.brickset.com/sets/small/60167-1.jpg?201705110852" name="Coast Guard Headquarters"/>
+  <set ID="60168" imageURL="https://images.brickset.com/sets/small/60168-1.jpg?201705101006" name="Sailboat Rescue"/>
+  <set ID="60169" imageURL="https://images.brickset.com/sets/small/60169-1.jpg?201705110907" name="Cargo Terminal"/>
+  <set ID="60170" imageURL="https://images.brickset.com/sets/small/60170-1.jpg?201712040938" name="Off-Road Chase"/>
+  <set ID="60171" imageURL="https://images.brickset.com/sets/small/60171-1.jpg?201712040938" name="Mountain Fugitives"/>
+  <set ID="60172" imageURL="https://images.brickset.com/sets/small/60172-1.jpg?201710270711" name="Dirt Road Pursuit"/>
+  <set ID="60173" imageURL="https://images.brickset.com/sets/small/60173-1.jpg?201710270711" name="Mountain Arrest"/>
+  <set ID="60174" imageURL="https://images.brickset.com/sets/small/60174-1.jpg?201712040938" name="Mountain Police Headquarters"/>
+  <set ID="60175" imageURL="https://images.brickset.com/sets/small/60175-1.jpg?201712040938" name="Mountain River Heist"/>
+  <set ID="60176" imageURL="https://images.brickset.com/sets/small/60176-1.jpg?201712040938" name="Wild River Escape"/>
+  <set ID="60177" imageURL="https://images.brickset.com/sets/small/60177-1.jpg?201712040938" name="Airshow Jet"/>
+  <set ID="60178" imageURL="https://images.brickset.com/sets/small/60178-1.jpg?201712040938" name="Speed Record Car"/>
+  <set ID="60179" imageURL="https://images.brickset.com/sets/small/60179-1.jpg?201710270726" name="Ambulance Helicopter"/>
+  <set ID="60180" imageURL="https://images.brickset.com/sets/small/60180-1.jpg?201710270711" name="Monster Truck"/>
+  <set ID="60181" imageURL="https://images.brickset.com/sets/small/60181-1.jpg?201710270718" name="Forest Tractor"/>
+  <set ID="60182" imageURL="https://images.brickset.com/sets/small/60182-1.jpg?201710270718" name="Pickup &amp; Caravan"/>
+  <set ID="60183" imageURL="https://images.brickset.com/sets/small/60183-1.jpg?201711210852" name="Heavy Cargo Transport"/>
+  <set ID="60184" imageURL="https://images.brickset.com/sets/small/60184-1.jpg?201712040938" name="Mining Team"/>
+  <set ID="60185" imageURL="https://images.brickset.com/sets/small/60185-1.jpg?201712040938" name="Mining Power Splitter"/>
+  <set ID="60186" imageURL="https://images.brickset.com/sets/small/60186-1.jpg?201712040938" name="Mining Heavy Driller"/>
+  <set ID="60188" imageURL="https://images.brickset.com/sets/small/60188-1.jpg?201712040938" name="Mining Experts Site"/>
+  <set ID="60190" imageURL="https://images.brickset.com/sets/small/60190-1.jpg?201805220828" name="Arctic Ice Glider"/>
+  <set ID="60191" imageURL="https://images.brickset.com/sets/small/60191-1.jpg?201805220828" name="Arctic Exploration Team"/>
+  <set ID="60192" imageURL="https://images.brickset.com/sets/small/60192-1.jpg?201805220828" name="Arctic Ice Crawler"/>
+  <set ID="60193" imageURL="https://images.brickset.com/sets/small/60193-1.jpg?201805220828" name="Arctic Air Transport"/>
+  <set ID="60194" imageURL="https://images.brickset.com/sets/small/60194-1.jpg?201805220828" name="Arctic Scout Truck"/>
+  <set ID="60195" imageURL="https://images.brickset.com/sets/small/60195-1.jpg?201805220828" name="Arctic Mobile Exploration Base"/>
+  <set ID="60196" imageURL="https://images.brickset.com/sets/small/60196-1.jpg?201805220828" name="Arctic Supply Plane"/>
+  <set ID="60197" imageURL="https://images.brickset.com/sets/small/60197-1.jpg?201805220828" name="Passenger Train"/>
+  <set ID="60198" imageURL="https://images.brickset.com/sets/small/60198-1.jpg?201805220828" name="Cargo Train"/>
+  <set ID="60200" imageURL="https://images.brickset.com/sets/small/60200-1.jpg?201805251126" name="Capital City"/>
+  <set ID="60201" imageURL="https://images.brickset.com/sets/small/60201-1.jpg?201808190946" name="City Advent Calendar"/>
+  <set ID="60202" imageURL="https://images.brickset.com/sets/small/60202-1.jpg?201805220828" name="People Pack - Outdoor Adventures"/>
+  <set ID="60203" imageURL="https://images.brickset.com/sets/small/60203-1.jpg?201908161036" name="Ski Resort"/>
+  <set ID="60204" imageURL="https://images.brickset.com/sets/small/60204-1.jpg?201805220828" name="City Hospital"/>
+  <set ID="60205" imageURL="https://images.brickset.com/sets/small/60205-1.jpg?201806220515" name="Tracks"/>
+  <set ID="60206" imageURL="https://images.brickset.com/sets/small/60206-1.jpg?201811301044" name="Jet Patrol"/>
+  <set ID="60207" imageURL="https://images.brickset.com/sets/small/60207-1.jpg?201811301044" name="Drone Chase"/>
+  <set ID="60208" imageURL="https://images.brickset.com/sets/small/60208-1.jpg?201812041022" name="Parachute Arrest"/>
+  <set ID="60209" imageURL="https://images.brickset.com/sets/small/60209-1.jpg?201812041022" name="Diamond Heist"/>
+  <set ID="60210" imageURL="https://images.brickset.com/sets/small/60210-1.jpg?201812041022" name="Air Base"/>
+  <set ID="60212" imageURL="https://images.brickset.com/sets/small/60212-1.jpg?201811301044" name="Barbecue Burn Out"/>
+  <set ID="60213" imageURL="https://images.brickset.com/sets/small/60213-1.jpg?201811301044" name="Dock Side Fire"/>
+  <set ID="60214" imageURL="https://images.brickset.com/sets/small/60214-1.jpg?201812041022" name="Burger Bar Fire Rescue"/>
+  <set ID="60215" imageURL="https://images.brickset.com/sets/small/60215-1.jpg?201812041022" name="Fire Station"/>
+  <set ID="60216" imageURL="https://images.brickset.com/sets/small/60216-1.jpg?201812041022" name="Downtown Fire Brigade"/>
+  <set ID="60217" imageURL="https://images.brickset.com/sets/small/60217-1.jpg?201812041022" name="Fire Plane"/>
+  <set ID="60218" imageURL="https://images.brickset.com/sets/small/60218-1.jpg?201811301044" name="Desert Rally Racer"/>
+  <set ID="60219" imageURL="https://images.brickset.com/sets/small/60219-1.jpg?201811301044" name="Construction Loader"/>
+  <set ID="60220" imageURL="https://images.brickset.com/sets/small/60220-1.jpg?201811301044" name="Garbage Truck"/>
+  <set ID="60221" imageURL="https://images.brickset.com/sets/small/60221-1.jpg?201811301044" name="Diving Yacht"/>
+  <set ID="60222" imageURL="https://images.brickset.com/sets/small/60222-1.jpg?201811301044" name="Snow Groomer"/>
+  <set ID="60223" imageURL="https://images.brickset.com/sets/small/60223-1.jpg?201811301044" name="Harvester Transport"/>
+  <set ID="60224" imageURL="https://images.brickset.com/sets/small/60224-1.jpg?201905140825" name="Satellite Service Mission"/>
+  <set ID="60225" imageURL="https://images.brickset.com/sets/small/60225-1.jpg?201905140825" name="Rover Testing Drive"/>
+  <set ID="60226" imageURL="https://images.brickset.com/sets/small/60226-1.jpg?201905140825" name="Mars Research Shuttle"/>
+  <set ID="60227" imageURL="https://images.brickset.com/sets/small/60227-1.jpg?201905140825" name="Lunar Space Station"/>
+  <set ID="60228" imageURL="https://images.brickset.com/sets/small/60228-1.jpg?201905140825" name="Deep Space Rocket and Launch Control"/>
+  <set ID="60229" imageURL="https://images.brickset.com/sets/small/60229-1.jpg?201905140825" name="Rocket Assembly &amp;Transport"/>
+  <set ID="60230" imageURL="https://images.brickset.com/sets/small/60230-1.jpg?201905140825" name="People Pack - Space Research and Development"/>
+  <set ID="60231" imageURL="https://images.brickset.com/sets/small/60231-1.jpg?201905140825" name="Fire Chief Response Truck"/>
+  <set ID="60232" imageURL="https://images.brickset.com/sets/small/60232-1.jpg?201905140825" name="Garage Centre"/>
+  <set ID="60233" imageURL="https://images.brickset.com/sets/small/60233-1.jpg?201905140825" name="Donut Shop Opening"/>
+  <set ID="60234" imageURL="https://images.brickset.com/sets/small/60234-1.jpg?201905140825" name="People Pack - Fun Fair"/>
+  <set ID="60235" imageURL="https://images.brickset.com/sets/small/60235-1.jpg?201908161036" name="City Advent Calendar"/>
+  <set ID="60236" imageURL="https://images.brickset.com/sets/small/60236-1.jpg?201812041022" name="Straight &amp; T-Junction"/>
+  <set ID="60237" imageURL="https://images.brickset.com/sets/small/60237-1.jpg?201812041022" name="Curves &amp; Crossroad"/>
+  <set ID="60238" imageURL="https://images.brickset.com/sets/small/60238-1.jpg?201806220515" name="Switch Tracks"/>
+  <set ID="60239" imageURL="https://images.brickset.com/sets/small/60239-1.jpg?201812041022" name="Police Patrol Car"/>
+  <set ID="60240" imageURL="https://images.brickset.com/sets/small/60240-1.jpg?201812041022" name="Kayak Adventure"/>
+  <set ID="60241" imageURL="https://images.brickset.com/sets/small/60241-1.jpg?201912050921" name="Police Dog Unit"/>
+  <set ID="60242" imageURL="https://images.brickset.com/sets/small/60242-1.jpg?201912050921" name="Police Highway Arrest"/>
+  <set ID="60243" imageURL="https://images.brickset.com/sets/small/60243-1.jpg?201912050921" name="Police Helicopter Chase"/>
+  <set ID="60244" imageURL="https://images.brickset.com/sets/small/60244-1.jpg?201912050921" name="Police Helicopter Transport"/>
+  <set ID="60245" imageURL="https://images.brickset.com/sets/small/60245-1.jpg?201912050921" name="Police Monster Truck Heist"/>
+  <set ID="60246" imageURL="https://images.brickset.com/sets/small/60246-1.jpg?201912050921" name="Police Station"/>
+  <set ID="60247" imageURL="https://images.brickset.com/sets/small/60247-1.jpg?201912050921" name="Forest Fire"/>
+  <set ID="60248" imageURL="https://images.brickset.com/sets/small/60248-1.jpg?201912050921" name="Fire Helicopter Response"/>
+  <set ID="60249" imageURL="https://images.brickset.com/sets/small/60249-1.jpg?201912050921" name="Street Sweeper"/>
+  <set ID="60250" imageURL="https://images.brickset.com/sets/small/60250-1.jpg?201912050921" name="Mail Plane"/>
+  <set ID="60251" imageURL="https://images.brickset.com/sets/small/60251-1.jpg?201912050921" name="Monster Truck"/>
+  <set ID="60252" imageURL="https://images.brickset.com/sets/small/60252-1.jpg?201912050921" name="Construction Bulldozer"/>
+  <set ID="60253" imageURL="https://images.brickset.com/sets/small/60253-1.jpg?201912050921" name="Ice-Cream Truck"/>
+  <set ID="60254" imageURL="https://images.brickset.com/sets/small/60254-1.jpg?201912050921" name="Race Boat Transporter"/>
+  <set ID="60255" imageURL="https://images.brickset.com/sets/small/60255-1.jpg?201912050921" name="Stunt Team"/>
+  <set ID="60256" imageURL="https://images.brickset.com/sets/small/60256-1.jpg?201912050921" name="Racing Cars"/>
+  <set ID="60257" imageURL="https://images.brickset.com/sets/small/60257-1.jpg?201912050921" name="Service Station"/>
+  <set ID="60258" imageURL="https://images.brickset.com/sets/small/60258-1.jpg?201912050921" name="Tuning Workshop"/>
+  <set ID="60260" imageURL="https://images.brickset.com/sets/small/60260-1.jpg?202007021050" name="Air Race"/>
+  <set ID="60261" imageURL="https://images.brickset.com/sets/small/60261-1.jpg?202005210901" name="Central Airport"/>
+  <set ID="60262" imageURL="https://images.brickset.com/sets/small/60262-1.jpg?202005210906" name="Passenger Airplane"/>
+  <set ID="60263" imageURL="https://images.brickset.com/sets/small/60263-1.jpg?202005210904" name="Ocean Mini-Submarine"/>
+  <set ID="60264" imageURL="https://images.brickset.com/sets/small/60264-1.jpg?202005210905" name="Ocean Exploration Submarine"/>
+  <set ID="60265" imageURL="https://images.brickset.com/sets/small/60265-1.jpg?202005210904" name="Ocean Exploration Base"/>
+  <set ID="60266" imageURL="https://images.brickset.com/sets/small/60266-1.jpg?202005210857" name="Ocean Exploration Ship"/>
+  <set ID="60267" imageURL="https://images.brickset.com/sets/small/60267-1.jpg?201912050921" name="Safari Off-Roader"/>
+  <set ID="60268" imageURL="https://images.brickset.com/sets/small/60268-1.jpg?202007220507" name="City Advent Calendar"/>
+  <set ID="60270" imageURL="https://images.brickset.com/sets/small/60270-1.jpg?201912050921" name="Police Brick Box"/>
+  <set ID="60271" imageURL="https://images.brickset.com/sets/small/60271-1.jpg?202007311049" name="Main Square"/>
+  <set ID="60272" imageURL="https://images.brickset.com/sets/small/60272-1.jpg?202007021049" name="Elite Police Boat Transport"/>
+  <set ID="60273" imageURL="https://images.brickset.com/sets/small/60273-1.jpg?202007021047" name="Elite Police Driller Chase"/>
+  <set ID="60274" imageURL="https://images.brickset.com/sets/small/60274-1.jpg?202007021048" name="Elite Police Lighthouse Capture"/>
+  <set ID="60275" imageURL="https://images.brickset.com/sets/small/60275-1.jpg?202009140333" name="Police Helicopter"/>
+  <set ID="60276" imageURL="https://images.brickset.com/sets/small/60276-1.jpg?202009140333" name="Police Prisoner Transport"/>
+  <set ID="60277" imageURL="https://images.brickset.com/sets/small/60277-1.jpg?202011220606" name="Police Patrol Boat"/>
+  <set ID="60278" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Crook's Hideout Raid"/>
+  <set ID="60279" imageURL="https://images.brickset.com/sets/small/60279-1.jpg?202009140333" name="Fire Hazard Truck"/>
+  <set ID="60280" imageURL="https://images.brickset.com/sets/small/60280-1.jpg?202009140334" name="Fire Ladder Truck"/>
+  <set ID="60281" imageURL="https://images.brickset.com/sets/small/60281-1.jpg?202009140334" name="Fire Rescue Helicopter"/>
+  <set ID="60282" imageURL="https://images.brickset.com/sets/small/60282-1.jpg?202009140334" name="Fire Command Unit"/>
+  <set ID="60283" imageURL="https://images.brickset.com/sets/small/60283-1.jpg?202009140334" name="Holiday Camper Van"/>
+  <set ID="60284" imageURL="https://images.brickset.com/sets/small/60284-1.jpg?202009140310" name="Roadwork Truck"/>
+  <set ID="60285" imageURL="https://images.brickset.com/sets/small/60285-1.jpg?202009140310" name="Sports Car"/>
+  <set ID="60286" imageURL="https://images.brickset.com/sets/small/60286-1.jpg?202009140310" name="Beach Rescue ATV"/>
+  <set ID="60287" imageURL="https://images.brickset.com/sets/small/60287-1.jpg?202009140311" name="Tractor"/>
+  <set ID="60288" imageURL="https://images.brickset.com/sets/small/60288-1.jpg?202009140311" name="Race Buggy Transporter"/>
+  <set ID="60289" imageURL="https://images.brickset.com/sets/small/60289-1.jpg?202009140311" name="Airshow Jet Transporter"/>
+  <set ID="60290" imageURL="https://images.brickset.com/sets/small/60290-1.jpg?202009140335" name="Skate Park"/>
+  <set ID="60291" imageURL="https://images.brickset.com/sets/small/60291-1.jpg?202009140335" name="Family House"/>
+  <set ID="60292" imageURL="https://images.brickset.com/sets/small/60292-1.jpg?202009140336" name="Town Centre"/>
+  <set ID="60304" imageURL="https://images.brickset.com/sets/small/60304-1.jpg?202009140336" name="Road Plates"/>
+  <set ID="60305" imageURL="https://images.brickset.com/sets/small/60305-1.jpg?202012050841" name="Car Transporter"/>
+  <set ID="60306" imageURL="https://images.brickset.com/sets/small/60306-1.jpg?202012050841" name="Shopping Street"/>
+  <set ID="65702" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="65743" imageURL="https://images.brickset.com/sets/small/65743-1.jpg?201009240928" name="City Construction Value Pack"/>
+  <set ID="65777" imageURL="https://images.brickset.com/sets/small/65777-1.jpg?201009240929" name="City Fire Value Pack"/>
+  <set ID="65778" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="65799" imageURL="https://images.brickset.com/sets/small/65799-1.jpg?201009240929" name="City Fire Value Pack"/>
+  <set ID="65800" imageURL="https://images.brickset.com/sets/small/65800-1.jpg?201009240929" name="City Construction Value Pack"/>
+  <set ID="65809" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="65838" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66069" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66070" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66107" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66116" imageURL="https://images.brickset.com/sets/small/66116-1.jpg?201009240930" name="City Emergency Service Vehicles (Multipack)"/>
+  <set ID="66139" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66156" imageURL="https://images.brickset.com/sets/small/66156-1.jpg?201009240930" name="City Airport Exclusive Pack"/>
+  <set ID="66166" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66167" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66168" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66169" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66171" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66174" imageURL="https://images.brickset.com/sets/small/66174-1.jpg?201009240931" name="City Fire Value Pack"/>
+  <set ID="66175" imageURL="https://images.brickset.com/sets/small/66175-1.jpg?201009240931" name="City Essential Vehicles Collection"/>
+  <set ID="66177" imageURL="https://images.brickset.com/sets/small/66177-1.jpg?201009240931" name="City Rescue Pack"/>
+  <set ID="66179" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66180" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66181" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66182" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66183" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66184" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66185" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66190" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66193" imageURL="https://images.brickset.com/sets/small/66193-1.jpg?201009240931" name="City Medical Super Pack"/>
+  <set ID="66194" imageURL="https://images.brickset.com/sets/small/66194-1.jpg?202003240951" name="City Super Pack"/>
+  <set ID="66195" imageURL="https://images.brickset.com/sets/small/66195-1.jpg?201009240931" name="City Super Pack"/>
+  <set ID="66213" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66214" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66218" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66239" imageURL="https://images.brickset.com/sets/small/66239-1.jpg?201009240932" name="City Trains Super Set"/>
+  <set ID="66244" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66245" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66246" imageURL="https://images.brickset.com/sets/small/66246-1.jpg?201009240933" name="City Police Super Pack"/>
+  <set ID="66247" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66248" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66249" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66255" imageURL="https://images.brickset.com/sets/small/66255-1.jpg?201009240933" name="City Emergency Services Value Pack"/>
+  <set ID="66256" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66257" imageURL="https://images.brickset.com/sets/small/66257-1.jpg?201009240933" name="City Police Super Pack 4-in-1"/>
+  <set ID="66258" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66260" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66263" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Value pack: transport"/>
+  <set ID="66265" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66266" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66282" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66290" imageURL="https://images.brickset.com/sets/small/66290-1.jpg?201611180946" name="Bonus/Value Pack"/>
+  <set ID="66305" imageURL="https://images.brickset.com/sets/small/66305-1.jpg?201009191113" name="City Police Super Pack 3-in-1"/>
+  <set ID="66306" imageURL="https://images.brickset.com/sets/small/66306-1.jpg?201009240935" name="City Super Pack 3 in 1"/>
+  <set ID="66307" imageURL="https://images.brickset.com/sets/small/66307-1.jpg?201009240935" name="City Super Pack 3 in 1"/>
+  <set ID="66325" imageURL="https://images.brickset.com/sets/small/66325-1.jpg?201009191106" name="City Super Pack 4 in 1"/>
+  <set ID="66326" imageURL="https://images.brickset.com/sets/small/66326-1.jpg?201009191105" name="City Super Pack 4 in 1"/>
+  <set ID="66328" imageURL="https://images.brickset.com/sets/small/66328-1.jpg?201009191112" name="City Super Pack 6 in 1"/>
+  <set ID="66329" imageURL="https://images.brickset.com/sets/small/66329-1.jpg?201009191103" name="City Super Pack 3 in 1"/>
+  <set ID="66330" imageURL="https://images.brickset.com/sets/small/66330-1.jpg?201705170458" name="City Super Pack 5 in 1"/>
+  <set ID="66331" imageURL="https://images.brickset.com/sets/small/66331-1.jpg?201005150124" name="City Super Pack 3 in 1"/>
+  <set ID="66342" imageURL="https://images.brickset.com/sets/small/66342-1.jpg?201009240948" name="City Super Pack 3 in 1"/>
+  <set ID="66345" imageURL="https://images.brickset.com/sets/small/66345-1.jpg?201009240948" name="City Super Pack 4 in 1"/>
+  <set ID="66357" imageURL="https://images.brickset.com/sets/small/66357-1.jpg?201104180441" name="City Super Pack 4 in 1"/>
+  <set ID="66358" imageURL="https://images.brickset.com/sets/small/66358-1.jpg?201009240949" name="City Super Pack 3 in 1"/>
+  <set ID="66360" imageURL="https://images.brickset.com/sets/small/66360-1.jpg?201012170350" name="City Super Pack 4 in 1"/>
+  <set ID="66362" imageURL="https://images.brickset.com/sets/small/66362-1.jpg?201608051028" name="City Super Pack 4 in 1"/>
+  <set ID="66363" imageURL="https://images.brickset.com/sets/small/66363-1.jpg?201009240950" name="City Super Pack 4 in 1"/>
+  <set ID="66374" imageURL="https://images.brickset.com/sets/small/66374-1.jpg?201009240947" name="City Super Pack 4 in 1"/>
+  <set ID="66375" imageURL="https://images.brickset.com/sets/small/66375-1.jpg?201106181113" name="City Super Pack 4 in 1"/>
+  <set ID="66388" imageURL="https://images.brickset.com/sets/small/66388-1.jpg?201108270520" name="City Super Pack 4 in 1"/>
+  <set ID="66389" imageURL="https://images.brickset.com/sets/small/66389-1.jpg?201110180202" name="City Police Super Pack 5 in 1"/>
+  <set ID="66405" imageURL="https://images.brickset.com/sets/small/66405-1.jpg?201109081240" name="City Trains Super Pack 4-in-1"/>
+  <set ID="66412" imageURL="https://images.brickset.com/sets/small/66412-1.jpg?201209240347" name="City Police Super Pack 2-in-1"/>
+  <set ID="66426" imageURL="https://images.brickset.com/sets/small/66426-1.jpg?201209240359" name="City Fire Super Pack 3-in-1"/>
+  <set ID="66427" imageURL="https://images.brickset.com/sets/small/66427-1.jpg?201209170440" name="City Police Super Pack 4-in-1"/>
+  <set ID="66428" imageURL="https://images.brickset.com/sets/small/66428-1.jpg?201209240348" name="City Police Super Pack 4-in-1"/>
+  <set ID="66436" imageURL="https://images.brickset.com/sets/small/66436-1.jpg?201209240350" name="City Police Super Pack 2-in-1"/>
+  <set ID="66448" imageURL="https://images.brickset.com/sets/small/66448-1.jpg?201302010114" name="Bonus/Value Pack"/>
+  <set ID="66451" imageURL="https://images.brickset.com/sets/small/66451-1.jpg?201209240351" name="City Traffic Super Pack 4-in-1"/>
+  <set ID="66453" imageURL="https://images.brickset.com/sets/small/66453-1.jpg?201403300700" name="Fire Value Pack"/>
+  <set ID="66475" imageURL="https://images.brickset.com/sets/small/66475-1.jpg?201309200122" name="Super Pack"/>
+  <set ID="66476" imageURL="https://images.brickset.com/sets/small/66476-1.jpg?201403241009" name="City Value Pack"/>
+  <set ID="66492" imageURL="https://images.brickset.com/sets/small/66492-1.jpg?201501060857" name="City Police Value Pack"/>
+  <set ID="66493" imageURL="https://images.brickset.com/sets/small/66493-1.jpg?201412090922" name="City Train Value Pack"/>
+  <set ID="66521" imageURL="https://images.brickset.com/sets/small/66521-1.jpg?201502090320" name="Demolition Super Pack"/>
+  <set ID="66522" imageURL="https://images.brickset.com/sets/small/66522-1.jpg?201508110823" name="Deep Sea Explorers Super Pack 4-in-1"/>
+  <set ID="66523" imageURL="https://images.brickset.com/sets/small/66523-1.jpg?201508110823" name="City Super Pack 3-in-1"/>
+  <set ID="66540" imageURL="https://images.brickset.com/sets/small/66540-1.jpg?201703071253" name="City Volcano Value Pack"/>
+  <set ID="66541" imageURL="https://images.brickset.com/sets/small/66541-1.jpg?201701041050" name="City Fire Value Pack"/>
+  <set ID="66550" imageURL="https://images.brickset.com/sets/small/66550-1.jpg?201709300838" name="City Police Value Pack"/>
+  <set ID="66559" imageURL="https://images.brickset.com/sets/small/66559-1.jpg?201710100832" name="Ultimate LEGO City Hero Pack"/>
+  <set ID="66580" imageURL="https://images.brickset.com/sets/small/66580-1.jpg?201712010836" name="Holiday Copack"/>
+  <set ID="66586" imageURL="https://images.brickset.com/sets/small/66586-1.jpg?202005070800" name="2-in-1 Value Pack"/>
+  <set ID="66587" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value pack"/>
+  <set ID="66615" imageURL="https://images.brickset.com/sets/small/66615-1.jpg?201910220835" name="Super Pack 3-in-1"/>
+  <set ID="66619" imageURL="https://images.brickset.com/sets/small/66619-1.jpg?201909251030" name="Super Pack 3-in-1"/>
+  <set ID="66636" imageURL="https://images.brickset.com/sets/small/66636-1.jpg?202008050948" name="City 2 in 1 pack"/>
+  <set ID="66637" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="City 2 in 1 pack"/>
+  <set ID="66640" imageURL="https://images.brickset.com/sets/small/66640-1.jpg?202010270853" name="Vehicle Bundle 2 in 1"/>
+  <set ID="66643" imageURL="https://images.brickset.com/sets/small/66643-1.jpg?202010130857" name="3-in-1 Bundle Pack"/>
+  <set ID="66645" imageURL="https://images.brickset.com/sets/small/66645-1.jpg?202010270853" name="Space Bundle 2 in 1"/>
+  <set ID="81007" imageURL="https://images.brickset.com/sets/small/81007-1.jpg?202010280336" name="Design your own LEGO City set"/>
+  <set ID="850617" imageURL="https://images.brickset.com/sets/small/850617-1.jpg?201302170442" name="Police Accessory Pack"/>
+  <set ID="850618" imageURL="https://images.brickset.com/sets/small/850618-1.jpg?201302170442" name="Fire Accessory Pack"/>
+  <set ID="850932" imageURL="https://images.brickset.com/sets/small/850932-1.jpg?201407160332" name="Polar Accessory Set"/>
+  <set ID="853378" imageURL="https://images.brickset.com/sets/small/853378-1.jpg?201202250207" name="LEGO City Accessory Pack"/>
+  <set ID="853570" imageURL="https://images.brickset.com/sets/small/853570-1.jpg?201601050913" name="Police Accessory Set"/>
+  <set ID="862011" imageURL="https://images.brickset.com/sets/small/862011-1.jpg?202009280348" name="Diver and Shark"/>
+  <set ID="951701" imageURL="https://images.brickset.com/sets/small/CITY951701-1.jpg?201701180913" name="Policeman and crook"/>
+  <set ID="951702" imageURL="https://images.brickset.com/sets/small/CITY951702-1.jpg?201805090919" name="Workman and wheelbarrow"/>
+  <set ID="951703" imageURL="https://images.brickset.com/sets/small/CITY951703-1.jpg?201707191113" name="Diver and shark"/>
+  <set ID="951704" imageURL="https://images.brickset.com/sets/small/CITY951704-1.jpg?201711050859" name="Fireman"/>
+  <set ID="951805" imageURL="https://images.brickset.com/sets/small/CITY951805-1.jpg?201801301134" name="Police Buggy"/>
+  <set ID="951806" imageURL="https://images.brickset.com/sets/small/CITY951806-1.jpg?201803191144" name="Miner"/>
+  <set ID="951807" imageURL="https://images.brickset.com/sets/small/CITY951807-1.jpg?201806240356" name="Race Car"/>
+  <set ID="951808" imageURL="https://images.brickset.com/sets/small/CITY951808-1.jpg?201807101002" name="Motorcycle and Rider"/>
+  <set ID="951809" imageURL="https://images.brickset.com/sets/small/CITY951809-1.jpg?201810120833" name="Refuse Operative"/>
+  <set ID="951810" imageURL="https://images.brickset.com/sets/small/CITY951810-1.jpg?201811231048" name="Arctic Explorer with Snowmobile"/>
+  <set ID="951901" imageURL="https://images.brickset.com/sets/small/CITY951901-1.jpg?201902010933" name="Police Officer and Jet"/>
+  <set ID="951902" imageURL="https://images.brickset.com/sets/small/CITY951902-1.jpg?201903030841" name="Fireman"/>
+  <set ID="951903" imageURL="https://images.brickset.com/sets/small/CITY951903-1.jpg?201903080636" name="Lawnmower"/>
+  <set ID="951904" imageURL="https://images.brickset.com/sets/small/951904-1.jpg?201904110823" name="Police Officer with Jetpack"/>
+  <set ID="951905" imageURL="https://images.brickset.com/sets/small/951905-1.jpg?201905180819" name="Gyrocopter"/>
+  <set ID="951906" imageURL="https://images.brickset.com/sets/small/951906-1.jpg?201908011042" name="Diver"/>
+  <set ID="951907" imageURL="https://images.brickset.com/sets/small/951907-1.jpg?201907220857" name="Police Buggy"/>
+  <set ID="951908" imageURL="https://images.brickset.com/sets/small/951908-1.jpg?201908141106" name="Astronaut"/>
+  <set ID="951909" imageURL="https://images.brickset.com/sets/small/951909-1.jpg?201909190858" name="Pizza Delivery Biker"/>
+  <set ID="951910" imageURL="https://images.brickset.com/sets/small/951910-1.jpg?201910160849" name="Traffic Cop"/>
+  <set ID="951911" imageURL="https://images.brickset.com/sets/small/951911-1.jpg?201911131136" name="Space Buggy"/>
+  <set ID="951912" imageURL="https://images.brickset.com/sets/small/951912-1.jpg?201912210748" name="Lumberjack"/>
+  <set ID="952001" imageURL="https://images.brickset.com/sets/small/952001-1.jpg?202002040328" name="Motorcycle Cop"/>
+  <set ID="952002" imageURL="https://images.brickset.com/sets/small/952002-1.jpg?202002121038" name="Fireman and Drone"/>
+  <set ID="952003" imageURL="https://images.brickset.com/sets/small/952003-1.jpg?202003240952" name="Eddy Erker with Bulldozer"/>
+  <set ID="952005" imageURL="https://images.brickset.com/sets/small/952005-1.jpg?202005060623" name="Go-Kart and Driver"/>
+  <set ID="952008" imageURL="https://images.brickset.com/sets/small/952008-1.jpg?202008151028" name="Jet-ski"/>
+  <set ID="952009" imageURL="https://images.brickset.com/sets/small/952009-1.jpg?202009101036" name="Fireman with quad bike"/>
+  <set ID="952010" imageURL="https://images.brickset.com/sets/small/952010-1.jpg?202010070715" name="Motorbike"/>
+  <set ID="952011" imageURL="https://images.brickset.com/sets/small/952011-1.jpg?202011030854" name="Duke Detain"/>
+  <set ID="952012" imageURL="https://images.brickset.com/sets/small/952012-1.jpg?202012040943" name="Diver"/>
+  <set ID="952016" imageURL="https://images.brickset.com/sets/small/952016-1.jpg?202004060146" name="Policeman and Robber"/>
+  <set ID="952018" imageURL="https://images.brickset.com/sets/small/952018-1.jpg?202006020404" name="Harl Hubbs with Tamping Rammer"/>
+  <set ID="952019" imageURL="https://images.brickset.com/sets/small/952019-1.jpg?202007080856" name="Scuba Diver and Shark"/>
+  <set ID="952101" imageURL="https://images.brickset.com/sets/small/952101-1.jpg?202101091149" name="Police Helicopter"/>
+  <set ID="5000281" imageURL="https://images.brickset.com/sets/small/5000281-1.jpg?201210261244" name="Chase McCain"/>
+  <set ID="5002136" imageURL="https://images.brickset.com/sets/small/5002136-1.jpg?201409081025" name="Arctic Accessory Set"/>
+  <set ID="5004404" imageURL="https://images.brickset.com/sets/small/5004404-1.jpg?201607190200" name="Police Chase"/>
+  <set ID="5004940" imageURL="https://images.brickset.com/sets/small/5004940-1.jpg?201709270805" name="City Jungle Minifigure Collection"/>
+  <set ID="5005554" imageURL="https://images.brickset.com/sets/small/5005554-1.jpg?201803181018" name="LEGO City Easter Bundle"/>
+  <set ID="6182882" imageURL="https://images.brickset.com/sets/small/6182882-1.jpg?201802130852" name="City Police Mission Pack"/>
+  <set ID="TRUKAYAK" imageURL="https://images.brickset.com/sets/small/TRUKAYAK-1.jpg?201510180901" name="Kayak"/>
+</data>
