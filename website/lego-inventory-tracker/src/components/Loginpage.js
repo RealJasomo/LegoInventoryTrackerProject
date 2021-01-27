@@ -17,7 +17,7 @@ import { setToken } from '../store/actions/actions'
     handleLogin = (event) => {
         axios({
             method: 'POST',
-            url:'http://localhost:3001/api/users/login',
+            url:process.env.REACT_APP_API_ENDPOINT+'/api/users/login',
             headers: {
                 "Content-Type": "application/json"
             },
@@ -34,6 +34,7 @@ import { setToken } from '../store/actions/actions'
             console.log(response);
             this.props.setToken(response.data.token);
         })
+        .then((_) => window.location.href="/")
         .catch((err) => {
             console.log(err.response);
             this.setState({
