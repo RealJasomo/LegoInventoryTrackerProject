@@ -8,6 +8,7 @@ import {
   Link
 } from "react-router-dom";
 import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage} from './components'
+import { UserModels, UserBricks, UserSets} from './components/userCollections'
 import {AppBar, Toolbar,  IconButton, Typography, 
         Button, Drawer, List, ListItem, ListItemIcon, ListItemText, SvgIcon} from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu'
@@ -35,6 +36,21 @@ class App extends Component {
         return <Button color="inherit" onClick={this.handleSignout}>Sign out</Button>
       else
         return<Button color="inherit" className={styles.link} component={Link} to='/login'>Login</Button> 
+    }
+    const models = () => {
+      if(this.props.auth.token)
+        return <UserModels />
+      return <ModelCollection />
+    }
+    const sets = () => {
+      if(this.props.auth.token)
+        return <UserSets />
+      return <SetCollection />
+    }
+    const bricks = () => {
+      if(this.props.auth.token)
+        return <UserBricks />
+      return <BrickCollection />
     }
     return (
       <>
@@ -85,17 +101,17 @@ class App extends Component {
             </Switch>
             <Switch>
               <Route path="/sets">
-                <SetCollection />
+                {sets()}
               </Route>
             </Switch>
             <Switch>
               <Route path="/models">
-                <ModelCollection />
+                {models()}
               </Route>
             </Switch>
             <Switch>
               <Route path="/bricks">
-                <BrickCollection />
+                {bricks()}
               </Route>
             </Switch>
             <Switch>

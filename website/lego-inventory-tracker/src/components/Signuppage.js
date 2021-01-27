@@ -15,6 +15,7 @@ import { setToken } from '../store/actions/actions'
         }
     }
     handleSignup = (event) => {
+        event.preventDefault();
         axios({
             method: 'POST',
             url:process.env.REACT_APP_API_ENDPOINT+'/api/users/create',
@@ -49,6 +50,7 @@ import { setToken } from '../store/actions/actions'
             errorMessage = <div className={styles.warning}>{this.state.error}</div>;
         }
         return (
+            <form onSubmit={this.handleSignup}>
             <Container component="main" maxWidth="xs">
             <CssBaseline />
             {errorMessage}
@@ -93,13 +95,13 @@ import { setToken } from '../store/actions/actions'
                         variant="contained"
                         color="primary"
                         className={styles.submit}
-                        onClick={this.handleSignup}
                     >
                         Sign Up
                     </Button>
                 </div>
             </div>
             </Container>
+            </form>
         )
     }
 }

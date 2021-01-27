@@ -15,6 +15,7 @@ import { setToken } from '../store/actions/actions'
         }
     }
     handleLogin = (event) => {
+        event.preventDefault();
         axios({
             method: 'POST',
             url:process.env.REACT_APP_API_ENDPOINT+'/api/users/login',
@@ -49,6 +50,7 @@ import { setToken } from '../store/actions/actions'
             errorMessage = <div className={styles.warning}>{this.state.error}</div>;
         }
         return (
+            <form onSubmit={this.handleLogin}>
             <Container component="main" maxWidth="xs">
             <CssBaseline />
             {errorMessage}
@@ -96,7 +98,6 @@ import { setToken } from '../store/actions/actions'
                         variant="contained"
                         color="primary"
                         className={styles.submit}
-                        onClick={this.handleLogin}
                     >
                         Login
                     </Button>
@@ -106,6 +107,7 @@ import { setToken } from '../store/actions/actions'
                 </Link> 
             </div>
             </Container>
+            </form>
         )
     }
 }
