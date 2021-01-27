@@ -70,7 +70,7 @@ var jwt = require('jsonwebtoken');
          request.input('Username', sql.VarChar(20), req.body.username);
          request.execute('login_User', (err, result) => {
             if(err){
-               res.status(403).json({error: "Error login of the user, please try again"});
+               res.status(403).json({error: "Error attempting to login the user, please try again"});
                console.log(err);
                return;
             }

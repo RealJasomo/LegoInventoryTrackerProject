@@ -29,6 +29,7 @@
 
 .warning{
     margin: 10px 0;
+    padding: 10px;
     text-align: center;
     background-color: #ff6666;
 }

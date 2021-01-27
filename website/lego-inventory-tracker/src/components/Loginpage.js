@@ -2,8 +2,10 @@ import styles from '../css/Loginpage.module.css'
 import React, { Component } from 'react'
 import {TextField, Link, Button, Typography, CssBaseline, Container} from '@material-ui/core'
 import axios from 'axios'
+import { connect } from 'react-redux'
+import { setToken } from '../store/actions/actions'
 
-export default class LoginPage extends Component {
+ class LoginPage extends Component {
     constructor(props){
         super(props);
         this.state = {
@@ -30,6 +32,7 @@ export default class LoginPage extends Component {
                 error: ""
             })
             console.log(response);
+            this.props.setToken(response.data.token);
         })
         .catch((err) => {
             console.log(err.response);
@@ -105,3 +108,4 @@ export default class LoginPage extends Component {
         )
     }
 }
+export default connect(null, {setToken})(LoginPage);
