@@ -10,7 +10,7 @@ exports.loginAttempt = (req, res, next) =>{
             attempt.count = 0;
             attempts[ip] = attempt;
         },process.env.ERR_TIMEOUT, attempt, ip);
-        res.json({
+        res.status(401).json({
             error:`Too many login attempts from this IP please wait`
         });
     }else{

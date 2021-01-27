@@ -66,8 +66,8 @@ router.post('/set/owns/:setid', legoSetController.ownsLegoSet);
 
 // User Routes //
 
-//GET login user
-router.get('/users/login',loginAttemptLimiter.loginAttempt,userController.loginUser);
+//POST login user
+router.post('/users/login',loginAttemptLimiter.loginAttempt,userController.loginUser);
 
 //POST create new user
 router.post('/users/create', userController.createUser);

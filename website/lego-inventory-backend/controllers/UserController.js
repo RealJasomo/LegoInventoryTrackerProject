@@ -65,6 +65,7 @@ var jwt = require('jsonwebtoken');
          console.log(err);
          res.status(400).send("database connection error");
       }else{
+         console.log(req.body);
          const request = new sql.Request();
          request.input('Username', sql.VarChar(20), req.body.username);
          request.execute('login_User', (err, result) => {
