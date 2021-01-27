@@ -4,7 +4,8 @@
  */
 
  //tedious will be used for database connection
- var Connection = require('tedious').Connection;
+ var sql = require("mssql");
+ var config = require('./DbConfig').config;
 
   //return all lego Sets ROUTE:: /api/sets/
 exports.legoSetsList = (req, res) => {

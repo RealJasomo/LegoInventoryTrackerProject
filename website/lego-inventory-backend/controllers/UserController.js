@@ -8,7 +8,7 @@
 
  //tedious will be used for database connection
 var sql = require("mssql");
-
+var config = require('./DbConfig').config;
 //bcrypt for password hashing
 var bcrypt = require('bcrypt');
 
@@ -17,12 +17,6 @@ var jwt = require('jsonwebtoken');
 
 var attempts = require('../middleware/loginAttempt').attempts;
 
- var config = {
-    user: process.env.DATABASE_USER,
-    password: process.env.DATABASE_PASSWORD,
-    server: process.env.DATABASE_URL,
-    database: process.env.DATABASE_NAME
- }
 
  //creates new user ROUTE:: /api/users/create
  exports.createUser = (req, res) => {
