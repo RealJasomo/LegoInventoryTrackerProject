@@ -148,6 +148,14 @@ def getSetContents(inputID, printLogs):
                 print('brick/row not found, ending')
                 return 0
 
+        # legoSetContentsXML = etree.SubElement(data, 'brick')
+        # legoSetContentsXML.set('elementID', setBrick.elementID)
+        # legoSetContentsXML.set('designID', setBrick.designID)
+        # legoSetContentsXML.set('setID', inputID)
+        # xmlDataString = etree.tostring(data, pretty_print=True)
+        # xmlFile = open(str(datetime.date.today()) + "-LegoSetContents.xml", "wb")
+        # xmlFile.write(xmlDataString)
+
     return 0
 
 
@@ -331,8 +339,8 @@ holder = [0]
 # getBrickInfo(True)
 
 # To call getSetInfo:
-getSetInfo(baseThemes, True)
+# getSetInfo(baseThemes, True)
 
 # to call getSetContents:
 # base ID is a random starwars set, make sure you do NOT include the -1 that brickset appends to id's
-# getSetContents(baseID, True)
+getSetContents(baseID, True)

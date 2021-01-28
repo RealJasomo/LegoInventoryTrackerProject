@@ -1,0 +1,105 @@
+<data>
+  <set ID="4695" imageURL="https://images.brickset.com/sets/small/4695-1.jpg?200403130527" name="Mini Harry Potter Knight Bus"/>
+  <set ID="4701" imageURL="https://images.brickset.com/sets/small/4701-1.jpg?200101131200" name="Sorting Hat"/>
+  <set ID="4702" imageURL="https://images.brickset.com/sets/small/4702-1.jpg?200101131200" name="The Final Challenge"/>
+  <set ID="4704" imageURL="https://images.brickset.com/sets/small/4704-1.jpg?200101131200" name="The Room of the Winged Keys"/>
+  <set ID="4705" imageURL="https://images.brickset.com/sets/small/4705-1.jpg?200101131200" name="Snape's Class"/>
+  <set ID="4706" imageURL="https://images.brickset.com/sets/small/4706-1.jpg?200101131200" name="Forbidden Corridor"/>
+  <set ID="4707" imageURL="https://images.brickset.com/sets/small/4707-1.jpg?200101131200" name="Hagrid's Hut"/>
+  <set ID="4708" imageURL="https://images.brickset.com/sets/small/4708-1.jpg?200101131200" name="Hogwarts Express"/>
+  <set ID="4709" imageURL="https://images.brickset.com/sets/small/4709-1.jpg?200101131200" name="Hogwarts Castle"/>
+  <set ID="4711" imageURL="https://images.brickset.com/sets/small/4711-1.jpg?200110301200" name="Flying Lesson"/>
+  <set ID="4712" imageURL="https://images.brickset.com/sets/small/4712-1.jpg?200110301200" name="Troll on the Loose"/>
+  <set ID="4714" imageURL="https://images.brickset.com/sets/small/4714-1.jpg?200110301200" name="Gringott's bank"/>
+  <set ID="4719" imageURL="https://images.brickset.com/sets/small/4719-1.jpg?200212311022" name="Quality Quidditch Supplies"/>
+  <set ID="4720" imageURL="https://images.brickset.com/sets/small/4720-1.jpg?200212311024" name="Knockturn Alley"/>
+  <set ID="4721" imageURL="https://images.brickset.com/sets/small/4721-1.jpg?200106171200" name="Hogwarts Classrooms"/>
+  <set ID="4722" imageURL="https://images.brickset.com/sets/small/4722-1.jpg?200106171200" name="Gryffindor House"/>
+  <set ID="4723" imageURL="https://images.brickset.com/sets/small/4723-1.jpg?200106171200" name="Diagon Alley Shops"/>
+  <set ID="4726" imageURL="https://images.brickset.com/sets/small/4726-1.jpg?200205100606" name="Quidditch Practice"/>
+  <set ID="4727" imageURL="https://images.brickset.com/sets/small/4727-1.jpg?200205100607" name="Aragog in the Dark Forest"/>
+  <set ID="4728" imageURL="https://images.brickset.com/sets/small/4728-1.jpg?200205100608" name="Escape from Privet Drive"/>
+  <set ID="4729" imageURL="https://images.brickset.com/sets/small/4729-1.jpg?200205100610" name="Dumbledore's Office"/>
+  <set ID="4730" imageURL="https://images.brickset.com/sets/small/4730-1.jpg?200205100611" name="The Chamber of Secrets"/>
+  <set ID="4731" imageURL="https://images.brickset.com/sets/small/4731-1.jpg?200205100612" name="Dobby's Release"/>
+  <set ID="4733" imageURL="https://images.brickset.com/sets/small/4733-1.jpg?200205100613" name="The Dueling Club"/>
+  <set ID="4735" imageURL="https://images.brickset.com/sets/small/4735-1.jpg?200205100614" name="Slytherin"/>
+  <set ID="4736" imageURL="https://images.brickset.com/sets/small/4736-1.jpg?201009010137" name="Freeing Dobby"/>
+  <set ID="4737" imageURL="https://images.brickset.com/sets/small/4737-1.jpg?201010040320" name="Quidditch Match"/>
+  <set ID="4738" imageURL="https://images.brickset.com/sets/small/4738-1.jpg?201009301135" name="Hagrid's Hut"/>
+  <set ID="4750" imageURL="https://images.brickset.com/sets/small/4750-1.jpg?200401100736" name="Draco's Encounter with Buckbeak"/>
+  <set ID="4751" imageURL="https://images.brickset.com/sets/small/4751-1.jpg?200401100739" name="Harry and the Marauder's Map"/>
+  <set ID="4752" imageURL="https://images.brickset.com/sets/small/4752-1.jpg?200401100740" name="Professor Lupin's Classroom"/>
+  <set ID="4753" imageURL="https://images.brickset.com/sets/small/4753-1.jpg?200401100741" name="Sirius Black's Escape"/>
+  <set ID="4754" imageURL="https://images.brickset.com/sets/small/4754-1.jpg?200401100743" name="Hagrid's Hut"/>
+  <set ID="4755" imageURL="https://images.brickset.com/sets/small/4755-1.jpg?200401100744" name="Knight Bus"/>
+  <set ID="4756" imageURL="https://images.brickset.com/sets/small/4756-1.jpg?200401100745" name="Shrieking Shack"/>
+  <set ID="4757" imageURL="https://images.brickset.com/sets/small/4757-1.jpg?200401100746" name="Hogwarts Castle"/>
+  <set ID="4758" imageURL="https://images.brickset.com/sets/small/4758-1.jpg?200401100747" name="Hogwarts Express"/>
+  <set ID="4762" imageURL="https://images.brickset.com/sets/small/4762-1.jpg?200508310231" name="Rescue from the Merpeople"/>
+  <set ID="4766" imageURL="https://images.brickset.com/sets/small/4766-1.jpg?200508310231" name="Graveyard Duel"/>
+  <set ID="4767" imageURL="https://images.brickset.com/sets/small/4767-1.jpg?200508310232" name="Harry and the Hungarian Horntail"/>
+  <set ID="4768" imageURL="https://images.brickset.com/sets/small/4768-1.jpg?200508310233" name="The Durmstrang Ship"/>
+  <set ID="4768" imageURL="https://images.brickset.com/sets/small/4768-2.jpg?201112120103" name="The Durmstrang Ship with Bonus Minifigures"/>
+  <set ID="4840" imageURL="https://images.brickset.com/sets/small/4840-1.jpg?201009010138" name="The Burrow"/>
+  <set ID="4841" imageURL="https://images.brickset.com/sets/small/4841-1.jpg?201009301136" name="Hogwarts Express"/>
+  <set ID="4842" imageURL="https://images.brickset.com/sets/small/4842-1.jpg?201009010137" name="Hogwarts Castle"/>
+  <set ID="4865" imageURL="https://images.brickset.com/sets/small/4865-1.jpg?201103240404" name="The Forbidden Forest"/>
+  <set ID="4866" imageURL="https://images.brickset.com/sets/small/4866-1.jpg?201103240404" name="The Knight Bus"/>
+  <set ID="4867" imageURL="https://images.brickset.com/sets/small/4867-1.jpg?201103240404" name="Hogwarts"/>
+  <set ID="5378" imageURL="https://images.brickset.com/sets/small/5378-1.jpg?200704270313" name="Hogwarts Castle"/>
+  <set ID="10132" imageURL="https://images.brickset.com/sets/small/10132-1.jpg?200402040157" name="Motorised Hogwarts Express"/>
+  <set ID="10217" imageURL="https://images.brickset.com/sets/small/10217-1.jpg?201012240436" name="Diagon Alley"/>
+  <set ID="11923" imageURL="https://images.brickset.com/sets/small/11923-1.jpg?202006220843" name="Harry Potter: Build Your Own Adventure parts"/>
+  <set ID="30110" imageURL="https://images.brickset.com/sets/small/30110-1.jpg?201104020824" name="Trolley"/>
+  <set ID="30111" imageURL="https://images.brickset.com/sets/small/30111-1.jpg?201104020824" name="The Lab"/>
+  <set ID="30407" imageURL="https://images.brickset.com/sets/small/30407-1.jpg?201810030355" name="Harry's Journey to Hogwarts"/>
+  <set ID="30420" imageURL="https://images.brickset.com/sets/small/30420-1.jpg?202004220927" name="Harry Potter and Hedwig: Owl Delivery"/>
+  <set ID="30628" imageURL="https://images.brickset.com/sets/small/30628-1.jpg?202010160256" name="Monster Book of Monsters"/>
+  <set ID="40028" imageURL="https://images.brickset.com/sets/small/40028-1.jpg?201605160905" name="Mini Hogwarts Express"/>
+  <set ID="40289" imageURL="https://images.brickset.com/sets/small/40289-1.jpg?201810250747" name="Diagon Alley"/>
+  <set ID="40419" imageURL="https://images.brickset.com/sets/small/40419-1.jpg?202005210622" name="Hogwarts Students Accessory Set"/>
+  <set ID="65524" imageURL="https://images.brickset.com/sets/small/65524-1.jpg?201208300429" name="Motorised Hogwarts Express super pack"/>
+  <set ID="71043" imageURL="https://images.brickset.com/sets/small/71043-1.jpg?201807250319" name="Hogwarts Castle"/>
+  <set ID="75945" imageURL="https://images.brickset.com/sets/small/75945-1.jpg?201905140825" name="Expecto Patronum"/>
+  <set ID="75946" imageURL="https://images.brickset.com/sets/small/75946-1.jpg?201905140825" name="Hungarian Horntail Triwizard Challenge"/>
+  <set ID="75947" imageURL="https://images.brickset.com/sets/small/75947-1.jpg?201905140825" name="Hagrid's Hut: Buckbeak's Rescue"/>
+  <set ID="75948" imageURL="https://images.brickset.com/sets/small/75948-1.jpg?201905140825" name="Hogwarts Clock Tower"/>
+  <set ID="75950" imageURL="https://images.brickset.com/sets/small/75950-1.jpg?201806220833" name="Aragog's Lair"/>
+  <set ID="75951" imageURL="https://images.brickset.com/sets/small/75951-1.jpg?201805260756" name="Grindelwald's Escape"/>
+  <set ID="75952" imageURL="https://images.brickset.com/sets/small/75952-1.jpg?201807130816" name="Newt's Case of Magical Creatures"/>
+  <set ID="75953" imageURL="https://images.brickset.com/sets/small/75953-1.jpg?201805260756" name="Hogwarts Whomping Willow"/>
+  <set ID="75954" imageURL="https://images.brickset.com/sets/small/75954-1.jpg?201805260756" name="Hogwarts Great Hall"/>
+  <set ID="75955" imageURL="https://images.brickset.com/sets/small/75955-1.jpg?201807101202" name="Hogwarts Express"/>
+  <set ID="75956" imageURL="https://images.brickset.com/sets/small/75956-1.jpg?201805260756" name="Quidditch Match"/>
+  <set ID="75957" imageURL="https://images.brickset.com/sets/small/75957-1.jpg?201905140825" name="The Knight Bus"/>
+  <set ID="75958" imageURL="https://images.brickset.com/sets/small/75958-1.jpg?201907130955" name="Beauxbatons' Carriage: Arrival at Hogwarts"/>
+  <set ID="75964" imageURL="https://images.brickset.com/sets/small/75964-1.jpg?201911251110" name="Harry Potter Advent Calendar"/>
+  <set ID="75965" imageURL="https://images.brickset.com/sets/small/75965-1.jpg?201907130955" name="The Rise of Voldemort"/>
+  <set ID="75966" imageURL="https://images.brickset.com/sets/small/75966-1.jpg?202004290912" name="Hogwarts Room of Requirement"/>
+  <set ID="75967" imageURL="https://images.brickset.com/sets/small/75967-1.jpg?202004290913" name="Forbidden Forest: Umbridge's Encounter"/>
+  <set ID="75968" imageURL="https://images.brickset.com/sets/small/75968-1.jpg?202004290913" name="4 Privet Drive"/>
+  <set ID="75969" imageURL="https://images.brickset.com/sets/small/75969-1.jpg?202004290910" name="Hogwarts Astronomy Tower"/>
+  <set ID="75978" imageURL="https://images.brickset.com/sets/small/75978-1.jpg?202008131156" name="Diagon Alley"/>
+  <set ID="75979" imageURL="https://images.brickset.com/sets/small/75979-1.jpg?202004290914" name="Hedwig"/>
+  <set ID="75980" imageURL="https://images.brickset.com/sets/small/75980-1.jpg?202004290909" name="Attack on The Burrow"/>
+  <set ID="75981" imageURL="https://images.brickset.com/sets/small/75981-1.jpg?202007220507" name="Harry Potter Advent Calendar"/>
+  <set ID="76382" imageURL="https://images.brickset.com/sets/small/76382-1.jpg?202009130335" name="Hogwarts Moment: Transfiguration Class"/>
+  <set ID="76383" imageURL="https://images.brickset.com/sets/small/76383-1.jpg?202009130335" name="Hogwarts Moment: Potions Class"/>
+  <set ID="76384" imageURL="https://images.brickset.com/sets/small/76384-1.jpg?202009130335" name="Hogwarts Moment: Herbology Class"/>
+  <set ID="76385" imageURL="https://images.brickset.com/sets/small/76385-1.jpg?202009130335" name="Hogwarts Moment: Charms Class"/>
+  <set ID="5005254" imageURL="https://images.brickset.com/sets/small/5005254-1.jpg?201808220510" name="Harry Potter Minifigure Collection"/>
+  <set ID="HOGEXP" imageURL="https://images.brickset.com/sets/small/HOGEXP-1.jpg?202011271009" name="Hogwarts Express"/>
+  <set ID="HPG01" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Harry Potter Minifigure Collection Gallery 1"/>
+  <set ID="HPG02" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Harry Potter Minifigure Collection Gallery 2"/>
+  <set ID="HPG03" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Harry Potter Minifigure Collection Gallery 3"/>
+  <set ID="HPG04" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Harry Potter Minifigure Collection Gallery 4"/>
+  <set ID="HPSDCC1" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Harry Potter Minifigure"/>
+  <set ID="HPWAND" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Wand"/>
+  <set ID="KCCHP" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Harry Potter Coca Cola Gift Set"/>
+  <set ID="KNIGHTBUS" imageURL="https://images.brickset.com/sets/small/KNIGHTBUS-1.jpg?201910020904" name="Knight Bus"/>
+  <set ID="SDCC2011" imageURL="https://images.brickset.com/sets/small/VSDCC1-1.jpg?201203260257" name="Voldemort Minifigure"/>
+  <set ID="SNITCH" imageURL="https://images.brickset.com/sets/small/SNITCH-1.jpg?201908011044" name="Golden Snitch"/>
+  <set ID="TRU01" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Quidditch Tower (TRU Event Exclusive)"/>
+  <set ID="TRUWEASLEYCAR" imageURL="https://images.brickset.com/sets/small/TRUWEASLEYCAR-1.jpg?202004220921" name="The Weasley's car"/>
+</data>

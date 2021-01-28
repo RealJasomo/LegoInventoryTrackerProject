@@ -1,0 +1,107 @@
+<data>
+  <set ID="2063" imageURL="https://images.brickset.com/sets/small/2063-1.jpg?201012221113" name="Stormer 2.0"/>
+  <set ID="2065" imageURL="https://images.brickset.com/sets/small/2065-1.jpg?201012221113" name="Furno 2.0"/>
+  <set ID="2067" imageURL="https://images.brickset.com/sets/small/2067-1.jpg?201012221113" name="Evo 2.0"/>
+  <set ID="2068" imageURL="https://images.brickset.com/sets/small/2068-1.jpg?201012221114" name="Nex 2.0"/>
+  <set ID="2141" imageURL="https://images.brickset.com/sets/small/2141-1.jpg?201012221117" name="Surge 2.0"/>
+  <set ID="2142" imageURL="https://images.brickset.com/sets/small/2142-1.jpg?201012221111" name="Breez 2.0"/>
+  <set ID="2143" imageURL="https://images.brickset.com/sets/small/2143-1.jpg?201103240411" name="Rocka 3.0"/>
+  <set ID="2144" imageURL="https://images.brickset.com/sets/small/2144-1.jpg?201103240403" name="Nex 3.0"/>
+  <set ID="2145" imageURL="https://images.brickset.com/sets/small/2145-1.jpg?201103240403" name="Stormer 3.0"/>
+  <set ID="2182" imageURL="https://images.brickset.com/sets/small/2182-1.jpg?201103240404" name="Bulk 3.0"/>
+  <set ID="2183" imageURL="https://images.brickset.com/sets/small/2183-1.jpg?201103240404" name="Stringer 3.0"/>
+  <set ID="2191" imageURL="https://images.brickset.com/sets/small/2191-1.jpg?201103240404" name="Furno 3.0"/>
+  <set ID="2192" imageURL="https://images.brickset.com/sets/small/2192-1.jpg?201012221112" name="Drilldozer"/>
+  <set ID="2193" imageURL="https://images.brickset.com/sets/small/2193-1.jpg?201012221114" name="Jetbug"/>
+  <set ID="2194" imageURL="https://images.brickset.com/sets/small/2194-1.jpg?201012030327" name="Nitroblast"/>
+  <set ID="2231" imageURL="https://images.brickset.com/sets/small/2231-1.jpg?201104131147" name="Waspix"/>
+  <set ID="2232" imageURL="https://images.brickset.com/sets/small/2232-1.jpg?201104131147" name="Raw-Jaw"/>
+  <set ID="2233" imageURL="https://images.brickset.com/sets/small/2233-1.jpg?201104131147" name="Fangz"/>
+  <set ID="2235" imageURL="https://images.brickset.com/sets/small/2235-1.jpg?201012030327" name="Fire Lord"/>
+  <set ID="2236" imageURL="https://images.brickset.com/sets/small/2236-1.jpg?201104131147" name="Scorpio"/>
+  <set ID="2282" imageURL="https://images.brickset.com/sets/small/2282-1.jpg?201104131147" name="Rocka XL"/>
+  <set ID="2283" imageURL="https://images.brickset.com/sets/small/2283-1.jpg?201012241200" name="Witch Doctor"/>
+  <set ID="6200" imageURL="https://images.brickset.com/sets/small/6200-2.jpg?201111060252" name="EVO"/>
+  <set ID="6201" imageURL="https://images.brickset.com/sets/small/6201-1.jpg?201111060252" name="TOXIC REAPA"/>
+  <set ID="6202" imageURL="https://images.brickset.com/sets/small/6202-1.jpg?201111060252" name="ROCKA"/>
+  <set ID="6203" imageURL="https://images.brickset.com/sets/small/6203-1.jpg?201111060252" name="BLACK PHANTOM"/>
+  <set ID="6216" imageURL="https://images.brickset.com/sets/small/6216-1.jpg?201111060252" name="JAWBLADE"/>
+  <set ID="6217" imageURL="https://images.brickset.com/sets/small/6217-1.jpg?201111060252" name="SURGE"/>
+  <set ID="6218" imageURL="https://images.brickset.com/sets/small/6218-1.jpg?201111060252" name="SPLITFACE"/>
+  <set ID="6221" imageURL="https://images.brickset.com/sets/small/6221-1.jpg?201205240413" name="NEX"/>
+  <set ID="6222" imageURL="https://images.brickset.com/sets/small/6222-1.jpg?201205240413" name="CORE HUNTER"/>
+  <set ID="6223" imageURL="https://images.brickset.com/sets/small/6223-1.jpg?201205240413" name="BULK"/>
+  <set ID="6227" imageURL="https://images.brickset.com/sets/small/6227-1.jpg?201111060252" name="BREEZ"/>
+  <set ID="6228" imageURL="https://images.brickset.com/sets/small/6228-1.jpg?201111060253" name="THORNRAXX"/>
+  <set ID="6229" imageURL="https://images.brickset.com/sets/small/6229-1.jpg?201205240413" name="XT4"/>
+  <set ID="6230" imageURL="https://images.brickset.com/sets/small/6230-1.jpg?201205240413" name="STORMER XL"/>
+  <set ID="6231" imageURL="https://images.brickset.com/sets/small/6231-1.jpg?201205240413" name="SPEEDA DEMON"/>
+  <set ID="6282" imageURL="https://images.brickset.com/sets/small/6282-1.jpg?201205240413" name="STRINGER"/>
+  <set ID="6283" imageURL="https://images.brickset.com/sets/small/6283-1.jpg?201205240413" name="VOLTIX"/>
+  <set ID="6293" imageURL="https://images.brickset.com/sets/small/6293-1.jpg?201111060253" name="Furno"/>
+  <set ID="7145" imageURL="https://images.brickset.com/sets/small/7145-1.jpg?201006240313" name="Von Nebula"/>
+  <set ID="7147" imageURL="https://images.brickset.com/sets/small/7147-1.jpg?201006240313" name="XPlode"/>
+  <set ID="7148" imageURL="https://images.brickset.com/sets/small/7148-1.jpg?201006240313" name="Meltdown"/>
+  <set ID="7156" imageURL="https://images.brickset.com/sets/small/7156-1.jpg?201006240313" name="Corroder"/>
+  <set ID="7157" imageURL="https://images.brickset.com/sets/small/7157-1.jpg?201006240313" name="Thunder"/>
+  <set ID="7158" imageURL="https://images.brickset.com/sets/small/7158-1.jpg?201006240313" name="Furno Bike"/>
+  <set ID="7160" imageURL="https://images.brickset.com/sets/small/7160-1.jpg?201006240313" name="Drop Ship"/>
+  <set ID="7162" imageURL="https://images.brickset.com/sets/small/7162-1.jpg?201006240313" name="Rotor"/>
+  <set ID="7164" imageURL="https://images.brickset.com/sets/small/7164-1.jpg?201006240313" name="Preston Stormer"/>
+  <set ID="7165" imageURL="https://images.brickset.com/sets/small/7165-1.jpg?201006240313" name="Natalie Breez"/>
+  <set ID="7167" imageURL="https://images.brickset.com/sets/small/7167-1.jpg?201006240313" name="William Furno"/>
+  <set ID="7168" imageURL="https://images.brickset.com/sets/small/7168-1.jpg?201006240313" name="Duncan Bulk"/>
+  <set ID="7169" imageURL="https://images.brickset.com/sets/small/7169-1.jpg?201006240313" name="Mark Surge"/>
+  <set ID="7170" imageURL="https://images.brickset.com/sets/small/7170-2.jpg?201006240313" name="Jimi Stringer"/>
+  <set ID="7179" imageURL="https://images.brickset.com/sets/small/7179-1.jpg?201006270420" name="Bulk and Vapour"/>
+  <set ID="40084" imageURL="https://images.brickset.com/sets/small/40084-1.jpg?201306270515" name="Accessory Pack"/>
+  <set ID="40116" imageURL="https://images.brickset.com/sets/small/40116-1.jpg?201402251015" name="Hero Robot"/>
+  <set ID="40117" imageURL="https://images.brickset.com/sets/small/40117-1.jpg?201503061007" name="Villains Minimodel"/>
+  <set ID="44000" imageURL="https://images.brickset.com/sets/small/44000-1.jpg?201210110439" name="FURNO XL"/>
+  <set ID="44001" imageURL="https://images.brickset.com/sets/small/44001-1.jpg?201210110439" name="PYROX"/>
+  <set ID="44002" imageURL="https://images.brickset.com/sets/small/44002-1.jpg?201210110439" name="ROCKA"/>
+  <set ID="44003" imageURL="https://images.brickset.com/sets/small/44003-1.jpg?201210110439" name="SCAROX"/>
+  <set ID="44004" imageURL="https://images.brickset.com/sets/small/44004-1.jpg?201210110439" name="BULK"/>
+  <set ID="44005" imageURL="https://images.brickset.com/sets/small/44005-1.jpg?201210110439" name="BRUIZER"/>
+  <set ID="44006" imageURL="https://images.brickset.com/sets/small/44006-1.jpg?201210110439" name="BREEZ"/>
+  <set ID="44007" imageURL="https://images.brickset.com/sets/small/44007-1.jpg?201210110439" name="OGRUM"/>
+  <set ID="44008" imageURL="https://images.brickset.com/sets/small/44008-1.jpg?201212280456" name="SURGE"/>
+  <set ID="44009" imageURL="https://images.brickset.com/sets/small/44009-1.jpg?201212280456" name="DRAGON BOLT"/>
+  <set ID="44010" imageURL="https://images.brickset.com/sets/small/44010-1.jpg?201212280456" name="STORMER"/>
+  <set ID="44011" imageURL="https://images.brickset.com/sets/small/44011-1.jpg?201212280457" name="FROST BEAST"/>
+  <set ID="44012" imageURL="https://images.brickset.com/sets/small/44012-1.jpg?201302030939" name="EVO"/>
+  <set ID="44013" imageURL="https://images.brickset.com/sets/small/44013-1.jpg?201302030939" name="AQUAGON"/>
+  <set ID="44014" imageURL="https://images.brickset.com/sets/small/44014-1.jpg?201302030939" name="JET ROCKA"/>
+  <set ID="44015" imageURL="https://images.brickset.com/sets/small/44015-1.jpg?201312240439" name="EVO Walker"/>
+  <set ID="44016" imageURL="https://images.brickset.com/sets/small/44016-1.jpg?201312250245" name="JAW Beast vs. STORMER"/>
+  <set ID="44017" imageURL="https://images.brickset.com/sets/small/44017-1.jpg?201311120828" name="STORMER Freeze Machine"/>
+  <set ID="44018" imageURL="https://images.brickset.com/sets/small/44018-1.jpg?201311120828" name="FURNO Jet Machine"/>
+  <set ID="44019" imageURL="https://images.brickset.com/sets/small/44019-1.jpg?201311120828" name="ROCKA Stealth Machine"/>
+  <set ID="44020" imageURL="https://images.brickset.com/sets/small/44020-1.jpg?201311120828" name="FLYER Beast vs. BREEZ"/>
+  <set ID="44021" imageURL="https://images.brickset.com/sets/small/44021-1.jpg?201311120828" name="SPLITTER Beast vs. FURNO &amp; EVO"/>
+  <set ID="44022" imageURL="https://images.brickset.com/sets/small/44022-1.jpg?201311120828" name="EVO XL Machine"/>
+  <set ID="44023" imageURL="https://images.brickset.com/sets/small/44023-1.jpg?201406040323" name="ROCKA Crawler"/>
+  <set ID="44024" imageURL="https://images.brickset.com/sets/small/44024-1.jpg?201406040323" name="TUNNELER Beast vs. SURGE"/>
+  <set ID="44025" imageURL="https://images.brickset.com/sets/small/44025-1.jpg?201406040323" name="BULK Drill Machine"/>
+  <set ID="44026" imageURL="https://images.brickset.com/sets/small/44026-1.jpg?201406040323" name="CRYSTAL Beast vs. BULK"/>
+  <set ID="44027" imageURL="https://images.brickset.com/sets/small/44027-1.jpg?201406040323" name="BREEZ Flea Machine"/>
+  <set ID="44028" imageURL="https://images.brickset.com/sets/small/44028-1.jpg?201406040323" name="SURGE &amp; ROCKA Combat Machine"/>
+  <set ID="44029" imageURL="https://images.brickset.com/sets/small/44029-1.jpg?201406040323" name="QUEEN Beast vs. FURNO, EVO &amp; STORMER"/>
+  <set ID="66404" imageURL="https://images.brickset.com/sets/small/66404-1.jpg?201210080440" name="Super Pack 2-in-1"/>
+  <set ID="66406" imageURL="https://images.brickset.com/sets/small/66406-1.jpg?201312031031" name="Value Pack"/>
+  <set ID="66407" imageURL="https://images.brickset.com/sets/small/66407-1.jpg?201312031031" name="Value Pack"/>
+  <set ID="66414" imageURL="https://images.brickset.com/sets/small/66414-1.jpg?201209240347" name="Super Pack 2-in-1"/>
+  <set ID="66437" imageURL="https://images.brickset.com/sets/small/66437-1.jpg?201209240350" name="Furno, Jawblade Mission Pack"/>
+  <set ID="66445" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66446" imageURL="https://brickset.com/assets/images/misc/blankbox.gif" name="Bonus/Value Pack"/>
+  <set ID="66452" imageURL="https://images.brickset.com/sets/small/66452-1.jpg?201209240351" name="Stringer, Voltix Mission Pack"/>
+  <set ID="66471" imageURL="https://images.brickset.com/sets/small/66471-1.jpg?201306170526" name="Super Pack 2-in-1"/>
+  <set ID="66481" imageURL="https://images.brickset.com/sets/small/66481-1.jpg?201309300341" name="Ultimate Stormer"/>
+  <set ID="66482" imageURL="https://images.brickset.com/sets/small/66482-1.jpg?201311170411" name="Bonus/Value Pack"/>
+  <set ID="66483" imageURL="https://images.brickset.com/sets/small/66483-1.jpg?201311170411" name="Bonus/Value Pack"/>
+  <set ID="66484" imageURL="https://images.brickset.com/sets/small/66484-1.jpg?201311170411" name="Bonus/Value Pack"/>
+  <set ID="66485" imageURL="https://images.brickset.com/sets/small/66485-1.jpg?201311170412" name="Bonus/Value Pack"/>
+  <set ID="66488" imageURL="https://images.brickset.com/sets/small/66488-1.jpg?201312031031" name="Ultimate Evo"/>
+  <set ID="4648933" imageURL="https://images.brickset.com/sets/small/4648933-1.jpg?201204080234" name="{Hero Factory Accessory Pack}"/>
+  <set ID="4659607" imageURL="https://images.brickset.com/sets/small/4659607-1.jpg?201204240318" name="{Booster Pack}"/>
+</data>
