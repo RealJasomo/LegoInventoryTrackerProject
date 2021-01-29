@@ -42,11 +42,11 @@ class UserCollection extends Component {
             <>
             <div id="favorites">
                     <h1 className={styles.marginLeft}>Favorites:</h1>
-                    <CollectionComponent />
+                    <CollectionComponent data={this.state.favorites}/>
                 </div>
                 <div id="owned">
                     <h1 className={styles.marginLeft}>Collection:</h1>
-                    <CollectionComponent />
+                    <CollectionComponent data={this.state.owned}/>
             </div>
             </>
         )
