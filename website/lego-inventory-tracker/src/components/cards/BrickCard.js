@@ -28,7 +28,10 @@ export default class BrickCard extends Component {
                   Brick {this.props.id}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                Color: {this.props.color}&nbsp;&nbsp;&nbsp;Name: {this.props.name}
+                Color: {this.props.color}
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                Name: {this.props.name}
                 </Typography>
               </CardContent>
             </CardActionArea>

@@ -17,7 +17,7 @@ exports.legoBricksList = (req, res) => {
             return;
         }
         const request = new sql.Request();
-        request.query('SELECT TOP(50) ID, ImageURL, Name, Color FROM LegoBrick', (err, rs) => {
+        request.query('SELECT TOP(1000) ID, ImageURL, Name, Color FROM LegoBrick', (err, rs) => {
             if(err)
                 console.log(err);
             res.json({data:rs.recordset});

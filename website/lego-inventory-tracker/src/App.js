@@ -38,17 +38,17 @@ class App extends Component {
     }
     const models = () => {
       if(this.props.auth.token)
-        return <UserCollection component={ModelCollection} />
+        return <UserCollection component={ModelCollection} type="models"/>
       return <ModelCollection />
     }
     const sets = () => {
       if(this.props.auth.token)
-        return <UserCollection component={SetCollection} />
+        return <UserCollection component={SetCollection} type="sets"/>
       return <SetCollection />
     }
     const bricks = () => {
       if(this.props.auth.token)
-        return <UserCollection component={BrickCollection} />
+        return <UserCollection component={BrickCollection} type="bricks"/>
       return <BrickCollection />
     }
     return (

@@ -10,6 +10,9 @@ var legoBrickController = require('./controllers/LegoBrickController');
 
 //Middleware
 var loginAttemptLimiter = require('./middleware/loginAttempt');
+var authorization = require('./middleware/Authorization');
+
+
 // Lego Brick Routes //
 
 // GET all bricks

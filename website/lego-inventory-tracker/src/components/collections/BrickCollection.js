@@ -2,8 +2,12 @@ import styles from '../../css/Collection.module.css'
 import React, { Component } from 'react'
 import {BrickCard} from '../cards'
 import axios from 'axios'
+import PropTypes from 'prop-types'
 
 export default class BrickCollection extends Component {
+    static propTypes = {
+        data: PropTypes.array
+    }
     constructor(props){
         super(props);
         this.state = {
@@ -20,7 +24,6 @@ export default class BrickCollection extends Component {
         .then((res) => {
             console.log(res.data.data);
             this.setState({
-                ...this.state,
                 data: res.data.data
             })
         })
@@ -30,12 +33,15 @@ export default class BrickCollection extends Component {
     }
 
     render() {
-        const bricks = this.state.data.map((data, idx) => {
+        const bricks = () =>{ 
+        var data = this.props.data || this.state.data;
+        return data.map((data, idx) => {
             return <BrickCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} />
         });
+    }
         return (
             <div className={styles.flex}>
-                {bricks}
+                {bricks()}
             </div>
         )
     }
