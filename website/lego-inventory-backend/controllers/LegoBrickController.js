@@ -10,7 +10,20 @@
 
 //return all lego bricks ROUTE:: /api/bricks/
 exports.legoBricksList = (req, res) => {
-    res.send('NOT IMPLEMENTED YET all brick informations');
+    sql.connect(config, (err) => {
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.query('SELECT TOP(50) ID, ImageURL, Name, Color FROM LegoBrick', (err, rs) => {
+            if(err)
+                console.log(err);
+            res.json({data:rs.recordset});
+            return;
+        });
+    });
 };
 
 //return count :count lego bricks of page :page   ROUTE:: /api/bricks/:page/:count

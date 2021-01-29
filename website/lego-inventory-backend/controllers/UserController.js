@@ -24,7 +24,7 @@ var attempts = require('../middleware/loginAttempt').attempts;
     sql.connect(config, (err) => {
       if(err){
          console.log(err);
-         res.status(400).send("database connection error");
+         res.status(500).send("database connection error");
          return;
       }else{
          const request = new sql.Request();
