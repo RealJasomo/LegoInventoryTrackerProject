@@ -2,13 +2,16 @@ import styles from '../css/Usercollection.module.css'
 import React, { Component } from 'react'
 import axios from 'axios'
 import {connect} from 'react-redux'
-
+import {Modal} from '@material-ui/core'
+import {AddCard} from './cards'
 class UserCollection extends Component {
     constructor(props){
         super(props);
         this.state = {
             favorites: [],
-            owned: []
+            owned: [],
+            openFavorite: false,
+            openOwned: false
         }
     }
     
@@ -40,13 +43,33 @@ class UserCollection extends Component {
         const CollectionComponent = this.props.component;
         return (
             <>
+            <Modal aria-labelledby="modal-title"
+                open={this.state.openFavorite}
+                onClose={()=>this.setState({openFavorite: false})}>
+                <div className={styles.paper}>
+                    <h1 id="modal-title">Add new favorited brick to your collection:</h1>
+                </div>
+            </Modal>
+            <Modal aria-labelledby="modal-title"
+                open={this.state.openOwned}
+                onClose={()=>this.setState({openOwned: false})}>
+                <div className={styles.paper}>
+                    <h1 id="modal-title">Add new brick to your collection:</h1>
+                </div>
+            </Modal>
             <div id="favorites">
                     <h1 className={styles.marginLeft}>Favorites:</h1>
-                    <CollectionComponent data={this.state.favorites}/>
+                    <div className={styles.flex}>
+                        <AddCard onClick={()=>this.setState({openFavorite: true})} />
+                        <CollectionComponent data={this.state.favorites}/>
+                    </div>
                 </div>
                 <div id="owned">
                     <h1 className={styles.marginLeft}>Collection:</h1>
-                    <CollectionComponent data={this.state.owned}/>
+                    <div className={styles.flex}>
+                        <AddCard onClick={()=>this.setState({openOwned: true})} />
+                        <CollectionComponent data={this.state.owned}/>
+                    </div>
             </div>
             </>
         )
