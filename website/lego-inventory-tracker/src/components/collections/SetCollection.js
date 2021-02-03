@@ -1,14 +1,48 @@
 import styles from '../../css/Collection.module.css'
 import React, { Component } from 'react'
 import {SetCard} from '../cards'
+import axios from 'axios'
+import PropTypes from 'prop-types'
 
 export default class SetCollection extends Component {
+    static propTypes = {
+        data: PropTypes.array
+    }
+    constructor(props){
+        super(props);
+        this.state = {
+            data: []
+        }
+    }   
+    
+    componentDidMount(){
+        this.fetchSets();
+    }
+
+    fetchSets() {
+        axios.get(process.env.REACT_APP_API_ENDPOINT+'/api/sets')
+        .then((res) => {
+            console.log(res.data.data);
+            this.setState({
+                data: res.data.data
+            })
+        })
+        .catch((err) => {
+            console.log(err);
+        })
+    }
+
     render() {
-        return (
-            <div className={styles.flex}>
-                <SetCard id="3005" url="https://img.bricklink.com/ItemImage/PN/11/3005.png" name="1 x 1"/>
-                <SetCard id="3003" url="https://img.bricklink.com/ItemImage/PN/7/3003.png" name="2 x 2"/>
-            </div>
-        )
+        const sets = () =>{ 
+            var data = this.props.data || this.state.data;
+            return data.map((data, idx) => {
+                return <SetCard key={idx} id={data.ID} url={data.ImageURL} name={data.Name} />
+            });
+        }
+            return (
+                <div className={styles.flex}>
+                    {sets()}
+                </div>
+            )
     }
 }

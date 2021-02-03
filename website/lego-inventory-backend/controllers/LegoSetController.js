@@ -9,7 +9,21 @@
 
   //return all lego Sets ROUTE:: /api/sets/
 exports.legoSetsList = (req, res) => {
-    res.send('NOT IMPLEMENTED YET all Set informations');
+    //res.send('NOT IMPLEMENTED YET all Set informations');
+    sql.connect(config, (err) => {
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.query('SELECT TOP(1000) ID, ImageURL, Name FROM LegoSet', (err, rs) => {
+            if(err)
+                console.log(err);
+            res.json({data:rs.recordset});
+            return;
+        });
+    });
 };
 
 //return count :count lego Sets of page :page   ROUTE:: /api/sets/:page/:count
