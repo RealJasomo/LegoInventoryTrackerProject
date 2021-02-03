@@ -21,7 +21,7 @@ class UserCollection extends Component {
                 'Authorization': `Bearer ${this.props.auth.token}`
             }
         }).then((res) => {
-            this.state.favorites = res.data.data;
+            this.setState({favorites: res.data.data});
         }).catch((err) => {
             console.log(err);
         });
@@ -33,7 +33,7 @@ class UserCollection extends Component {
                 'Authorization': `Bearer ${this.props.auth.token}`
             }
         }).then((res) => {
-            this.state.owned = res.data.data;
+            this.setState({owned: res.data.data})
         }).catch((err) => {
             console.log(err);
         });

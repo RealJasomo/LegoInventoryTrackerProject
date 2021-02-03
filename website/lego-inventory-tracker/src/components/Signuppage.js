@@ -1,6 +1,6 @@
 import styles from '../css/Loginpage.module.css'
 import React, { Component } from 'react'
-import {TextField, Link, Button, Typography, CssBaseline, Container} from '@material-ui/core'
+import {TextField, Button, Typography, CssBaseline, Container} from '@material-ui/core'
 import axios from 'axios'
 import { connect } from 'react-redux'
 import { setToken } from '../store/actions/actions'

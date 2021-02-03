@@ -3,9 +3,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import {Card, 
         CardActionArea, 
-        CardContent,
-        CardMedia,
-        Typography} from '@material-ui/core'
+        CardContent} from '@material-ui/core'
 import AddCircleIcon from '@material-ui/icons/AddCircle'
 export default class AddCard extends Component {
     static propTypes = {
