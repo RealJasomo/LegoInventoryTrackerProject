@@ -24,10 +24,10 @@ export default class SetCard extends Component {
               />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
-                  Set {this.props.id}
+                  {this.props.name}
                 </Typography>
                 <Typography variant="body2" color="textSecondary" component="p">
-                  Name: {this.props.name}
+                  Set ID: {this.props.id}
                 </Typography>
               </CardContent>
             </CardActionArea>
