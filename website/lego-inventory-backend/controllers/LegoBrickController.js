@@ -30,7 +30,26 @@ exports.legoBricksList = (req, res) => {
 exports.legoBricksListByPageCount = (req, res) => {
     var page = req.params.page;
     var count = req.params.count;
-    res.send(`NOT IMPLEMENTED YET bricks page ${page} of ${count} bricks per page`);
+    sql.connect(config, (err) =>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('targetPage', sql.Int, page);
+        request.input('itemsPerPage', sql.Int, count);
+        request.execute('getPaginatedBricks', (err, rs) =>{
+            if(err){
+                res.status(500).json({error: "Error getting bricks"});
+                console.log(err);
+                return;
+             }
+             res.json({
+                 data: rs.recordset
+             });
+        })
+    })
 };
 
 //return brick information with id :brickID ROUTE:: /api/brick/:id

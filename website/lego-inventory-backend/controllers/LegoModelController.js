@@ -9,7 +9,20 @@
 
  //return all lego Models ROUTE:: /api/models/
 exports.legoModelsList = (req, res) => {
-    res.send('NOT IMPLEMENTED YET all Model informations');
+    sql.connect(config, (err) => {
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.query('SELECT TOP(1000) ID, ImageURL, Name, SetID FROM LegoModel', (err, rs) => {
+            if(err)
+                console.log(err);
+            res.json({data:rs.recordset});
+            return;
+        });
+    });
 };
 
 //return count :count lego Models of page :page   ROUTE:: /api/models/:page/:count
