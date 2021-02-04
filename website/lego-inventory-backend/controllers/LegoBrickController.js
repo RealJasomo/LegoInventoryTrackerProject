@@ -52,10 +52,28 @@ exports.legoBricksListByPageCount = (req, res) => {
     })
 };
 
-//return brick information with id :brickID ROUTE:: /api/brick/:id
+//return brick information with id :brickID ROUTE:: /api/brick?id=id
 exports.legoBrickInformation = (req, res) =>{
-    var brickID = req.params.id;
-    res.send(`NOT IMPLEMENTED YET brick information ${brickID}`)
+    var brickID = req.query.id;
+    sql.connect(config, (err) => {
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('id', sql.VarChar(20), brickID);
+        request.query('SELECT ID, ImageURL, Name, Color FROM LegoBrick WHERE ID=@id', (err, rs) =>{
+            if(err){
+                res.status(500).json({error: "Error getting brick; brick could not be found"});
+                console.log(err);
+                return;
+            }
+            res.json({
+                data: rs.recordset
+            });
+        })
+    })
 };
 
 //Post user wants lego brick with id :brickid ROUTE:: /api/brick/wants/:brickid

@@ -22,13 +22,13 @@ router.get('/bricks', legoBrickController.legoBricksList);
 router.get('/bricks/:page/:count', legoBrickController.legoBricksListByPageCount);
 
 //GET brick information with id
-router.get('/brick/:id', legoBrickController.legoBrickInformation);
+router.get('/brick', legoBrickController.legoBrickInformation);
 
 //POST wants brick with id
-router.post('/brick/wants/:brickid', legoBrickController.wantsLegoBrick);
+router.post('/brick/wants', legoBrickController.wantsLegoBrick);
 
 //POST owns brick with id
-router.post('/brick/owns/:brickid', legoBrickController.ownsLegoBrick);
+router.post('/brick/owns', legoBrickController.ownsLegoBrick);
 
 // Lego Model Routes //
 
