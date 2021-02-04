@@ -82,9 +82,9 @@ router.post('/users/login',loginAttemptLimiter.loginAttempt,userController.login
 router.post('/users/create', userController.createUser);
 
 //PUT update password
-router.put('/users/updatePassword', userController.updateUserPassword);
+router.put('/users/updatePassword', authorization.authorize, userController.updateUserPassword);
 
 //DELETE delete user
-router.delete('/users/delete', userController.deleteUser);
+router.delete('/users/delete', authorization.authorize, userController.deleteUser);
 
 module.exports = router;

@@ -92,10 +92,55 @@ var attempts = require('../middleware/loginAttempt').attempts;
 
  //Update password ROUTE:: /api/users/updatePassword
  exports.updateUserPassword = (req, res) => {
-    res.send('NOT IMPLEMENTED YET update password');
+    sql.connect(config, (err) => {
+      if(err){
+         console.log(err);
+         res.status(500).send("database connection error");
+         return;
+      }
+      const request = new sql.Request()
+      request.input('Username', sql.VarChar(20), req.user);
+      bcrypt.hash(req.body.password, 13, (err, hash) => {
+         if(err){
+            console.log(err);
+            res.status(500).json({error: err});
+            return;
+         }
+         request.input('Password', sql.NVarChar(70), hash);
+         request.execute('update_User', (err, _) => {
+            if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               message: "sucessfully updated password"
+           });
+         })
+      })
+    });
  }
 
  //Delete user ROUTE:: /api/users/delete
  exports.deleteUser = (req, res) => {
-    res.send('NOT IMPLEMENTED YET delete user');
+   sql.connect(config, (err) => {
+      if(err){
+         console.log(err);
+         res.status(500).send("database connection error");
+         return;
+      }
+      const request = new sql.Request()
+      request.input('Username', sql.VarChar(20), req.user);
+      request.execute('delete_User', (err, _) => {
+            if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               message: "sucessfully deleted account"
+           });
+         })
+      
+    });
  }
