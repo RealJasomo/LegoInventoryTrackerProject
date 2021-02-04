@@ -5,11 +5,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  Link,
+  Redirect
 } from "react-router-dom";
-import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage, UserCollection } from './components'
+import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage, UserCollection, Profile } from './components'
 import {AppBar, Toolbar,  IconButton, Typography, 
         Button, Drawer, List, ListItem, ListItemIcon, ListItemText, SvgIcon} from '@material-ui/core'
+import AccountCircleIcon from '@material-ui/icons/AccountCircle'
 import MenuIcon from '@material-ui/icons/Menu'
 import { setToken } from './store/actions/actions'
 import {connect} from 'react-redux'
@@ -76,6 +78,14 @@ class App extends Component {
                       onKeyDown={this.toggleDrawer(false)}
                     >
                        <List>
+                        {this.props.auth.token ? 
+                          <Link to={`/profile`} className={styles.link}>
+                            <ListItem button>
+                              <AccountCircleIcon />
+                              <ListItemText primary="&nbsp;&nbsp;&nbsp;Profile" />
+                            </ListItem>
+                          </Link>
+                          :<></>}
                         {['Bricks', 'Models', 'Sets'].map((text, index, arr) => (
                           <Link to={`/${arr[index].toLowerCase()}`} className={styles.link} key={text}>
                             <ListItem button>
@@ -121,6 +131,11 @@ class App extends Component {
             <Switch>
               <Route path="/signup">
                 <SignUpPage />
+              </Route>
+            </Switch>
+            <Switch>
+              <Route path="/profile">
+                {this.props.auth.token?<Profile />:<Redirect to={{pathname:'/'}}/>}
               </Route>
             </Switch>
         </div>
