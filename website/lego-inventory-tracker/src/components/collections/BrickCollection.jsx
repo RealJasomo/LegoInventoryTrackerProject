@@ -1,6 +1,7 @@
 import styles from '../../css/Collection.module.css'
 import React, { Component } from 'react'
 import {BrickCard} from '../cards'
+import InfiniteScroll from 'react-infinite-scroll-component'
 import axios from 'axios'
 import PropTypes from 'prop-types'
 
@@ -11,7 +12,8 @@ export default class BrickCollection extends Component {
     constructor(props){
         super(props);
         this.state = {
-            data: []
+            data: [],
+            page: 1
         }
     }   
     
@@ -20,18 +22,18 @@ export default class BrickCollection extends Component {
     }
 
     fetchBricks() {
-        axios.get(process.env.REACT_APP_API_ENDPOINT+'/api/bricks')
+        axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/bricks/${this.state.page}/50`)
         .then((res) => {
             console.log(res.data.data);
             this.setState({
-                data: res.data.data
+                data: this.state.data.concat(res.data.data),
+                page: this.state.page+1
             })
         })
         .catch((err) => {
             console.log(err);
         })
     }
-
     render() {
         const bricks = () =>{ 
         var data = this.props.data || this.state.data;
@@ -40,9 +42,20 @@ export default class BrickCollection extends Component {
         });
     }
         return (
+            <InfiniteScroll
+            dataLength={this.props.data||this.state.data.length} 
+            next={this.props.data?()=>{}:this.fetchBricks.bind(this)}
+            hasMore={true}
+            loader={<h4>Loading...</h4>}
+            endMessage={
+                <p style={{ textAlign: 'center' }}>
+                <b>Yay! You have seen it all</b>
+                </p>
+            }>
             <div className={styles.flex}>
                 {bricks()}
             </div>
+            </InfiniteScroll>
         )
     }
 }
