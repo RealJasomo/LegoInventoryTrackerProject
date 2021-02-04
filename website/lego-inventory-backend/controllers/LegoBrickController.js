@@ -76,14 +76,56 @@ exports.legoBrickInformation = (req, res) =>{
     })
 };
 
-//Post user wants lego brick with id :brickid ROUTE:: /api/brick/wants/:brickid
+//Post user wants lego brick with id :brickid ROUTE:: /api/brick/wants?id=id
 exports.wantsLegoBrick = (req, res) => {
-    var brickID = req.params.brickid;
-    res.send(`NOT IMPLEMENTED YET wants brick ${brickID}`);
+    var brickID = req.query.id;
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20),req.user);
+        request.input('LegoBrick', sql.VarChar(20), brickID);
+        request.input('Quantity', sql.Int, req.body.quantity);
+        request.execute('insert_WantsBrick', (err, _)=>{
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Wants added sucessfully', 
+             });
+        })
+    })
+    
 };
 
-//Post user owns lego brick with id :brickid   ROUTE:: /api/brick/owns/:brickid
+//Post user owns lego brick with id :brickid   ROUTE:: /api/brick/owns?id=id
 exports.ownsLegoBrick = (req, res) => {
-    var brickID = req.params.brickid;
-    res.send(`NOT IMPLEMENTED YET owns brick ${brickID}`);
+    var brickID = req.query.id;
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20),req.user);
+        request.input('LegoBrick', sql.VarChar(20), brickID);
+        request.input('Quantity', sql.Int, req.body.quantity);
+        request.input('QuantityInUse', sql.Int, req.body.quantityInUse);
+        request.execute('insert_OwnsIndividualBrick', (err, _)=>{
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Owns added sucessfully', 
+             });
+        })
+    })
 };

@@ -25,10 +25,10 @@ router.get('/bricks/:page/:count', legoBrickController.legoBricksListByPageCount
 router.get('/brick', legoBrickController.legoBrickInformation);
 
 //POST wants brick with id
-router.post('/brick/wants', legoBrickController.wantsLegoBrick);
+router.post('/brick/wants', authorization.authorize, legoBrickController.wantsLegoBrick);
 
 //POST owns brick with id
-router.post('/brick/owns', legoBrickController.ownsLegoBrick);
+router.post('/brick/owns', authorization.authorize, legoBrickController.ownsLegoBrick);
 
 // Lego Model Routes //
 
