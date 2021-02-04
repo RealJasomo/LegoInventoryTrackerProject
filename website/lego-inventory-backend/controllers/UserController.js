@@ -98,27 +98,43 @@ var attempts = require('../middleware/loginAttempt').attempts;
          res.status(500).send("database connection error");
          return;
       }
-      const request = new sql.Request()
+      var request = new sql.Request();
       request.input('Username', sql.VarChar(20), req.user);
-      bcrypt.hash(req.body.password, 13, (err, hash) => {
+      request.execute('login_User', (err, result) => {
          if(err){
+            res.status(403).json({error: "Error attempting to login the user, please try again"});
             console.log(err);
-            res.status(500).json({error: err});
             return;
          }
-         request.input('Password', sql.NVarChar(70), hash);
-         request.execute('update_User', (err, _) => {
-            if(err){
-               res.status(500).json({error: err});
-               console.log(err);
+         const hashedPass = result.recordset[0].hashpassword;
+         bcrypt.compare(req.body.oldPassword, hashedPass, (err, same) => {
+            if(err || !same){
+               res.status(403).json({error: "Unable to verify credentials"});
                return;
-           }
-           res.json({
-               message: "sucessfully updated password"
-           });
-         })
+            }
+            request = new sql.Request()
+            request.input('Username', sql.VarChar(20), req.user);
+            bcrypt.hash(req.body.newPassword, 13, (err, hash) => {
+               if(err){
+                  console.log(err);
+                  res.status(500).json({error: err});
+                  return;
+               }
+               request.input('Password', sql.NVarChar(70), hash);
+               request.execute('update_User', (err, _) => {
+                  if(err){
+                     res.status(500).json({error: err});
+                     console.log(err);
+                     return;
+               }
+               res.json({
+                     message: "sucessfully updated password"
+               });
+               })
+            });
+         });
       })
-    });
+      }) 
  }
 
  //Delete user ROUTE:: /api/users/delete

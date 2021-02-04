@@ -12,7 +12,7 @@
 
 .update {
     width: 20vw;
-    margin-bottom: 15px;
+    margin-bottom: 15px !important;
     align-self: flex-end;
 }
 
@@ -54,4 +54,25 @@
     .update {
         width: 25vw;
     }
+}
+
+.paper{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 15px;
+    width: 70vw;
+    background-color: white;
+    box-shadow: 10px 10px 30px #666;
+}
+.modalButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 30px 0px;
+}
+
+.marginRight{
+    margin-right: 15px !important;
 }
