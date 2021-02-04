@@ -1,0 +1,57 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 15px 15px;
+}
+
+.text {
+    margin: 15px 0px 15px 3em !important;
+}
+
+.update {
+    width: 20vw;
+    margin-bottom: 15px;
+    align-self: flex-end;
+}
+
+.delete {
+    margin: 15px;
+    flex-grow: 0;
+    flex-basis: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex{
+        width: 90%;
+        margin: 0px auto;
+    }
+    .text {
+        margin: 15px 0px !important;
+    }
+    
+    .update {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .flex{
+        width: 70%;
+        margin: 0px auto;
+    }
+    .update {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .flex{
+        width: 60%;
+        margin: 0px auto;
+    }
+    .update {
+        width: 25vw;
+    }
+}
