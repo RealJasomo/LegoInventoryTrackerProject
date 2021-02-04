@@ -33,6 +33,9 @@ router.post('/brick/owns', authorization.authorize, legoBrickController.ownsLego
 //GET owned bricks 
 router.get('/brick/owns', authorization.authorize, legoBrickController.getOwnedBricks);
 
+//GET wanted bricks 
+router.get('/brick/wants', authorization.authorize, legoBrickController.getWantedBricks);
+
 // Lego Model Routes //
 
 // GET all models
