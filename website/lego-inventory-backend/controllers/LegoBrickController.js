@@ -129,3 +129,26 @@ exports.ownsLegoBrick = (req, res) => {
         })
     })
 };
+
+ //Get the Owned Bricks from a user  ROUTE:: /api/brick/owns
+ exports.getOwnedBricks = (req, res) =>{
+     sql.connect(config, (err)=>{
+         if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+         }
+         const request = new sql.Request();
+         request.input('userName', sql.VarChar(20), req.user);
+         request.execute('getOwnedBricks', (err, rs) =>{
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+            }
+            res.json({
+                data: rs.recordset
+            });
+         });
+     })
+ }

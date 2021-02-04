@@ -30,6 +30,9 @@ router.post('/brick/wants', authorization.authorize, legoBrickController.wantsLe
 //POST owns brick with id
 router.post('/brick/owns', authorization.authorize, legoBrickController.ownsLegoBrick);
 
+//GET owned bricks 
+router.get('/brick/owns', authorization.authorize, legoBrickController.getOwnedBricks);
+
 // Lego Model Routes //
 
 // GET all models
