@@ -62,16 +62,16 @@ router.get('/sets', legoSetController.legoSetsList);
 router.get('/sets/:page/:count', legoSetController.legoSetsListByPageCount);
 
 //GET set information with id
-router.get('/set/:id', legoSetController.legoSetInformation);
+router.get('/set', legoSetController.legoSetInformation);
 
 //GET included bricks from set with id
 router.get('/set/:setid/includes', legoSetController.legoSetIncludes);
 
 //POST wants set with id
-router.post('/set/wants', legoSetController.wantsLegoSet);
+router.post('/set/wants', authorization.authorize, legoSetController.wantsLegoSet);
 
 //POST owns set with id
-router.post('/set/owns', legoSetController.ownsLegoSet);
+router.post('/set/owns', authorization.authorize, legoSetController.ownsLegoSet);
 
 //GET owned sets 
 router.get('/set/owns', authorization.authorize, legoSetController.getOwnedSets);

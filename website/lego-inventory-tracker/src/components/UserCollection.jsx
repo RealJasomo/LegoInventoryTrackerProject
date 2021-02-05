@@ -40,7 +40,8 @@ class UserCollection extends Component {
                 "Content-Type": "application/json"
             },
             data: {
-                quantity: this.state.favoriteQuantity
+                quantity: this.state.favoriteQuantity,
+                id: this.state.favoriteItem
 
             }
         }).then((res) => {
@@ -65,7 +66,8 @@ class UserCollection extends Component {
             },
             data: {
                 quantity: this.state.ownedQuantity,
-                quantityInUse: 0
+                quantityInUse: 0,
+                id: this.state.ownedItem
             }
         }).then((res) => {
             console.log('completed successfully')
@@ -78,7 +80,6 @@ class UserCollection extends Component {
         var urlString = this.props.type.split('s')
         if(this.props.type === "sets"){
             urlString = ['set']
-            console.log('yes')
         } 
         axios.get(`${process.env.REACT_APP_API_ENDPOINT}/api/${urlString[0]}/wants`, {
             headers:{
@@ -231,8 +232,7 @@ class UserCollection extends Component {
                     <h1 className={styles.marginLeft}>Favorites:</h1>
                     <div className={styles.flex}>
                         <AddCard onClick={()=>this.setState({openFavorite: true})} />
-                    <CollectionComponent data={this.state.favorites}/>
-
+                        <CollectionComponent data={this.state.favorites}/>
                     </div>
                 </div>
                 <div id="owned">

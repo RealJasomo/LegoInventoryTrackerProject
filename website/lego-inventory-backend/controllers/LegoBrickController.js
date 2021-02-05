@@ -80,7 +80,6 @@ exports.legoBrickInformation = (req, res) =>{
 exports.wantsLegoBrick = (req, res) => {
     var brickID = req.query.id
     //var brickID = req.body.favID
-    console.log('entering');
     sql.connect(config, (err)=>{
         if(err){
             console.log(err);

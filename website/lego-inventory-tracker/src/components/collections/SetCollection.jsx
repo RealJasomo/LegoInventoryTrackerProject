@@ -25,7 +25,6 @@ export default class SetCollection extends Component {
     fetchSets() {
         axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/sets/${this.state.page}/50`)
         .then((res) => {
-            console.log(res.data.data);
             this.setState({
                 data: this.state.data.concat(res.data.data),
                 page: this.state.page+1
