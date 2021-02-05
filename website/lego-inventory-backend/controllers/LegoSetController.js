@@ -70,7 +70,28 @@ exports.legoSetInformation = (req, res) =>{
 //Post user wants set with id :setid   ROUTE:: /api/set/wants/:id
 exports.wantsLegoSet = (req, res) => {
     var setID = req.params.setid;
-    res.send(`NOT IMPLEMENTED YET wants Set ${setID}`);
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20),req.user);
+        request.input('LegoSet', sql.VarChar(20), setID);
+        request.input('Quantity', sql.Int, req.body.quantity);
+        
+        request.execute('insert_WantsSet', (err, _)=>{
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Wants added sucessfully', 
+             });
+        })
+    })
 };
 
 //Post user owns set with id :setid   ROUTE:: /api/set/owns/:id

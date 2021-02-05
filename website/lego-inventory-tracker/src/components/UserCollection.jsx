@@ -41,6 +41,7 @@ class UserCollection extends Component {
             },
             data: {
                 quantity: this.state.favoriteQuantity
+
             }
         }).then((res) => {
             console.log('completed successfully')
@@ -230,7 +231,8 @@ class UserCollection extends Component {
                     <h1 className={styles.marginLeft}>Favorites:</h1>
                     <div className={styles.flex}>
                         <AddCard onClick={()=>this.setState({openFavorite: true})} />
-                        <CollectionComponent data={this.state.favorites}/>
+                    <CollectionComponent data={this.state.favorites}/>
+
                     </div>
                 </div>
                 <div id="owned">
