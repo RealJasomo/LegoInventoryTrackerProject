@@ -78,7 +78,9 @@ exports.legoBrickInformation = (req, res) =>{
 
 //Post user wants lego brick with id :brickid ROUTE:: /api/brick/wants?id=id
 exports.wantsLegoBrick = (req, res) => {
-    var brickID = req.query.id;
+    var brickID = req.query.id
+    //var brickID = req.body.favID
+    console.log('entering');
     sql.connect(config, (err)=>{
         if(err){
             console.log(err);
@@ -89,6 +91,7 @@ exports.wantsLegoBrick = (req, res) => {
         request.input('Username', sql.VarChar(20),req.user);
         request.input('LegoBrick', sql.VarChar(20), brickID);
         request.input('Quantity', sql.Int, req.body.quantity);
+        
         request.execute('insert_WantsBrick', (err, _)=>{
             if(err){
                 res.status(500).json({error: err});

@@ -30,8 +30,30 @@ exports.legoSetsList = (req, res) => {
 exports.legoSetsListByPageCount = (req, res) => {
     var page = req.params.page;
     var count = req.params.count;
-    res.send(`NOT IMPLEMENTED YET Sets page ${page} of ${count} Sets per page`);
+    //res.send(`NOT IMPLEMENTED YET Sets page ${page} of ${count} Sets per page`);
+    sql.connect(config, (err) =>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('targetPage', sql.Int, page);
+        request.input('itemsPerPage', sql.Int, count);
+        request.execute('getPaginatedSets', (err, rs) =>{
+            if(err){
+                res.status(500).json({error: "Error getting sets"});
+                console.log(err);
+                return;
+             }
+             res.json({
+                 data: rs.recordset
+             });
+        })
+    })
 };
+
+
 
 //return included lego brick ids and quantities  for set with id :setid ROUTE:: /api/set/:setid/includes
 exports.legoSetIncludes = (req, res) => {
@@ -39,20 +61,86 @@ exports.legoSetIncludes = (req, res) => {
     res.send(`NOT IMPLEMENTED YET set ${setID} includes ....`);
 };
 
-//Post user own set with id :setid ROUTE:: /api/set/:setid
+//Post user own set with id :setid ROUTE:: /api/set/:id
 exports.legoSetInformation = (req, res) =>{
     var setID = req.params.setid;
     res.send(`NOT IMPLEMENTED YET Set information ${setID}`)
 };
 
-//Post user wants set with id :setid   ROUTE:: /api/set/wants/:setid
+//Post user wants set with id :setid   ROUTE:: /api/set/wants/:id
 exports.wantsLegoSet = (req, res) => {
     var setID = req.params.setid;
     res.send(`NOT IMPLEMENTED YET wants Set ${setID}`);
 };
 
-//Post user owns set with id :setid   ROUTE:: /api/set/owns/:setid
+//Post user owns set with id :setid   ROUTE:: /api/set/owns/:id
 exports.ownsLegoSet = (req, res) => {
-    var setID = req.params.setid;
-    res.send(`NOT IMPLEMENTED YET owns Set ${setID}`);
+    var setID = req.query.id;
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20),req.user);
+        request.input('LegoSet', sql.VarChar(20), setID);
+        request.input('Quantity', sql.Int, req.body.quantity);
+        request.execute('insert_OwnsSet', (err, _)=>{
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Owns added sucessfully', 
+             });
+        })
+    })
 };
+
+//Get the wanted Sets from a user  ROUTE:: /api/set/wants
+exports.getWantedSets = (req, res) =>{
+    sql.connect(config, (err)=>{
+        if(err){
+           console.log(err);
+           res.status(500).send("database connection error");
+           return;
+        }
+        const request = new sql.Request();
+        request.input('userName', sql.VarChar(20), req.user);
+        request.execute('getWantedSets', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset
+           });
+        });
+    })
+}
+
+ //Get the Owned sets from a user  ROUTE:: /api/set/owns
+ exports.getOwnedSets = (req, res) =>{
+    sql.connect(config, (err)=>{
+        if(err){
+           console.log(err);
+           res.status(500).send("database connection error");
+           return;
+        }
+        const request = new sql.Request();
+        request.input('userName', sql.VarChar(20), req.user);
+        request.execute('getOwnedSets', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset
+           });
+        });
+    })
+}
