@@ -1,4 +1,6 @@
+import os
 from dataclasses import dataclass
+from io import StringIO
 
 import selenium
 from selenium import webdriver
@@ -24,7 +26,7 @@ class BrickInfo:
 
 def getBrickInfo(printLogs):
     # go to website
-    browser.get('https://brickset.com/parts/category-System')
+    browser.get('https://brickset.com/parts/category-Technic')
     time.sleep(3)
     # change the results per page to 500
     browser.execute_script("window.scrollTo(0, document.body.scrollHeight);")
@@ -35,10 +37,10 @@ def getBrickInfo(printLogs):
     data = etree.Element('data')
 
     # iterate through pages, populating the arrays
-    for j in range(1, 73):
+    for j in range(1, 8):
         brick = BrickInfo
         time.sleep(1)
-        browser.get('https://brickset.com/parts/category-System/page-' + str(j))
+        browser.get('https://brickset.com/parts/category-Technic/page-' + str(j))
         time.sleep(4)
         if printLogs:
             print('PAGE NUMBER' + str(j))
@@ -89,7 +91,7 @@ def getBrickInfo(printLogs):
             legoBrickXML.set('name', brick.name)
             legoBrickXML.set('color', brick.color)
             xmlDataString = etree.tostring(data, pretty_print=True)
-            xmlFile = open(str(datetime.date.today()) + "-LegoBrickData.xml", "wb")
+            xmlFile = open(str(datetime.date.today()) + "-LegoBrickDataTechnic.xml", "wb")
             xmlFile.write(xmlDataString)
 
     return 0
@@ -101,60 +103,109 @@ class SetBrick:
     designID: int
     quantity: int
 
+def getSetContents(directory, printLogs):
+    for file in os.listdir(directory):
+        filename = os.fsdecode(file)
+        tree = etree.parse(directory + filename)
+        root = tree.getroot()
+        for element in root:
+            setID = element.get("ID")
+            setName = element.get("name")
+            browser.get('https://brickset.com/sets/' + str(setID) + '-1')
+            time.sleep(2)
 
-# Input: set ID
-def getSetContents(inputID, printLogs):
-    browser.get('https://brickset.com/inventories/' + str(inputID) + '-1')
-    time.sleep(5)
+            data = etree.Element('data')
 
-    data = etree.Element('data')
+            i = 1
+            setBrick = SetBrick
+            brickCount = 0
+            waitTime = 1
+            partsPage = -1
 
-    i = 1
-    ads = 1
-    setBrick = SetBrick
-    while 1:
-        # main case, where we're just iterating through bricks
-        try:
-            elementID = browser.find_element_by_xpath('/html/body/div[' + str(ads) + ']/div/div[1]/section/table/tbody/tr[' + str(i) + ']/td[1]/a').text
-            if printLogs:
-               print('ELEMENT ID IS ' + elementID)
-            qty = browser.find_element_by_xpath(
-                '/html/body/div[' + str(ads) + ']/div/div[1]/section/table/tbody/tr[' + str(i) + ']/td[3]').text
-            if printLogs:
-                print('QTY IS ' + qty)
-            designID = browser.find_element_by_xpath(
-                '/html/body/div[' + str(ads) + ']/div/div[1]/section/table/tbody/tr[' + str(i) + ']/td[6]/a').text
-            if printLogs:
-                ('DESIGN ID IS '+designID)
+            try:
+                if browser.find_element_by_xpath('/html/body/div[1]/div/div/section/div[1]/ul/li[1]/a').text.split(' ', 1)[0] == 'PARTS':
+                    partsPage = 1
+                elif browser.find_element_by_xpath('/html/body/div[1]/div/div/section/div[1]/ul/li[2]/a').text.split(' ', 1)[0] == 'PARTS':
+                    partsPage = 2
+                elif browser.find_element_by_xpath('/html/body/div[1]/div/div/section/div[1]/ul/li[3]/a').text.split(' ', 1)[0] == 'PARTS':
+                    partsPage = 3
+                elif browser.find_element_by_xpath('/html/body/div[1]/div/div/section/div[1]/ul/li[4]/a').text.split(' ', 1)[0] == 'PARTS':
+                    partsPage = 4
+                elif browser.find_element_by_xpath('/html/body/div[1]/div/div/section/div[1]/ul/li[5]/a').text.split(' ', 1)[0] == 'PARTS':
+                    partsPage = 4
+            except selenium.common.exceptions.NoSuchElementException:
+                partsPage = -1
 
-            setBrick.elementID = elementID
-            setBrick.designID = designID
-            setBrick.quantity = qty
+            if partsPage == -1:
+                print("Parts page not found")
+                continue
 
-            i += 1
+            browser.find_element_by_xpath('/html/body/div[1]/div/div/section/div[1]/ul/li[' + str(partsPage) + ']/a').click()
+            time.sleep(1.5)
 
-            legoSetContentsXML = etree.SubElement(data, 'brick')
-            legoSetContentsXML.set('elementID', setBrick.elementID)
-            legoSetContentsXML.set('designID', setBrick.designID)
-            legoSetContentsXML.set('quantity', setBrick.quantity)
-            xmlDataString = etree.tostring(data, pretty_print=True)
-            xmlFile = open(str(datetime.date.today()) + "-LegoSet" + str(inputID) + "Data.xml", "wb")
-            xmlFile.write(xmlDataString)
-        except selenium.common.exceptions.NoSuchElementException:
-            if ads == 1:
-                print('ads loaded badly, updating xpaths')
-                ads = 2
-            elif ads == 2:
-                print('brick/row not found, ending')
-                return 0
+            while 1:
+                # main case, where we're just iterating through bricks
+                try:
+                    elementID = browser.find_element_by_xpath(
+                        '/html/body/div[1]/div/div/section/div[1]/div[' + str(partsPage) + ']/section/article[' + str(i) + ']/div[3]/div[1]/a[1]').text
+                    if printLogs:
+                       print('ELEMENT ID IS ' + elementID)
 
-        # legoSetContentsXML = etree.SubElement(data, 'brick')
-        # legoSetContentsXML.set('elementID', setBrick.elementID)
-        # legoSetContentsXML.set('designID', setBrick.designID)
-        # legoSetContentsXML.set('setID', inputID)
-        # xmlDataString = etree.tostring(data, pretty_print=True)
-        # xmlFile = open(str(datetime.date.today()) + "-LegoSetContents.xml", "wb")
-        # xmlFile.write(xmlDataString)
+                    qty = browser.find_element_by_xpath(
+                        '/html/body/div[1]/div/div/section/div[1]/div[' + str(partsPage) + ']/section/article[' + str(i) + ']/div[1]').text.split('x', 1)[0]
+                    if printLogs:
+                        print('QTY IS ' + qty)
+
+                    designID = browser.find_element_by_xpath(
+                        '/html/body/div[1]/div/div/section/div[1]/div[' + str(partsPage) + ']/section/article[' + str(i) + ']/div[3]/div[1]/a[2]').text
+                    if printLogs:
+                        ('DESIGN ID IS '+designID)
+
+                    setBrick.elementID = elementID
+                    setBrick.designID = designID
+                    setBrick.quantity = qty
+                    brickCount += int(qty)
+                    i += 1
+
+                    legoSetContentsXML = etree.SubElement(data, 'brick')
+                    legoSetContentsXML.set('elementID', setBrick.elementID)
+                    legoSetContentsXML.set('designID', setBrick.designID)
+                    legoSetContentsXML.set('quantity', setBrick.quantity)
+                    xmlDataString = etree.tostring(data, pretty_print=True)
+                    xmlFile = open("../scrapedData/SetContains/" + str(datetime.date.today()) + "-LegoSet-" + str(setID) + "-contents-" + "Data.xml", "wb")
+                    xmlFile.write(xmlDataString)
+                except selenium.common.exceptions.NoSuchElementException:
+                    if brickCount == 0 and waitTime < 15:
+                        time.sleep(1)
+                        waitTime += 1
+                        continue
+                    legoSetContentsXML = etree.SubElement(data, 'brickCount')
+                    legoSetContentsXML.set('acquired', str(brickCount))
+
+                    piecesIndex = 0
+                    while piecesIndex < 15:
+                        try:
+                            piecesIndex += 1
+                            if browser.find_element_by_xpath('/html/body/div[1]/div/aside/section[2]/div/dl/dt[' + str(piecesIndex) + ']').text == 'PIECES':
+                                break
+                        except selenium.common.exceptions.NoSuchElementException:
+                            piecesIndex = -1
+                            print("PieceIndex not found")
+                            break
+
+                    if piecesIndex == -1:
+                        setFullBrickCount = -1
+                    else:
+                        try:
+                            setFullBrickCount = browser.find_element_by_xpath('/html/body/div[1]/div/aside/section[2]/div/dl/dd[' + str(piecesIndex) + ']/a').text
+                        except selenium.common.exceptions.NoSuchElementException:
+                            setFullBrickCount = browser.find_element_by_xpath('/html/body/div[1]/div/aside/section[2]/div/dl/dd[' + str(piecesIndex) + ']').text
+                    legoSetContentsXML.set('totalInSet', str(setFullBrickCount))
+                    xmlDataString = etree.tostring(data, pretty_print=True)
+                    xmlFile = open("../scrapedData/SetContains/" + str(datetime.date.today()) + "-LegoSet-" + str(setID) + "-contents-" + "Data.xml", "wb")
+                    xmlFile.write(xmlDataString)
+                    print('brick/row not found, ending')
+                    break
 
     return 0
 
@@ -330,9 +381,12 @@ baseThemes = ['Adventurers', 'Agents', 'Alpha-Team', 'Aqua-Raiders', 'Aquazone',
 # Universal-Building-Set seems too old TODO: look at this
 # Znap is missing parts
 
+option = webdriver.ChromeOptions()
 
-baseID = '7191'
-browser = webdriver.Chrome()  # chrome_options=options)
+option.add_extension(r'.\uBlockOrigin_1_31_2_0.crx')
+
+browser = webdriver.Chrome(options=option)
+
 holder = [0]
 
 # To call getBrickInfo:
@@ -342,5 +396,5 @@ holder = [0]
 # getSetInfo(baseThemes, True)
 
 # to call getSetContents:
-# base ID is a random starwars set, make sure you do NOT include the -1 that brickset appends to id's
-getSetContents(baseID, True)
+directory = "../scrapedData/Sets/"
+getSetContents(directory, True)

@@ -1,0 +1,36 @@
+<data>
+  <brick elementID="241226" designID="2412" quantity="2"/>
+  <brick elementID="302226" designID="3022" quantity="2"/>
+  <brick elementID="366026" designID="3660" quantity="2"/>
+  <brick elementID="368026" designID="3680" quantity="1"/>
+  <brick elementID="371026" designID="3710" quantity="4"/>
+  <brick elementID="4188534" designID="4871" quantity="1"/>
+  <brick elementID="4535739" designID="63868" quantity="2"/>
+  <brick elementID="4558954" designID="87087" quantity="2"/>
+  <brick elementID="4632571" designID="4081" quantity="2"/>
+  <brick elementID="6020193" designID="99780" quantity="1"/>
+  <brick elementID="6051038" designID="15456" quantity="2"/>
+  <brick elementID="6058341" designID="44375" quantity="1"/>
+  <brick elementID="6081988" designID="18274" quantity="1"/>
+  <brick elementID="6092585" designID="15573" quantity="3"/>
+  <brick elementID="4184169" designID="6628" quantity="1"/>
+  <brick elementID="4159007" designID="3022" quantity="3"/>
+  <brick elementID="4177932" designID="3023" quantity="4"/>
+  <brick elementID="6092599" designID="15573" quantity="2"/>
+  <brick elementID="6147052" designID="15535" quantity="2"/>
+  <brick elementID="4226876" designID="48336" quantity="1"/>
+  <brick elementID="4210635" designID="2420" quantity="2"/>
+  <brick elementID="4210660" designID="2540" quantity="1"/>
+  <brick elementID="4210848" designID="3070" quantity="1"/>
+  <brick elementID="4218696" designID="47457" quantity="2"/>
+  <brick elementID="6123814" designID="22890" quantity="2"/>
+  <brick elementID="4540203" designID="3679" quantity="1"/>
+  <brick elementID="4654582" designID="99781" quantity="1"/>
+  <brick elementID="6043656" designID="14704" quantity="5"/>
+  <brick elementID="4598527" designID="92280" quantity="2"/>
+  <brick elementID="6001609" designID="10238" quantity="2"/>
+  <brick elementID="6032360" designID="13564" quantity="3"/>
+  <brick elementID="6046381" designID="15208" quantity="2"/>
+  <brick elementID="6052824" designID="11090" quantity="1"/>
+  <brickCount acquired="64" totalInSet="64"/>
+</data>

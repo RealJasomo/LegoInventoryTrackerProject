@@ -1,5 +1,7 @@
 import dbServices.DatabaseConnectionService;
 import dbServices.InsertBrick;
+import dbServices.InsertSet;
+import dbServices.InsertSetData;
 import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.w3c.dom.Node;
@@ -15,13 +17,22 @@ public class Main {
 	{
 		DatabaseConnectionService dcs = new DatabaseConnectionService("titan.csse.rose-hulman.edu", "LegoInventoryTracker");
 		dcs.connect("lego_application", "[FO>i9l7.)XDJ^(6L*:_:Yj,SNh3n");
-		InsertBrick insertBrick = new InsertBrick(dcs);
 
+//		insertBricks(dcs);
+//		insertSets(dcs);
+		insertSetData(dcs);
+
+		dcs.closeConnection();
+	}
+
+	private static void insertBricks(DatabaseConnectionService dcs)
+	{
+		InsertBrick insertBrick = new InsertBrick(dcs);
 		NodeList nodeList = null;
-		
+
 		try
 		{
-			File file = new File("../scrapedData/2021-01-26-LegoBrickData.xml");
+			File file = new File("../scrapedData/Bricks/2021-02-05-LegoBrickDataTechnic.xml");
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			Document doc = db.parse(file);
@@ -50,8 +61,89 @@ public class Main {
 				}
 			}
 		}
-
-		dcs.closeConnection();
 	}
 
+	private static void insertSets(DatabaseConnectionService dcs)
+	{
+		InsertSet insertSet = new InsertSet(dcs);
+		Document doc = null;
+
+		try
+		{
+			File folder = new File("../scrapedData/Sets");
+			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+			DocumentBuilder db = dbf.newDocumentBuilder();
+			for(File file : folder.listFiles())
+			{
+				doc = db.parse(file);
+				doc.getDocumentElement().normalize();
+				NodeList nodeList = doc.getElementsByTagName("set");
+				for (int i = 0; i < nodeList.getLength(); i++) {
+					Node node = nodeList.item(i);
+					if (node.getNodeType() == Node.ELEMENT_NODE) {
+						Element element = (Element) node;
+						String id = element.getAttribute("ID");
+						String imageURL = element.getAttribute("imageURL");
+						String name = element.getAttribute("name");
+//						System.out.println("ID: " + id + " imageURL: " + imageURL + " name: " + name + " color: ");
+						insertSet.addSet(id, imageURL, name);
+					}
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+
+	private static void insertSetData(DatabaseConnectionService dcs)
+	{
+		InsertSetData insertSetData = new InsertSetData(dcs);
+		Document doc = null;
+
+		try
+		{
+			File folder = new File("../scrapedData/SetContains");
+			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+			DocumentBuilder db = dbf.newDocumentBuilder();
+			for(File file : folder.listFiles())
+			{
+				String setID = file.getName().split("-")[4];
+				doc = db.parse(file);
+				doc.getDocumentElement().normalize();
+				Element brickCountElement = (Element) doc.getElementsByTagName("brickCount").item(0);
+				int acquired = Integer.parseInt(brickCountElement.getAttribute("acquired"));
+				int totalInSet = Integer.parseInt(brickCountElement.getAttribute("totalInSet"));
+				if(acquired == 0)
+				{
+					continue;
+				}
+				else if(totalInSet < 50 && (float)acquired / totalInSet < .7)
+				{
+					continue;
+				}
+				else if((float)acquired / totalInSet < .8)
+				{
+					continue;
+				}
+//				System.out.println("percentComplete:" + (float)acquired / totalInSet);
+				NodeList nodeList = doc.getElementsByTagName("brick");
+				for (int i = 0; i < nodeList.getLength(); i++) {
+					Node node = nodeList.item(i);
+					if (node.getNodeType() == Node.ELEMENT_NODE) {
+						Element element = (Element) node;
+						String legoBrick = element.getAttribute("elementID") + '/' + element.getAttribute("designID");
+						int quantity = Integer.parseInt(element.getAttribute("quantity"));
+						System.out.println("setID: " + setID + " legoBrick: " + legoBrick + " quantity: " + quantity);
+						insertSetData.addBrick(setID, legoBrick, quantity);
+					}
+				}
+			}
+		}
+		catch (Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
 }

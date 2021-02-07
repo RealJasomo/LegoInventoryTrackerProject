@@ -14,16 +14,16 @@ public class InsertSet {
 		this.dbService = dbService;
 	}
 
-	public boolean addSet(String id, String imageURL, String name, String color) {
+	public boolean addSet(String id, String imageURL, String name)
+	{
 		Connection con = this.dbService.getConnection();
 		CallableStatement cs;
 		try {
-			cs = con.prepareCall("{ ? = call insert_LegoBrick(@ID = ?, @ImageURL = ?, @Name = ?, @Color = ?) }");
+			cs = con.prepareCall("{ ? = call insert_LegoSet(@ID = ?, @ImageURL = ?, @Name = ?) }");
 			cs.registerOutParameter(1,  Types.INTEGER);
 			cs.setString(2, id);
 			cs.setString(3, imageURL);
 			cs.setString(4,  name);
-			cs.setString(5, color);
 			
 			cs.execute();
 			
@@ -33,12 +33,12 @@ public class InsertSet {
 				if(returnValue == 1) {
 					errorString = "The @ID is null. It must not be null.";
 				} else if (returnValue == 2) {
-					errorString = "A brick with the ID @ID already exists in the LegoBrick table.";
+					errorString = "A set with the ID "+id+" already exists in the LegoSet table.";
 				} else {
 					errorString = "Unknown error.";
 				}
 				errorString = errorString + " Error: " + returnValue;
-				JOptionPane.showMessageDialog(null, errorString);
+				System.out.println(errorString);
 				return false;
 			}
 			

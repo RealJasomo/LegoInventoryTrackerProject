@@ -1,0 +1,35 @@
+<data>
+  <brick elementID="235726" designID="2357" quantity="4"/>
+  <brick elementID="242026" designID="2420" quantity="4"/>
+  <brick elementID="244526" designID="2445" quantity="4"/>
+  <brick elementID="246526" designID="2465" quantity="12"/>
+  <brick elementID="300526" designID="3005" quantity="12"/>
+  <brick elementID="300826" designID="3008" quantity="12"/>
+  <brick elementID="301026" designID="3010" quantity="8"/>
+  <brick elementID="302026" designID="3020" quantity="1"/>
+  <brick elementID="416226" designID="4162" quantity="20"/>
+  <brick elementID="428226" designID="4282" quantity="8"/>
+  <brick elementID="614126" designID="6141" quantity="877"/>
+  <brick elementID="4558170" designID="63864" quantity="8"/>
+  <brick elementID="6116990" designID="2458" quantity="24"/>
+  <brick elementID="6174917" designID="11212" quantity="4"/>
+  <brick elementID="6302092" designID="65803" quantity="9"/>
+  <brick elementID="6302093" designID="55819" quantity="1"/>
+  <brick elementID="6316472" designID="69536" quantity="1"/>
+  <brick elementID="4121715" designID="2780" quantity="44"/>
+  <brick elementID="6302094" designID="67139" quantity="2"/>
+  <brick elementID="4157103" designID="6141" quantity="125"/>
+  <brick elementID="242021" designID="2420" quantity="6"/>
+  <brick elementID="614121" designID="6141" quantity="286"/>
+  <brick elementID="6319958" designID="6141" quantity="92"/>
+  <brick elementID="6315780" designID="6141" quantity="200"/>
+  <brick elementID="4210633" designID="6141" quantity="151"/>
+  <brick elementID="6021623" designID="6141" quantity="447"/>
+  <brick elementID="4211525" designID="6141" quantity="110"/>
+  <brick elementID="6314247" designID="6141" quantity="328"/>
+  <brick elementID="6315783" designID="6141" quantity="139"/>
+  <brick elementID="6038201" designID="6141" quantity="271"/>
+  <brick elementID="302201" designID="3022" quantity="9"/>
+  <brick elementID="614101" designID="6141" quantity="187"/>
+  <brickCount acquired="3406" totalInSet="3406"/>
+</data>

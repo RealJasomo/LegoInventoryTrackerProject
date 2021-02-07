@@ -1,0 +1,39 @@
+<data>
+  <brick elementID="300126" designID="3001" quantity="2"/>
+  <brick elementID="300226" designID="3002" quantity="2"/>
+  <brick elementID="300326" designID="3003" quantity="4"/>
+  <brick elementID="300426" designID="3004" quantity="2"/>
+  <brick elementID="301026" designID="3010" quantity="2"/>
+  <brick elementID="300123" designID="3001" quantity="4"/>
+  <brick elementID="300223" designID="3002" quantity="2"/>
+  <brick elementID="300323" designID="3003" quantity="6"/>
+  <brick elementID="300423" designID="3004" quantity="4"/>
+  <brick elementID="301023" designID="3010" quantity="4"/>
+  <brick elementID="300121" designID="3001" quantity="4"/>
+  <brick elementID="300221" designID="3002" quantity="4"/>
+  <brick elementID="300321" designID="3003" quantity="6"/>
+  <brick elementID="300421" designID="3004" quantity="6"/>
+  <brick elementID="300721" designID="3007" quantity="1"/>
+  <brick elementID="300821" designID="3008" quantity="2"/>
+  <brick elementID="300921" designID="3009" quantity="2"/>
+  <brick elementID="301021" designID="3010" quantity="6"/>
+  <brick elementID="300124" designID="3001" quantity="4"/>
+  <brick elementID="300224" designID="3002" quantity="2"/>
+  <brick elementID="300324" designID="3003" quantity="6"/>
+  <brick elementID="300424" designID="3004" quantity="6"/>
+  <brick elementID="300924" designID="3009" quantity="2"/>
+  <brick elementID="301024" designID="3010" quantity="4"/>
+  <brick elementID="4181143" designID="44237" quantity="2"/>
+  <brick elementID="300328" designID="3003" quantity="4"/>
+  <brick elementID="4106356" designID="3001" quantity="2"/>
+  <brick elementID="4107722" designID="82840" quantity="2"/>
+  <brick elementID="4107736" designID="3004" quantity="2"/>
+  <brick elementID="4109674" designID="3002" quantity="2"/>
+  <brick elementID="4112838" designID="3010" quantity="2"/>
+  <brick elementID="300101" designID="3001" quantity="4"/>
+  <brick elementID="300201" designID="3002" quantity="2"/>
+  <brick elementID="300301" designID="3003" quantity="6"/>
+  <brick elementID="300401" designID="3004" quantity="4"/>
+  <brick elementID="301001" designID="3010" quantity="4"/>
+  <brickCount acquired="123" totalInSet="124"/>
+</data>

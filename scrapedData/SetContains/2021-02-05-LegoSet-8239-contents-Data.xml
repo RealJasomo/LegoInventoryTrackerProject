@@ -1,0 +1,36 @@
+<data>
+  <brick elementID="242026" designID="2420" quantity="2"/>
+  <brick elementID="243126" designID="2431" quantity="1"/>
+  <brick elementID="329826" designID="3298" quantity="1"/>
+  <brick elementID="370226" designID="3702" quantity="2"/>
+  <brick elementID="370926" designID="3709" quantity="2"/>
+  <brick elementID="654126" designID="6541" quantity="2"/>
+  <brick elementID="75619" designID="75535" quantity="2"/>
+  <brick elementID="75777" designID="75777" quantity="3"/>
+  <brick elementID="370526" designID="3705" quantity="6"/>
+  <brick elementID="370626" designID="3706" quantity="4"/>
+  <brick elementID="451926" designID="4519" quantity="9"/>
+  <brick elementID="471626" designID="4716" quantity="1"/>
+  <brick elementID="655826" designID="6558" quantity="3"/>
+  <brick elementID="4107081" designID="32039" quantity="4"/>
+  <brick elementID="4107084" designID="32015" quantity="8"/>
+  <brick elementID="4107085" designID="32013" quantity="5"/>
+  <brick elementID="4107828" designID="6632" quantity="2"/>
+  <brick elementID="4109810" designID="32062" quantity="9"/>
+  <brick elementID="4114740" designID="32073" quantity="1"/>
+  <brick elementID="4121715" designID="2780" quantity="11"/>
+  <brick elementID="4140801" designID="32054" quantity="2"/>
+  <brick elementID="4112285" designID="6629" quantity="4"/>
+  <brick elementID="4114735" designID="76100" quantity="1"/>
+  <brick elementID="4114737" designID="71922" quantity="1"/>
+  <brick elementID="4114736" designID="76100" quantity="1"/>
+  <brick elementID="4114738" designID="71819" quantity="1"/>
+  <brick elementID="299424" designID="2994" quantity="3"/>
+  <brick elementID="4114419" designID="76110" quantity="2"/>
+  <brick elementID="653602" designID="6536" quantity="1"/>
+  <brick elementID="656202" designID="6562" quantity="3"/>
+  <brick elementID="4110050" designID="32123" quantity="3"/>
+  <brick elementID="4114669" designID="32068" quantity="2"/>
+  <brick elementID="4125313" designID="6590" quantity="2"/>
+  <brickCount acquired="104" totalInSet="120"/>
+</data>

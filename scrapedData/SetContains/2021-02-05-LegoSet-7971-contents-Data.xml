@@ -1,0 +1,47 @@
+<data>
+  <brick elementID="300126" designID="3001" quantity="1"/>
+  <brick elementID="302126" designID="3021" quantity="1"/>
+  <brick elementID="302326" designID="3023" quantity="2"/>
+  <brick elementID="303226" designID="3032" quantity="1"/>
+  <brick elementID="306826" designID="3068" quantity="1"/>
+  <brick elementID="346026" designID="3460" quantity="2"/>
+  <brick elementID="4107558" designID="32018" quantity="2"/>
+  <brick elementID="4180508" designID="43722" quantity="1"/>
+  <brick elementID="4180536" designID="43723" quantity="1"/>
+  <brick elementID="4183043" designID="44301" quantity="2"/>
+  <brick elementID="4243819" designID="3031" quantity="1"/>
+  <brick elementID="4286970" designID="41749" quantity="1"/>
+  <brick elementID="4286971" designID="41750" quantity="1"/>
+  <brick elementID="4515340" designID="60471" quantity="2"/>
+  <brick elementID="4517737" designID="55982" quantity="4"/>
+  <brick elementID="4550937" designID="58090" quantity="4"/>
+  <brick elementID="6040297" designID="43710" quantity="1"/>
+  <brick elementID="6040298" designID="43711" quantity="1"/>
+  <brick elementID="370726" designID="3707" quantity="2"/>
+  <brick elementID="4118782" designID="3710" quantity="1"/>
+  <brick elementID="4159007" designID="3022" quantity="2"/>
+  <brick elementID="4251969" designID="50950" quantity="2"/>
+  <brick elementID="4504371" designID="54200" quantity="2"/>
+  <brick elementID="4523603" designID="61678" quantity="1"/>
+  <brick elementID="4524929" designID="3024" quantity="1"/>
+  <brick elementID="4525190" designID="4868" quantity="2"/>
+  <brick elementID="4547035" designID="3794" quantity="3"/>
+  <brick elementID="4568690" designID="87945" quantity="1"/>
+  <brick elementID="245824" designID="2458" quantity="1"/>
+  <brick elementID="4210869" designID="43722" quantity="1"/>
+  <brick elementID="4210872" designID="43723" quantity="1"/>
+  <brick elementID="4210998" designID="3460" quantity="1"/>
+  <brick elementID="4211056" designID="3666" quantity="2"/>
+  <brick elementID="4211103" designID="3010" quantity="1"/>
+  <brick elementID="4563215" designID="87941" quantity="1"/>
+  <brick elementID="4563226" designID="87944" quantity="1"/>
+  <brick elementID="4568692" designID="88495" quantity="1"/>
+  <brick elementID="4632574" designID="4081" quantity="1"/>
+  <brick elementID="4211622" designID="6590" quantity="4"/>
+  <brick elementID="302101" designID="3021" quantity="1"/>
+  <brick elementID="302301" designID="3023" quantity="1"/>
+  <brick elementID="303401" designID="3034" quantity="1"/>
+  <brick elementID="4224792" designID="49668" quantity="4"/>
+  <brick elementID="4568387" designID="88513" quantity="2"/>
+  <brickCount acquired="70" totalInSet="72"/>
+</data>

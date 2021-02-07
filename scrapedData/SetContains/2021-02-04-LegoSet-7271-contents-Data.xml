@@ -1,0 +1,10 @@
+<data>
+  <brick elementID="300121" designID="3001" quantity="1"/>
+  <brick elementID="302021" designID="3020" quantity="2"/>
+  <brick elementID="302221" designID="3022" quantity="1"/>
+  <brick elementID="303921" designID="3039" quantity="2"/>
+  <brick elementID="366021" designID="3660" quantity="2"/>
+  <brick elementID="614124" designID="6141" quantity="1"/>
+  <brick elementID="302328" designID="3023" quantity="1"/>
+  <brickCount acquired="10" totalInSet="8"/>
+</data>
