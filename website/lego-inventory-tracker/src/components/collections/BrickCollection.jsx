@@ -39,7 +39,7 @@ export default class BrickCollection extends Component {
         return data.map((data, idx) => {
             return <BrickCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} />
         });
-    }
+        }
         return (
             <InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 

@@ -58,7 +58,26 @@ exports.legoSetsListByPageCount = (req, res) => {
 //return included lego brick ids and quantities  for set with id :setid ROUTE:: /api/set/:setid/includes
 exports.legoSetIncludes = (req, res) => {
     var setID = req.params.setid;
-    res.send(`NOT IMPLEMENTED YET set ${setID} includes ....`);
+    // res.send(`NOT IMPLEMENTED YET set ${setID} includes ....`);
+    sql.connect(config, (err) =>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('SetID', sql.VarChar(20), setID);
+        request.execute('SetContents', (err, rs) =>{
+            if(err){
+                res.status(500).json({error: "Error getting sets"});
+                console.log(err);
+                return;
+             }
+             res.json({
+                 data: rs.recordset
+             });
+        })
+    })
 };
 
 //Post user own set with id :setid ROUTE:: /api/set/:id

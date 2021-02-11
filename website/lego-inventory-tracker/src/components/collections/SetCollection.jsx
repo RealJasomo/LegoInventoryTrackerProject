@@ -34,11 +34,12 @@ export default class SetCollection extends Component {
             console.log(err);
         })
     }
+
     render() {
         const sets = () =>{ 
         var data = this.props.data || this.state.data;
         return data.map((data, idx) => {
-            return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} />
+            return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name}/>
         });
     }
         return (

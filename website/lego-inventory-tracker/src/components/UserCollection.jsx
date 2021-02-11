@@ -171,7 +171,7 @@ class UserCollection extends Component {
         const sets = () =>{ 
             var data = this.props.data || this.state.data;
             return data.map((data, idx) => {
-                return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} />
+                return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name}/>
             });
         }
         if(this.state.error){
@@ -184,7 +184,7 @@ class UserCollection extends Component {
                 open={this.state.openFavorite}
                 onClose={()=>this.setState({openFavorite: false})}>
                 <div className={styles.paper}>
-                    <h1 id="modal-title">Add new favorited brick to your collection:</h1>
+                    <h1 id="modal-title">Add new brick to your wishlist:</h1>
                     <form onSubmit={this.addFavorite}>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
@@ -289,7 +289,7 @@ class UserCollection extends Component {
                 </div>
             </Modal>
             <div id="favorites">
-                    <h1 className={styles.marginLeft}>Favorites:</h1>
+                    <h1 className={styles.marginLeft}>Wishlist:</h1>
                     <div className={styles.flex}>
                         <AddCard onClick={()=>this.setState({openFavorite: true})} />
                         <CollectionComponent data={this.state.favorites}/>
