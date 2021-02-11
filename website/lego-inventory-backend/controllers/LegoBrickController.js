@@ -176,3 +176,28 @@ exports.ownsLegoBrick = (req, res) => {
         });
     })
 }
+
+exports.brickSearch = (req, res) =>{
+    //setName = req.body.name;
+    brickName = req.params.name
+    //console.log(setName);
+    sql.connect(config, (err)=>{
+        if(err){
+           console.log(err);
+           res.status(500).send("database connection error");
+           return;
+        }
+        const request = new sql.Request();
+        request.input('targetName', sql.VarChar(80), brickName);
+        request.execute('searchBricks', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset
+           });
+        });
+    })
+}

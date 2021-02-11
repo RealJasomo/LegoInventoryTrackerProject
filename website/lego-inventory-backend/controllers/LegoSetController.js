@@ -171,3 +171,29 @@ exports.getWantedSets = (req, res) =>{
         });
     })
 }
+
+//Search for a set using a keyword  ROUTE:: /api/set/search/:name
+exports.setSearch = (req, res) =>{
+    //setName = req.body.name;
+    setName = req.params.name
+    console.log(setName);
+    sql.connect(config, (err)=>{
+        if(err){
+           console.log(err);
+           res.status(500).send("database connection error");
+           return;
+        }
+        const request = new sql.Request();
+        request.input('targetName', sql.VarChar(80), setName);
+        request.execute('searchSets', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset
+           });
+        });
+    })
+}

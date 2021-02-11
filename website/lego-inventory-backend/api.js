@@ -36,6 +36,9 @@ router.get('/brick/owns', authorization.authorize, legoBrickController.getOwnedB
 //GET wanted bricks 
 router.get('/brick/wants', authorization.authorize, legoBrickController.getWantedBricks);
 
+//POST search for brick
+router.post('/brick/search', authorization.authorize, legoBrickController.brickSearch);
+
 // Lego Model Routes //
 
 // GET all models
@@ -78,6 +81,9 @@ router.get('/set/owns', authorization.authorize, legoSetController.getOwnedSets)
 
 //GET wanted sets 
 router.get('/set/wants', authorization.authorize, legoSetController.getWantedSets);
+
+//POST search for set
+router.post('/set/search', authorization.authorize, legoSetController.setSearch);
 
 // User Routes //
 

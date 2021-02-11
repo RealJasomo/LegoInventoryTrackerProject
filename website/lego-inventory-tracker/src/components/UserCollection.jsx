@@ -24,7 +24,9 @@ class UserCollection extends Component {
             ownedQuantity: null,
             error:"",
             data: [],
-            page: 1
+            page: 1,
+            searchTarget: null,
+            searchResults: null
             
         }
     }
@@ -61,6 +63,34 @@ class UserCollection extends Component {
            this.setState({error: "Could not update favorites"})
         })
     }
+
+    search = (event) => {
+        var urlString = this.props.type.split('s')
+        if(this.props.type === "sets"){
+            urlString = ['set']
+        }
+        event.preventDefault()
+        axios({
+            method: 'POST',
+            url:process.env.REACT_APP_API_ENDPOINT+`/api/${urlString[0]}/search`,//?name=`+this.state.searchTarget,
+            headers: {
+                "Authorization": `Bearer ${this.props.auth.token}`,
+                "Content-Type": "application/json"
+            },
+            data: {
+                name: this.state.searchTarget
+            }
+        }).then((res) => {
+            console.log('completed successfully');
+            this.setState({searchResults: res.data.data});
+            console.log(res.data.data)
+        }).catch((err) => {
+
+           this.setState({error: "Could not complete search"})
+        })
+    }
+
+
     addOwned = (event) => {
         event.preventDefault()
         var urlString = this.props.type.split('s')
@@ -272,8 +302,8 @@ class UserCollection extends Component {
                         <CollectionComponent data={this.state.owned}/>
                     </div>
             </div>
-                    <h1>List of {this.props.type}</h1>
-                    <form onSubmit={this.addOwned}>
+                    <h1>List of {this.props.type}:</h1>
+                    <form onSubmit={this.search}>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
                     <div className={styles.searchBar}>
@@ -290,7 +320,7 @@ class UserCollection extends Component {
                             autoFocus
                             onChange={e => this.setState({
                                 ...this.state,
-                                seatchTarget: e.target.value
+                                searchTarget: e.target.value
                             })}
                         />
                         <div className={styles.submitContainer}>
@@ -301,13 +331,13 @@ class UserCollection extends Component {
                                 color="primary"
                                 className={styles.submit}
                             >
-                                Add
+                                Search
                             </Button>
                         </div>
                     </div>
                     </Container>
                     </form>
-            <InfiniteScroll
+            {/* {<InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 
             next={this.props.data?()=>{}:this.fetchSets.bind(this)}
             hasMore={true}
@@ -320,7 +350,13 @@ class UserCollection extends Component {
             <div className={styles.flex}>
                 {sets()}
             </div>
-            </InfiniteScroll>
+            </InfiniteScroll>} */}
+            <div id="searched">
+                    <div className={styles.flex}>
+                        //{console.log(this.state.searchResults)}
+                        <CollectionComponent data={this.state.searchResults}/>
+                    </div>
+            </div>
             </>
         )
     }
