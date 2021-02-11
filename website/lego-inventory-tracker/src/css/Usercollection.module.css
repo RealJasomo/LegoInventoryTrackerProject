@@ -18,3 +18,10 @@
     background-color: white;
     box-shadow: 10px 10px 30px black;
 }
+
+.warning{
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    background-color: #ff6666;
+}

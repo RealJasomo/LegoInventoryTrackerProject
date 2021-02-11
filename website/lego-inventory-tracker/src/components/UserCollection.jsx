@@ -18,7 +18,8 @@ class UserCollection extends Component {
             favoriteItem: null,
             ownedItem: null,
             favoriteQuantity: null,
-            ownedQuantity: null
+            ownedQuantity: null,
+            error:""
             
         }
     }
@@ -47,7 +48,11 @@ class UserCollection extends Component {
         }).then((res) => {
             console.log('completed successfully')
         }).catch((err) => {
-            this.setState({error: "Could not update favorites"})
+            // this.setState({
+            //     ...this.state,
+            //     error: err.response.data.error
+            // });
+           this.setState({error: "Could not update favorites"})
         })
     }
     addOwned = (event) => {
@@ -72,6 +77,10 @@ class UserCollection extends Component {
         }).then((res) => {
             console.log('completed successfully')
         }).catch((err) => {
+            this.setState({
+                ...this.state,
+                error: err.response.data.error
+            });
             this.setState({error: "Could not update owned"})
         })
     }
@@ -124,8 +133,9 @@ class UserCollection extends Component {
                     <form onSubmit={this.addFavorite}>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
-                    {errorMessage}
+                    
                     <div className={styles.paper}>
+                    {errorMessage}
                         <TextField
                             variant="outlined"
                             margin="normal"
@@ -180,8 +190,9 @@ class UserCollection extends Component {
                     <form onSubmit={this.addOwned}>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
-                    {errorMessage}
+                    
                     <div className={styles.paper}>
+                    {errorMessage}
                         <TextField
                             variant="outlined"
                             margin="normal"
