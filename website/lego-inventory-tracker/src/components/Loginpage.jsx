@@ -45,6 +45,7 @@ import { setToken } from '../store/actions/actions'
         })
     }
     render() {
+        
         let errorMessage;
         if(this.state.error){
             errorMessage = <div className={styles.warning}>{this.state.error}</div>;

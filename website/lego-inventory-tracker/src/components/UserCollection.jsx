@@ -5,6 +5,9 @@ import {connect} from 'react-redux'
 import {Modal} from '@material-ui/core'
 import Input from '@material-ui/core/Input'
 import {AddCard} from './cards'
+import InfiniteScroll from 'react-infinite-scroll-component'
+import {SetCard} from './cards'
+
 import {TextField, Link, Button, Typography, CssBaseline, Container} from '@material-ui/core'
 
 class UserCollection extends Component {
@@ -19,13 +22,16 @@ class UserCollection extends Component {
             ownedItem: null,
             favoriteQuantity: null,
             ownedQuantity: null,
-            error:""
+            error:"",
+            data: [],
+            page: 1
             
         }
     }
     componentDidMount(){
         this.fetchFavorites()
         this.fetchOwned()
+        this.fetchSets()
     }
     addFavorite = (event) => {
         var urlString = this.props.type.split('s')
@@ -117,8 +123,27 @@ class UserCollection extends Component {
         });
     }
 
+    fetchSets() {
+        axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/sets/${this.state.page}/50`)
+        .then((res) => {
+            this.setState({
+                data: this.state.data.concat(res.data.data),
+                page: this.state.page+1
+            })
+        })
+        .catch((err) => {
+            console.log(err);
+        })
+    }
+
     render() {
         let errorMessage;
+        const sets = () =>{ 
+            var data = this.props.data || this.state.data;
+            return data.map((data, idx) => {
+                return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} />
+            });
+        }
         if(this.state.error){
             errorMessage = <div className={styles.warning}>{this.state.error}</div>;
         }
@@ -162,6 +187,7 @@ class UserCollection extends Component {
                         // name="favoriteQ"
                         // autoComplete="favoriteQ"
                         // autoFocus
+                        defaultValue='1'
                         onChange={e => this.setState({
                             ...this.state,
                             favoriteQuantity: e.target.value
@@ -210,15 +236,8 @@ class UserCollection extends Component {
                         />
                         <h1>Quantity: </h1>
                         <Input type="number"
-                        // variant="outlined"
-                        // margin="normal"
-                        // required
-                        // fullWidth
-                        // id="ownedQ"
-                        // label="Owned item's ID"
-                        // name="ownedQ"
-                        // autoComplete="ownedQ"
-                        // autoFocus
+                        defaultValue='1'
+
                         onChange={e => this.setState({
                             ...this.state,
                             ownedQuantity: e.target.value
@@ -253,6 +272,55 @@ class UserCollection extends Component {
                         <CollectionComponent data={this.state.owned}/>
                     </div>
             </div>
+                    <h1>List of {this.props.type}</h1>
+                    <form onSubmit={this.addOwned}>
+                    <Container component="main" maxWidth="xs">
+                    <CssBaseline />
+                    <div className={styles.searchBar}>
+                    {errorMessage}
+                        <TextField
+                            variant="outlined"
+                            margin="normal"
+                            required
+                            fullWidth
+                            id="searchID"
+                            label="Search"
+                            name="searchID"
+                            autoComplete="Search"
+                            autoFocus
+                            onChange={e => this.setState({
+                                ...this.state,
+                                seatchTarget: e.target.value
+                            })}
+                        />
+                        <div className={styles.submitContainer}>
+                            <Button
+                                type="submit"
+                                fullWidth
+                                variant="contained"
+                                color="primary"
+                                className={styles.submit}
+                            >
+                                Add
+                            </Button>
+                        </div>
+                    </div>
+                    </Container>
+                    </form>
+            <InfiniteScroll
+            dataLength={this.props.data||this.state.data.length} 
+            next={this.props.data?()=>{}:this.fetchSets.bind(this)}
+            hasMore={true}
+            loader={<h4>Loading...</h4>}
+            endMessage={
+                <p style={{ textAlign: 'center' }}>
+                <b>Yay! You have seen it all</b>
+                </p>
+            }>
+            <div className={styles.flex}>
+                {sets()}
+            </div>
+            </InfiniteScroll>
             </>
         )
     }
