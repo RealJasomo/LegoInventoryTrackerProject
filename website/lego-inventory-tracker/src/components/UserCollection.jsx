@@ -7,6 +7,9 @@ import Input from '@material-ui/core/Input'
 import {AddCard} from './cards'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import {SetCard} from './cards'
+import Select from '@material-ui/core/Select';
+import MenuItem from '@material-ui/core/MenuItem';
+
 
 import {TextField, Link, Button, Typography, CssBaseline, Container} from '@material-ui/core'
 
@@ -30,7 +33,8 @@ class UserCollection extends Component {
             searchResults: null,
             id: '',
             showUpdateOwned: false,
-            showUpdateFavorite: false
+            showUpdateFavorite: false,
+            searchType: 0
             
         }
     }
@@ -72,9 +76,19 @@ class UserCollection extends Component {
 
     search = (event) => {
         var urlString = this.props.type.split('s')
+        var searchType = null
         if(this.props.type === "sets"){
             urlString = ['set']
         }
+        // if(this.state.searchType == 0) searchType= 'Name'
+        // else if(this.state.searchType == 1) searchType= 'ID'
+        // else if(this.state.searchType == 2){
+        //     if(this.props.type === "sets") this.setState({error: "Cannot search set by color"})
+        //     else searchType= 'Color'
+        // } 
+        
+
+        
         event.preventDefault()
         axios({
             method: 'POST',
@@ -84,7 +98,8 @@ class UserCollection extends Component {
                 "Content-Type": "application/json"
             },
             data: {
-                name: this.state.searchTarget
+                name: this.state.searchTarget,
+                type: this.state.searchType
             }
         }).then((res) => {
             console.log('completed successfully');
@@ -265,7 +280,39 @@ class UserCollection extends Component {
            this.setState({error: "Could not update favorites"})
         })
     }
+
+    getRequirements = () => {
+        var urlString = this.props.type.slice(0,-1);
+        axios({
+            method: 'GET',
+            url:process.env.REACT_APP_API_ENDPOINT+`/api/${urlString}/owns/update`,
+            headers: {
+                "Authorization": `Bearer ${this.props.auth.token}`,
+                "Content-Type": "application/json"
+            },
+            data: {
+                quantity: this.state.ownedQuantity,
+                quantityInUse: this.state.quantityInUse,
+                id: this.state.id
+            }
+        }).then((res) => {
+            console.log('completed successfully')
+            this.setState({showUpdateOwned: false});
+            this.fetchOwned();
+        }).catch((err) => {
+           this.setState({error: "Could not update favorites"})
+        })
+    }
+    
     render() {
+        function LoadColor(props) {
+            const type = props.type;
+            if (type=== 'bricks') {
+              return <MenuItem value={2}>Color</MenuItem>;
+            }
+            return (null);
+          }
+
         let errorMessage;
         const sets = () =>{ 
             var data = this.props.data || this.state.data;
@@ -360,6 +407,7 @@ class UserCollection extends Component {
                             >
                                delete
                             </Button>
+                            
                         </div>
                     </Container>
                 </div>
@@ -512,6 +560,25 @@ class UserCollection extends Component {
                                 searchTarget: e.target.value
                             })}
                         />
+                        <h4>Search Attribute:</h4>
+                        <Select
+                        labelId="searchType"
+                        id="searchType"
+                        required
+                        label="Search Attribute"
+                        value={this.state.searchType}
+                        onChange={e => this.setState({
+                            ...this.state,
+                            searchType: e.target.value
+                        })}
+                        ><MenuItem value={0}>Name</MenuItem>
+                        <MenuItem value={1}>ID</MenuItem>
+                        <MenuItem value={2}>Color (Brick Only)</MenuItem>
+                        <MenuItem value={3}>Requirements (Bricks Only)</MenuItem>
+                        {//<LoadColor type={this.props.type}/>
+                        }
+                        {console.log(this.state.searchType)}
+                        </Select>
                         <div className={styles.submitContainer}>
                             <Button
                                 type="submit"

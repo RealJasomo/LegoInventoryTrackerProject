@@ -180,6 +180,7 @@ exports.ownsLegoBrick = (req, res) => {
 exports.brickSearch = (req, res) =>{
     //setName = req.body.name;
     brickName = req.params.name
+    searchType = req.body.type
     //console.log(setName);
     console.log(req.body);
     sql.connect(config, (err)=>{
@@ -188,8 +189,10 @@ exports.brickSearch = (req, res) =>{
            res.status(500).send("database connection error");
            return;
         }
+
         const request = new sql.Request();
-        request.input('targetName', sql.VarChar(80), req.body.name);
+        if(searchType === 0){
+            request.input('targetName', sql.VarChar(80), req.body.name);
         request.execute('searchBricks', (err, rs) =>{
            if(err){
                res.status(500).json({error: err});
@@ -201,7 +204,60 @@ exports.brickSearch = (req, res) =>{
                data: rs.recordset
            });
         });
+        }
+
+        if(searchType === 1){
+            request.input('targetID', sql.VarChar(20), req.body.name);
+        request.execute('searchBricksID', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           //console.log(rs);
+           res.json({
+               data: rs.recordset
+           });
+        });
+        }
+
+        else if(searchType === 2){
+            request.input('targetColor', sql.VarChar(30), req.body.name);
+        request.execute('searchBricksColor', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           //console.log(rs);
+           res.json({
+               data: rs.recordset
+           });
+        });
+        }
+        else if(searchType === 3){
+            request.input('userName', sql.VarChar(20), req.user);
+            request.input('setID', sql.VarChar(20), req.body.name);
+            request.execute('bricksNeededForSet', (err, rs) =>{
+               if(err){
+                   res.status(500).json({error: err});
+                   console.log(err);
+                   return;
+               }
+               res.json({
+                   data: rs.recordset
+               });
+            });
+        }
+
+        else{
+            //res.status(500).json({error: "bad type input"});
+        }
+        
     })
+
+        
+    
 }
 
 

@@ -291,6 +291,8 @@ exports.getWantedSets = (req, res) =>{
 //Search for a set using a keyword  ROUTE:: /api/set/search/:name
 exports.setSearch = (req, res) =>{
     setName = req.body.name;
+    searchType = req.body.type;
+
     console.log(setName);
     sql.connect(config, (err)=>{
         if(err){
@@ -299,7 +301,9 @@ exports.setSearch = (req, res) =>{
            return;
         }
         const request = new sql.Request();
-        request.input('targetName', sql.VarChar(80), req.body.name);
+
+        if(searchType === 0){
+            request.input('targetName', sql.VarChar(80), req.body.name);
         request.execute('searchSets', (err, rs) =>{
            if(err){
                res.status(500).json({error: err});
@@ -310,5 +314,21 @@ exports.setSearch = (req, res) =>{
                data: rs.recordset
            });
         });
+        }
+
+        else if(searchType === 1){
+            request.input('targetID', sql.VarChar(32), req.body.name);
+        request.execute('searchSetsID', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset
+           });
+        });
+        }
+        
     })
 }
