@@ -117,7 +117,6 @@ exports.wantsLegoSet = (req, res) => {
 //Post user owns set with id :setid   ROUTE:: /api/set/owns/:id
 exports.ownsLegoSet = (req, res) => {
     //var setID = req.params.id;
-    setID = req.body.id;
     sql.connect(config, (err)=>{
         if(err){
             console.log(err);
@@ -126,8 +125,9 @@ exports.ownsLegoSet = (req, res) => {
         }
         const request = new sql.Request();
         request.input('Username', sql.VarChar(20),req.user);
-        request.input('LegoSet', sql.VarChar(20), setID);
+        request.input('LegoSet', sql.VarChar(20), req.body.id);
         request.input('Quantity', sql.Int, req.body.quantity);
+        request.input('QuantityBuilt', sql.Int, req.body.quantityBuilt);
         
         request.execute('insert_OwnsSet', (err, _)=>{
             if(err){

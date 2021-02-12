@@ -8,7 +8,7 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
-import {Homepage, LoginPage, BrickCollection, ModelCollection, SetCollection, SignUpPage, UserCollection, Profile } from './components'
+import {Homepage, LoginPage, BrickCollection, SetCollection, SignUpPage, UserCollection, Profile } from './components'
 import {AppBar, Toolbar,  IconButton, Typography, 
         Button, Drawer, List, ListItem, ListItemIcon, ListItemText, SvgIcon} from '@material-ui/core'
 import AccountCircleIcon from '@material-ui/icons/AccountCircle'
@@ -37,11 +37,6 @@ class App extends Component {
         return <Button color="inherit" onClick={this.handleSignout}>Sign out</Button>
       else
         return<Button color="inherit" className={styles.link} component={Link} to='/login'>Login</Button> 
-    }
-    const models = () => {
-      if(this.props.auth.token)
-        return <UserCollection component={ModelCollection} type="models"/>
-      return <ModelCollection />
     }
     const sets = () => {
       if(this.props.auth.token)
@@ -86,7 +81,7 @@ class App extends Component {
                             </ListItem>
                           </Link>
                           :<></>}
-                        {['Bricks', 'Models', 'Sets'].map((text, index, arr) => (
+                        {['Bricks', 'Sets'].map((text, index, arr) => (
                           <Link to={`/${arr[index].toLowerCase()}`} className={styles.link} key={text}>
                             <ListItem button>
                               <ListItemIcon>
@@ -111,11 +106,6 @@ class App extends Component {
             <Switch>
               <Route path="/sets">
                 {sets()}
-              </Route>
-            </Switch>
-            <Switch>
-              <Route path="/models">
-                {models()}
               </Route>
             </Switch>
             <Switch>
