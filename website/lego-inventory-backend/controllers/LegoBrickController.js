@@ -118,7 +118,7 @@ exports.ownsLegoBrick = (req, res) => {
         request.input('Username', sql.VarChar(20),req.user);
         request.input('LegoBrick', sql.VarChar(20), brickID);
         request.input('Quantity', sql.Int, req.body.quantity);
-        request.input('QuantityInUse', sql.Int, req.body.quantityInUse);
+        request.input('QuantityInUse', sql.Int, req.body.quantityInUse || 0);
         request.execute('insert_OwnsIndividualBrick', (err, _)=>{
             if(err){
                 res.status(500).json({error: err});

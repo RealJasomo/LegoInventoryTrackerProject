@@ -12,11 +12,14 @@ export default class BrickCard extends Component {
         id: PropTypes.string,
         url: PropTypes.string,
         color: PropTypes.string,
-        name: PropTypes.string
+        name: PropTypes.string,
+        quantity: PropTypes.number || undefined,
+        quantityInUse: PropTypes.number || undefined,
+        onClick: PropTypes.func
     }
     render() {
         return (
-            <Card className={styles.root}>
+            <Card className={styles.root} onClick={this.props.onClick}>
             <CardActionArea>
               <CardMedia
                 className={styles.media}
@@ -33,6 +36,12 @@ export default class BrickCard extends Component {
                 <Typography variant="body2" color="textSecondary" component="p">
                 Name: {this.props.name}
                 </Typography>
+                {this.props.quantity>=0&&<Typography variant="body2" color="textSecondary" component="p">
+                Quantity: {this.props.quantity}
+                </Typography>}
+                {this.props.quantityInUse>=0&&<Typography variant="body2" color="textSecondary" component="p">
+                Quantity in use: {this.props.quantityInUse}
+                </Typography>}
               </CardContent>
             </CardActionArea>
           </Card>

@@ -166,6 +166,16 @@ class UserCollection extends Component {
         })
     }
 
+    handleOwnedBrickClick = (id) => {
+        return (event) => {
+            
+        }
+    }
+    handleFavoriteBrickClick = (id) => {
+        return (event) => {
+            
+        }
+    }
     render() {
         let errorMessage;
         const sets = () =>{ 
@@ -189,7 +199,7 @@ class UserCollection extends Component {
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
                     
-                    <div className={styles.paper}>
+                    
                     {errorMessage}
                         <TextField
                             variant="outlined"
@@ -233,7 +243,6 @@ class UserCollection extends Component {
                                 Add
                             </Button>
                         </div>
-                    </div>
                     </Container>
                     </form>
                 </div>
@@ -246,8 +255,6 @@ class UserCollection extends Component {
                     <form onSubmit={this.addOwned}>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
-                    
-                    <div className={styles.paper}>
                     {errorMessage}
                         <TextField
                             variant="outlined"
@@ -283,7 +290,6 @@ class UserCollection extends Component {
                                 Add
                             </Button>
                         </div>
-                    </div>
                     </Container>
                     </form>
                 </div>
@@ -292,14 +298,14 @@ class UserCollection extends Component {
                     <h1 className={styles.marginLeft}>Wishlist:</h1>
                     <div className={styles.flex}>
                         <AddCard onClick={()=>this.setState({openFavorite: true})} />
-                        <CollectionComponent data={this.state.favorites}/>
+                        <CollectionComponent data={this.state.favorites}  onChildClick={this.handleFavoriteBrickClick}/>
                     </div>
                 </div>
                 <div id="owned">
                     <h1 className={styles.marginLeft}>Collection:</h1>
                     <div className={styles.flex}>
                         <AddCard onClick={()=>this.setState({openOwned: true})} />
-                        <CollectionComponent data={this.state.owned}/>
+                        <CollectionComponent data={this.state.owned} onChildClick={this.handleOwnedBrickClick} />
                     </div>
             </div>
                     <h1>List of {this.props.type}:</h1>
