@@ -193,8 +193,7 @@ exports.getWantedSets = (req, res) =>{
 
 //Search for a set using a keyword  ROUTE:: /api/set/search/:name
 exports.setSearch = (req, res) =>{
-    //setName = req.body.name;
-    setName = req.params.name
+    setName = req.body.name;
     console.log(setName);
     sql.connect(config, (err)=>{
         if(err){

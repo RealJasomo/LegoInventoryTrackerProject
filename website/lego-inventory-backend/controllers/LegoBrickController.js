@@ -178,9 +178,7 @@ exports.ownsLegoBrick = (req, res) => {
 }
 
 exports.brickSearch = (req, res) =>{
-    //setName = req.body.name;
-    brickName = req.params.name
-    //console.log(setName);
+    brickName = req.body.name
     sql.connect(config, (err)=>{
         if(err){
            console.log(err);
