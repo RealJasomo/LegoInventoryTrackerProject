@@ -7,9 +7,9 @@ import InfiniteScroll from 'react-infinite-scroll-component'
 
 
 export default class SetCollection extends Component {
-    static propTypes = {
-        data: PropTypes.array
-    }
+    // static propTypes = {
+    //     data: PropTypes.array
+    // }
     constructor(props){
         super(props);
         this.state = {
@@ -35,11 +35,13 @@ export default class SetCollection extends Component {
         })
     }
 
+    normalizeQuantity = num => num||((num==0)?0:undefined)
+
     render() {
         const sets = () =>{ 
         var data = this.props.data || this.state.data;
         return data.map((data, idx) => {
-            return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantityOwned={data.Quantity} quantityBuilt={data.QuantityBuilt} quantityOnWishlist={data.WantsQuantity}/>
+            return <SetCard onClick={this.props.onChildClick&&this.props.onChildClick(data.ID)} key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantityOwned={data.Quantity} quantityBuilt={data.QuantityBuilt} quantityOnWishlist={data.WantsQuantity}/>
         });
     }
         return (

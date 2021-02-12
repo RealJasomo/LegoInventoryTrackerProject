@@ -15,11 +15,12 @@ export default class SetCard extends Component {
         name: PropTypes.string,
         quantityOwned: PropTypes.number,
         quantityBuilt: PropTypes.number,
-        quantityOnWishlist: PropTypes.number
+        quantityOnWishlist: PropTypes.number,
+        onClick: PropTypes.func
     }
     render() {
         return (
-            <Card className={styles.root}>
+            <Card className={styles.root} onClick={this.props.onClick}>
               <CardActionArea>
                 <CardContent>
                   <Typography variant="body2" component="h2">

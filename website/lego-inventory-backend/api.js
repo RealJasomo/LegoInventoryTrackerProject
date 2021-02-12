@@ -29,6 +29,18 @@ router.post('/brick/wants', authorization.authorize, legoBrickController.wantsLe
 //POST owns brick with id
 router.post('/brick/owns', authorization.authorize, legoBrickController.ownsLegoBrick);
 
+//POST update wanted brick
+router.post('/brick/wants/update', authorization.authorize, legoBrickController.updateFavoriteBrick);
+
+//POST update ownded brick
+router.post('/brick/owns/update', authorization.authorize, legoBrickController.updateOwnedBrick);
+
+//DELETE delete wanted brick
+router.delete('/brick/wants/delete', authorization.authorize, legoBrickController.deleteFavoriteBrick);
+
+//DELETE delete wanted brick
+router.delete('/brick/owns/delete', authorization.authorize, legoBrickController.deleteOwnedBrick);
+
 //GET owned bricks 
 router.get('/brick/owns', authorization.authorize, legoBrickController.getOwnedBricks);
 
@@ -37,6 +49,7 @@ router.get('/brick/wants', authorization.authorize, legoBrickController.getWante
 
 //POST search for brick
 router.post('/brick/search', authorization.authorize, legoBrickController.brickSearch);
+
 
 // Lego Set Routes //
 

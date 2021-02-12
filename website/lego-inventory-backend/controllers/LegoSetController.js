@@ -117,6 +117,7 @@ exports.wantsLegoSet = (req, res) => {
 //Post user owns set with id :setid   ROUTE:: /api/set/owns/:id
 exports.ownsLegoSet = (req, res) => {
     //var setID = req.params.id;
+    console.log(req.body);
     sql.connect(config, (err)=>{
         if(err){
             console.log(err);
@@ -127,7 +128,7 @@ exports.ownsLegoSet = (req, res) => {
         request.input('Username', sql.VarChar(20),req.user);
         request.input('LegoSet', sql.VarChar(20), req.body.id);
         request.input('Quantity', sql.Int, req.body.quantity);
-        request.input('QuantityBuilt', sql.Int, req.body.quantityBuilt);
+        request.input('QuantityBuilt', sql.Int, req.body.quantityInUse);
         
         request.execute('insert_OwnsSet', (err, _)=>{
             if(err){
@@ -203,7 +204,7 @@ exports.setSearch = (req, res) =>{
            return;
         }
         const request = new sql.Request();
-        request.input('targetName', sql.VarChar(80), setName);
+        request.input('targetName', sql.VarChar(80), req.body.name);
         request.execute('searchSets', (err, rs) =>{
            if(err){
                res.status(500).json({error: err});

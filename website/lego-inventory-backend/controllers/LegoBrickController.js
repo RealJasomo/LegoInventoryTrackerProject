@@ -181,6 +181,7 @@ exports.brickSearch = (req, res) =>{
     //setName = req.body.name;
     brickName = req.params.name
     //console.log(setName);
+    console.log(req.body);
     sql.connect(config, (err)=>{
         if(err){
            console.log(err);
@@ -188,16 +189,115 @@ exports.brickSearch = (req, res) =>{
            return;
         }
         const request = new sql.Request();
-        request.input('targetName', sql.VarChar(80), brickName);
+        request.input('targetName', sql.VarChar(80), req.body.name);
         request.execute('searchBricks', (err, rs) =>{
            if(err){
                res.status(500).json({error: err});
                console.log(err);
                return;
            }
+           //console.log(rs);
            res.json({
                data: rs.recordset
            });
         });
+    })
+}
+
+
+exports.updateFavoriteBrick = (req, res) =>{
+    sql.connect(config, (err) => {
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20) ,req.user);
+        request.input('LegoBrick', sql.VarChar(20),req.body.id);
+        request.input('Quantity', sql.Int,req.body.quantity);
+        request.execute('update_WantsBrick', (err, _) =>{
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Want updated sucessfully', 
+             });
+        });
+    })
+}
+
+exports.deleteFavoriteBrick = (req,res) => {
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', req.user);
+        request.input('LegoBrick', req.body.id);
+        request.execute('delete_WantsBrick', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Want deleted sucessfully', 
+             });
+        })
+    })
+}
+
+exports.updateOwnedBrick = (req,res) => {
+    console.log(`${req.user} ${req.body.id} ${req.body.quantity} ${req.body.quantityInUse} test`)
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20), req.user);
+        request.input('LegoBrick', sql.VarChar(20), req.body.id);
+        request.input('Quantity', sql.Int, req.body.quantity);
+        request.input('QuantityInUse', sql.Int, req.body.quantityInUse);
+       
+        request.execute('update_OwnsIndividualBrick', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Owned brick updated sucessfully', 
+             });
+        })
+    })
+}
+
+exports.deleteOwnedBrick = (req,res) => {
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', req.user);
+        request.input('LegoBrick', req.body.id);
+        request.execute('delete_OwnsIndividualBrick', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Owned brick deleted sucessfully', 
+             });
+        })
     })
 }
