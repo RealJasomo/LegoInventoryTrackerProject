@@ -80,6 +80,18 @@ router.get('/set/wants', authorization.authorize, legoSetController.getWantedSet
 //POST search for set
 router.post('/set/search', authorization.authorize, legoSetController.setSearch);
 
+//POST update owned set
+router.post('/set/owns/update', authorization.authorize, legoSetController.updateOwnedSet);
+
+//DELETE owned set
+router.delete('/set/owns/delete', authorization.authorize, legoSetController.deleteOwnedSet);
+
+//POST update wants set
+router.post('/set/wants/update', authorization.authorize, legoSetController.updateFavoriteSet);
+
+//DELETE wanted set
+router.delete('/set/wants/delete',authorization.authorize, legoSetController.deleteFavoriteSet);
+
 // User Routes //
 
 //POST login user

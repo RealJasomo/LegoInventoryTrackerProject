@@ -184,7 +184,10 @@ class UserCollection extends Component {
     }
     
     getDefaultOwnedUse = () => {
-        return this.state.owned.find(e => e.ID === this.state.id)?.QuantityInUse;
+        if(this.props.type ==='sets')
+            return this.state.owned.find(e => e.ID === this.state.id)?.QuantityBuilt;
+        else
+            return this.state.owned.find(e => e.ID === this.state.id)?.QuantityInUse;
     }
 
     getDefaultOwned = () => {
@@ -329,7 +332,7 @@ class UserCollection extends Component {
                             ...this.state,
                             ownedQuantity: e.target.value
                         })} />
-                     <h1>Quantity in use: </h1>
+                     {this.props.type==='sets'?<h1>Quantity built:</h1>:<h1>Quantity in Use: </h1>}
                         <Input type="number"
                         defaultValue={this.state.quantityInUse}
                         onChange={e => this.setState({
@@ -451,7 +454,7 @@ class UserCollection extends Component {
                             ...this.state,
                             ownedQuantity: e.target.value
                         })} />
-                        <h1>Quantity in Use: </h1>
+                        {this.props.type==='sets'?<h1>Quantity built:</h1>:<h1>Quantity in Use: </h1>}
                         <Input type="number"
                         defaultValue='0'
 

@@ -253,7 +253,6 @@ exports.deleteFavoriteBrick = (req,res) => {
 }
 
 exports.updateOwnedBrick = (req,res) => {
-    console.log(`${req.user} ${req.body.id} ${req.body.quantity} ${req.body.quantityInUse} test`)
     sql.connect(config, (err)=>{
         if(err){
             console.log(err);

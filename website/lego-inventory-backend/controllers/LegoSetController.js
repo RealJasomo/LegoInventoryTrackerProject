@@ -143,6 +143,102 @@ exports.ownsLegoSet = (req, res) => {
     })
 };
 
+exports.updateOwnedSet = (req, res) => {
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20), req.user);
+        request.input('LegoSet', sql.VarChar(20), req.body.id);
+        request.input('Quantity', sql.Int, req.body.quantity);
+        request.input('QuantityBuilt', sql.Int, req.body.quantityInUse);
+       
+        request.execute('update_OwnsSet', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Owned set updated sucessfully', 
+             });
+        })
+    })
+}
+
+exports.updateFavoriteSet = (req, res) => {
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', sql.VarChar(20), req.user);
+        request.input('LegoSet', sql.VarChar(20), req.body.id);
+        request.input('Quantity', sql.Int, req.body.quantity);       
+        request.execute('update_WantsSet', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Favorited set updated sucessfully', 
+             });
+        })
+    })
+}
+
+exports.deleteOwnedSet = (req, res) => {
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', req.user);
+        request.input('LegoSet', req.body.id);
+        request.execute('delete_OwnsSet', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Owned set deleted sucessfully', 
+             });
+        })
+    })
+}
+
+exports.deleteFavoriteSet = (req, res) => {
+    sql.connect(config, (err)=>{
+        if(err){
+            console.log(err);
+            res.status(500).send("database connection error");
+            return;
+        }
+        const request = new sql.Request();
+        request.input('Username', req.user);
+        request.input('LegoSet', req.body.id);
+        request.execute('delete_WantsSet', (err, _) => {
+            if(err){
+                res.status(500).json({error: err});
+                console.log(err);
+                return;
+             }
+             res.json({
+                message: 'Favorited set deleted sucessfully', 
+             });
+        })
+    })
+}
+
 //Get the wanted Sets from a user  ROUTE:: /api/set/wants
 exports.getWantedSets = (req, res) =>{
     sql.connect(config, (err)=>{
