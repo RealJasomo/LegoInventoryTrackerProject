@@ -1,0 +1,23 @@
+USE [LegoInventoryTracker]
+GO
+
+/****** Object:  Table [dbo].[User]    Script Date: 2/11/2021 11:26:01 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[User](
+	[Username] [dbo].[Username] NOT NULL,
+	[Password] [nvarchar](70) NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[Username] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[User]  WITH CHECK ADD CHECK  ((len([Username])>(0)))
+GO
+

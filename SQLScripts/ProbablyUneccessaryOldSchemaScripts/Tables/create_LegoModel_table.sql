@@ -1,0 +1,26 @@
+USE [LegoInventoryTracker]
+GO
+
+/****** Object:  Table [dbo].[LegoModel]    Script Date: 2/11/2021 11:25:06 PM ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[LegoModel](
+	[ID] [int] NOT NULL,
+	[ImageURL] [dbo].[ImageURL] NULL,
+	[Name] [varchar](80) NULL,
+	[SetID] [varchar](20) NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[LegoModel]  WITH CHECK ADD FOREIGN KEY([SetID])
+REFERENCES [dbo].[LegoSet] ([ID])
+GO
+
