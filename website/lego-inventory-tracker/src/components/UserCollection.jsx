@@ -181,7 +181,7 @@ class UserCollection extends Component {
         const sets = () =>{ 
             var data = this.props.data || this.state.data;
             return data.map((data, idx) => {
-                return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name}/>
+                return <SetCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantityOwned={data.Quantity} quantityBuilt={data.QuantityBuilt}/>
             });
         }
         if(this.state.error){

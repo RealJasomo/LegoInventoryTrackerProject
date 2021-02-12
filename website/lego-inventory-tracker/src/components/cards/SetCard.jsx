@@ -12,12 +12,22 @@ export default class SetCard extends Component {
     static propTypes = {
         id: PropTypes.string,
         url: PropTypes.string,
-        name: PropTypes.string
+        name: PropTypes.string,
+        quantityOwned: PropTypes.number,
+        quantityBuilt: PropTypes.number,
+        quantityOnWishlist: PropTypes.number
     }
     render() {
         return (
             <Card className={styles.root}>
               <CardActionArea>
+                <CardContent>
+                  <Typography variant="body2" component="h2">
+                    <div>Owned: {this.props.quantityOwned}</div>
+                    <div>Built: {this.props.quantityBuilt}</div>
+                    <div>Wishlist: {this.props.quantityOnWishlist}</div>
+                  </Typography>
+                </CardContent>
                 <CardMedia
                   className={styles.media}
                   image={this.props.url}
