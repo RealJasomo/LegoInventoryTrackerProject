@@ -37,7 +37,7 @@ export default class BrickCollection extends Component {
         const bricks = () =>{ 
         var data = this.props.data || this.state.data;
         return data.map((data, idx) => {
-            return <BrickCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} />
+            return <BrickCard key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} owned={data.Quantity} inUse={data.QuantityInUse} quantityOnWishlist={data.WantsQuantity}/>
         });
         }
         return (

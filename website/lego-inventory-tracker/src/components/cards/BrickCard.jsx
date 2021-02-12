@@ -16,7 +16,7 @@ export default class BrickCard extends Component {
     }
     render() {
         return (
-            <Card className={styles.root}>
+          <Card className={styles.root}>
             <CardActionArea>
               <CardMedia
                 className={styles.media}
