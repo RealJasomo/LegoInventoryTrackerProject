@@ -573,10 +573,8 @@ class UserCollection extends Component {
                         })}
                         ><MenuItem value={0}>Name</MenuItem>
                         <MenuItem value={1}>ID</MenuItem>
-                        <MenuItem value={2}>Color (Brick Only)</MenuItem>
-                        <MenuItem value={3}>Requirements (Bricks Only)</MenuItem>
-                        {//<LoadColor type={this.props.type}/>
-                        }
+                        {(this.props.type=="bricks") && (<MenuItem value={2}>Color</MenuItem>)}
+                        {(this.props.type=="bricks") && (<MenuItem value={3}>Requirements</MenuItem>)}
                         {console.log(this.state.searchType)}
                         </Select>
                         <div className={styles.submitContainer}>
