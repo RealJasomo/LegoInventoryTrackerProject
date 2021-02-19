@@ -605,8 +605,11 @@ class UserCollection extends Component {
                             ...this.state,
                             searchType: e.target.value
                         })}
-                        ><MenuItem value={0}>Name</MenuItem>
+                        
+                        >
+                        <MenuItem value={0}>Name</MenuItem>
                         <MenuItem value={1}>ID</MenuItem>
+                        {(this.props.type === "sets") && (<MenuItem value={2}>Buildable sets (no search string required)</MenuItem>)}
                         {(this.props.type === "bircks") && (<MenuItem value={2}>Color</MenuItem>)}
                         {(this.props.type=="bricks") && (<MenuItem value={3}>Requirements</MenuItem>)}
                         {console.log(this.state.searchType)}

@@ -96,7 +96,7 @@ router.post('/set/wants/update', authorization.authorize, legoSetController.upda
 router.delete('/set/wants/delete',authorization.authorize, legoSetController.deleteFavoriteSet);
 
 //GET Buildable sets
-router.get('/set/buildable', authorization.authorize, legoSetController.getBuildableSets);
+//router.get('/set/buildable', authorization.authorize, legoSetController.getBuildableSets);
 
 // User Routes //
 

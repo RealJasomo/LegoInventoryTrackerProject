@@ -326,7 +326,7 @@ exports.setSearch = (req, res) =>{
            return;
         }
         const request = new sql.Request();
-
+        
         if(searchType === 0){
             request.input('targetName', sql.VarChar(80), req.body.name);
         request.execute('searchSets', (err, rs) =>{
@@ -344,6 +344,20 @@ exports.setSearch = (req, res) =>{
         else if(searchType === 1){
             request.input('targetID', sql.VarChar(32), req.body.name);
         request.execute('searchSetsID', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset
+           });
+        });
+        }
+
+        else if(searchType === 2){
+        request.input('username', sql.VarChar(20), req.user);
+        request.execute('getBuildableSets', (err, rs) =>{
            if(err){
                res.status(500).json({error: err});
                console.log(err);
