@@ -15,11 +15,11 @@ public class Main {
 
 	public static void main(String[] args)
 	{
-		DatabaseConnectionService dcs = new DatabaseConnectionService("titan.csse.rose-hulman.edu", "LegoInventoryTracker");
+		DatabaseConnectionService dcs = new DatabaseConnectionService("titan.csse.rose-hulman.edu", "LegoInventoryTracker2");
 		dcs.connect("lego_application", "[FO>i9l7.)XDJ^(6L*:_:Yj,SNh3n");
 
-//		insertBricks(dcs);
-//		insertSets(dcs);
+		insertBricks(dcs);
+		insertSets(dcs);
 		insertSetData(dcs);
 
 		dcs.closeConnection();
@@ -32,7 +32,7 @@ public class Main {
 
 		try
 		{
-			File file = new File("../scrapedData/Bricks/2021-02-05-LegoBrickDataTechnic.xml");
+			File file = new File("../scrapedData/DemoData/Bricks/2021-02-18-LegoBrickData.xml");
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			Document doc = db.parse(file);
@@ -70,7 +70,7 @@ public class Main {
 
 		try
 		{
-			File folder = new File("../scrapedData/Sets");
+			File folder = new File("../scrapedData/DemoData/Sets");
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			for(File file : folder.listFiles())
@@ -104,7 +104,7 @@ public class Main {
 
 		try
 		{
-			File folder = new File("../scrapedData/SetContains");
+			File folder = new File("../scrapedData/DemoData/SetContains");
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			for(File file : folder.listFiles())

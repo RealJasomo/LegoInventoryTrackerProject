@@ -1,0 +1,221 @@
+<data>
+  <brick elementID="241202" designID="2412" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/241202.jpg" name="Radiator Grille 1X2" color="GREY"/>
+  <brick elementID="241223" designID="2412" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/241223.jpg" name="Radiator Grille 1X2" color="BRIGHT BLUE"/>
+  <brick elementID="241226" designID="2412" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/241226.jpg" name="Radiator Grille 1X2" color="BLACK"/>
+  <brick elementID="242021" designID="2420" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/242021.jpg" name="Corner Plate 1X2X2" color="BRIGHT RED"/>
+  <brick elementID="243123" designID="2431" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/243123.jpg" name="Flat Tile 1X4" color="BRIGHT BLUE"/>
+  <brick elementID="243126" designID="2431" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/243126.jpg" name="Flat Tile 1X4" color="BLACK"/>
+  <brick elementID="244426" designID="2444" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/244426.jpg" name="Technic Bearing Plate 2X2" color="BLACK"/>
+  <brick elementID="246526" designID="2465" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/246526.jpg" name="Brick 1X16" color="BLACK"/>
+  <brick elementID="255526" designID="2555" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/255526.jpg" name="Plate 1X1 W. Up Right Holder" color="BLACK"/>
+  <brick elementID="287726" designID="2877" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/287726.jpg" name="Profile Brick 1X2" color="BLACK"/>
+  <brick elementID="300126" designID="3001" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300126.jpg" name="Brick 2X4" color="BLACK"/>
+  <brick elementID="300202" designID="3002" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300202.jpg" name="Brick 2X3" color="GREY"/>
+  <brick elementID="300326" designID="3003" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300326.jpg" name="Brick 2X2" color="BLACK"/>
+  <brick elementID="300402" designID="3004" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300402.jpg" name="Brick 1X2" color="GREY"/>
+  <brick elementID="300426" designID="3004" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300426.jpg" name="Brick 1X2" color="BLACK"/>
+  <brick elementID="3005741" designID="30057" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/3005741.jpg" name="Round Plate 1X1 - Tr." color="TRANSPARENT RED"/>
+  <brick elementID="3006343" designID="30063" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/3006343.jpg" name="Parabolic Element &#216;16 - Tr" color="TRANSPARENT BLUE"/>
+  <brick elementID="300926" designID="3009" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/300926.jpg" name="Brick 1X6" color="BLACK"/>
+  <brick elementID="301002" designID="3010" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/301002.jpg" name="Brick 1X4" color="GREY"/>
+  <brick elementID="302002" designID="3020" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302002.jpg" name="Plate 2X4" color="GREY"/>
+  <brick elementID="302026" designID="3020" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302026.jpg" name="Plate 2X4" color="BLACK"/>
+  <brick elementID="302123" designID="3021" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302123.jpg" name="Plate 2X3" color="BRIGHT BLUE"/>
+  <brick elementID="302126" designID="3021" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302126.jpg" name="Plate 2X3" color="BLACK"/>
+  <brick elementID="302202" designID="3022" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302202.jpg" name="Plate 2X2" color="GREY"/>
+  <brick elementID="302223" designID="3022" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302223.jpg" name="Plate 2X2" color="BRIGHT BLUE"/>
+  <brick elementID="302226" designID="3022" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302226.jpg" name="Plate 2X2" color="BLACK"/>
+  <brick elementID="302302" designID="3023" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302302.jpg" name="Plate 1X2" color="GREY"/>
+  <brick elementID="302324" designID="3023" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302324.jpg" name="Plate 1X2" color="BRIGHT YELLOW"/>
+  <brick elementID="302326" designID="3023" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302326.jpg" name="Plate 1X2" color="BLACK"/>
+  <brick elementID="302423" designID="3024" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302423.jpg" name="Plate 1X1" color="BRIGHT BLUE"/>
+  <brick elementID="302426" designID="3024" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302426.jpg" name="Plate 1X1" color="BLACK"/>
+  <brick elementID="302826" designID="3028" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302826.jpg" name="Plate 6X12" color="BLACK"/>
+  <brick elementID="302926" designID="3029" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/302926.jpg" name="Plate 4X12" color="BLACK"/>
+  <brick elementID="303026" designID="3030" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/303026.jpg" name="Plate 4X10" color="BLACK"/>
+  <brick elementID="303226" designID="3032" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/303226.jpg" name="Plate 4X6" color="BLACK"/>
+  <brick elementID="303426" designID="3034" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/303426.jpg" name="Plate 2X8" color="BLACK"/>
+  <brick elementID="303427" designID="3034" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/303427.jpg" name="Plate 2X8" color="DARK GREY"/>
+  <brick elementID="303526" designID="3035" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/303526.jpg" name="Plate 4X8" color="BLACK"/>
+  <brick elementID="303626" designID="3036" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/303626.jpg" name="Plate 6X8" color="BLACK"/>
+  <brick elementID="306826" designID="3068" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/306826.jpg" name="Flat Tile 2X2" color="BLACK"/>
+  <brick elementID="306923" designID="3069" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/306923.jpg" name="Flat Tile 1X2" color="BRIGHT BLUE"/>
+  <brick elementID="3200026" designID="32000" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/3200026.jpg" name="Brick 1X2 M. 2 Holes &#216; 4,87" color="BLACK"/>
+  <brick elementID="329826" designID="3298" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/329826.jpg" name="Roof Tile 2X3/25&#176;" color="BLACK"/>
+  <brick elementID="346023" designID="3460" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/346023.jpg" name="Plate 1X8" color="BRIGHT BLUE"/>
+  <brick elementID="346026" designID="3460" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/346026.jpg" name="Plate 1X8" color="BLACK"/>
+  <brick elementID="346027" designID="3460" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/346027.jpg" name="Plate 1X8" color="DARK GREY"/>
+  <brick elementID="362323" designID="3623" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/362323.jpg" name="Plate 1X3" color="BRIGHT BLUE"/>
+  <brick elementID="362326" designID="3623" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/362326.jpg" name="Plate 1X3" color="BLACK"/>
+  <brick elementID="362626" designID="3626" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/362626.jpg" name="Mini Head" color="BLACK"/>
+  <brick elementID="366023" designID="3660" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/366023.jpg" name="Roof Tile 2X2/45&#176; Inv." color="BRIGHT BLUE"/>
+  <brick elementID="366026" designID="3660" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/366026.jpg" name="Roof Tile 2X2/45&#176; Inv." color="BLACK"/>
+  <brick elementID="366027" designID="3660" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/366027.jpg" name="Roof Tile 2X2/45&#176; Inv." color="DARK GREY"/>
+  <brick elementID="366626" designID="3666" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/366626.jpg" name="Plate 1X6" color="BLACK"/>
+  <brick elementID="370026" designID="3700" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/370026.jpg" name="Technic Brick 1X2, &#216;4.9" color="BLACK"/>
+  <brick elementID="370126" designID="3701" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/370126.jpg" name="Technic Brick 1X4, &#216;4,9" color="BLACK"/>
+  <brick elementID="370226" designID="3702" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/370226.jpg" name="Technic Brick 1X8" color="BLACK"/>
+  <brick elementID="370526" designID="3705" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/370526.jpg" name="Cross Axle 4M" color="BLACK"/>
+  <brick elementID="371023" designID="3710" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/371023.jpg" name="Plate 1X4" color="BRIGHT BLUE"/>
+  <brick elementID="371026" designID="3710" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/371026.jpg" name="Plate 1X4" color="BLACK"/>
+  <brick elementID="371027" designID="3710" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/371027.jpg" name="Plate 1X4" color="DARK GREY"/>
+  <brick elementID="379423" designID="3794" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/379423.jpg" name="Plate 1X2 W. 1 Knob" color="BRIGHT BLUE"/>
+  <brick elementID="379523" designID="3795" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/379523.jpg" name="Plate 2X6" color="BRIGHT BLUE"/>
+  <brick elementID="379526" designID="3795" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/379526.jpg" name="Plate 2X6" color="BLACK"/>
+  <brick elementID="383226" designID="3832" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/383226.jpg" name="Plate 2X10" color="BLACK"/>
+  <brick elementID="383727" designID="3837" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/383727.jpg" name="Mini Shovel" color="DARK GREY"/>
+  <brick elementID="389526" designID="3895" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/389526.jpg" name="Brick 1X12, &#216;4,9" color="BLACK"/>
+  <brick elementID="393726" designID="3937" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/393726.jpg" name="Rocker Bearing 1X2" color="BLACK"/>
+  <brick elementID="395826" designID="3958" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/395826.jpg" name="Plate 6X6" color="BLACK"/>
+  <brick elementID="407026" designID="4070" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/407026.jpg" name="Angular Brick 1X1" color="BLACK"/>
+  <brick elementID="408502" designID="4085" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/408502.jpg" name="Plate 1X1 W. Holder" color="GREY"/>
+  <brick elementID="4106977" designID="6106" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4106977.jpg" name="Corner Plate 6X6X45&#176;" color="BLACK"/>
+  <brick elementID="4108045" designID="4286" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4108045.jpg" name="Roof Tile 1X3/25&#176;" color="DARK GREY"/>
+  <brick elementID="4109810" designID="32062" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4109810.jpg" name="2M Cross Axle W. Groove" color="BLACK"/>
+  <brick elementID="4109979" designID="2431" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4109979.jpg" name="Flat Tile 1X4" color="DARK GREY"/>
+  <brick elementID="4110008" designID="3003" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4110008.jpg" name="Brick 2X2" color="DARK GREY"/>
+  <brick elementID="4110027" designID="3035" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4110027.jpg" name="Plate 4X8" color="DARK GREY"/>
+  <brick elementID="4111983" designID="3023" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4111983.jpg" name="Plate 1X2" color="DARK GREY"/>
+  <brick elementID="4112039" designID="3747" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4112039.jpg" name="Roof Tile 2X3/25&#176; Inv." color="DARK GREY"/>
+  <brick elementID="4112232" designID="3020" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4112232.jpg" name="Plate 2X4" color="DARK GREY"/>
+  <brick elementID="4112282" designID="6629" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4112282.jpg" name="Technic Angular Beam 4X6" color="BLACK"/>
+  <brick elementID="4112847" designID="2445" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4112847.jpg" name="Plate 2X12" color="DARK GREY"/>
+  <brick elementID="4113853" designID="3475" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4113853.jpg" name="Jet Engine" color="DARK GREY"/>
+  <brick elementID="4113912" designID="3062" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4113912.jpg" name="Round Brick 1X1" color="DARK GREY"/>
+  <brick elementID="4114003" designID="3022" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4114003.jpg" name="Plate 2X2" color="DARK GREY"/>
+  <brick elementID="4114060" designID="3665" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4114060.jpg" name="Roff Tile 1X2 Inv." color="DARK GREY"/>
+  <brick elementID="4114308" designID="3010" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4114308.jpg" name="Brick 1X4" color="DARK GREY"/>
+  <brick elementID="4114323" designID="3298" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4114323.jpg" name="Roof Tile 2X3/25&#176;" color="DARK GREY"/>
+  <brick elementID="4118746" designID="4865" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4118746.jpg" name="Wall Element 1X2X1" color="DARK GREY"/>
+  <brick elementID="4120017" designID="32140" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4120017.jpg" name="Technic Ang. Beam 4X2 90 Deg" color="BLACK"/>
+  <brick elementID="4120499" designID="2413" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4120499.jpg" name="Aeroplanewing 4X9" color="DARK GREY"/>
+  <brick elementID="4121715" designID="2780" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4121715.jpg" name="Connector Peg W. Friction" color="BLACK"/>
+  <brick elementID="4121936" designID="3040" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4121936.jpg" name="Roof Tile 1X2/45&#176;" color="BRIGHT BLUE"/>
+  <brick elementID="4121970" designID="3040" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4121970.jpg" name="Roof Tile 1X2/45&#176;" color="DARK GREY"/>
+  <brick elementID="4124056" designID="2412" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4124056.jpg" name="Radiator Grille 1X2" color="DARK GREY"/>
+  <brick elementID="4124091" designID="2420" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4124091.jpg" name="Corner Plate 1X2X2" color="DARK GREY"/>
+  <brick elementID="4124108" designID="30374" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4124108.jpg" name="Light Sword - Blade" color="TRANSPARENT RED"/>
+  <brick elementID="4124140" designID="83714" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4124140.jpg" name="Front 3X6X5 Frontie" color="TRANSPARENT BROWN"/>
+  <brick elementID="4124171" designID="22231" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4124171.jpg" name="Black Cape" color="BLACK"/>
+  <brick elementID="4124172" designID="30368" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4124172.jpg" name="Darth Vader Helmet" color="BLACK"/>
+  <brick elementID="4125260" designID="4589" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4125260.jpg" name="Nose Cone Small 1X1" color="DARK GREY"/>
+  <brick elementID="4128598" designID="32184" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4128598.jpg" name="Double Cross Block" color="BRIGHT RED"/>
+  <brick elementID="4129575" designID="6636" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4129575.jpg" name="Flat Tile 1X6" color="DARK GREY"/>
+  <brick elementID="4129577" designID="32059" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4129577.jpg" name="Plate 4X6 26 Degrees" color="DARK GREY"/>
+  <brick elementID="4140586" designID="2540" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4140586.jpg" name="Plate 1X2 W. Stick" color="BRIGHT BLUE"/>
+  <brick elementID="4141766" designID="6190" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4141766.jpg" name="Telephone Reciver" color="DARK GREY"/>
+  <brick elementID="4141767" designID="30088" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4141767.jpg" name="Harpoon 5 M" color="DARK GREY"/>
+  <brick elementID="4141769" designID="3832" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4141769.jpg" name="Plate 2X10" color="DARK GREY"/>
+  <brick elementID="4142954" designID="84468" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4142954.jpg" name="Storm Trooper Helmet &quot;No2&quot;" color="WHITE"/>
+  <brick elementID="4143180" designID="30355" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4143180.jpg" name="Left Wing 6X12" color="BLACK"/>
+  <brick elementID="4143181" designID="30356" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4143181.jpg" name="Right Wing 6X12" color="BLACK"/>
+  <brick elementID="4144497" designID="30364" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4144497.jpg" name="Brick 1X2 W/Stub Vertical End" color="DARK GREY"/>
+  <brick elementID="4144501" designID="30365" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4144501.jpg" name="Brick 1X2/Fric/Fork Vert./End" color="DARK GREY"/>
+  <brick elementID="415126" designID="4151" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/415126.jpg" name="Grid Plate 8X8" color="BLACK"/>
+  <brick elementID="4157223" designID="30414" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4157223.jpg" name="Brick 1X4 W. 4 Knobs" color="BRIGHT RED"/>
+  <brick elementID="4160025" designID="30503" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4160025.jpg" name="Corner Plate 45 Deg. 4X4" color="BLACK"/>
+  <brick elementID="416223" designID="4162" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/416223.jpg" name="Flat Tile 1X8" color="BRIGHT BLUE"/>
+  <brick elementID="416226" designID="4162" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/416226.jpg" name="Flat Tile 1X8" color="BLACK"/>
+  <brick elementID="4162465" designID="3622" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4162465.jpg" name="Brick 1X3" color="BRICK YELLOW"/>
+  <brick elementID="4181144" designID="44237" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4181144.jpg" name="Brick 2X6" color="BLACK"/>
+  <brick elementID="4185273" designID="6232" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4185273.jpg" name="Brick 2X2 W. Snap And Cross" color="BRICK YELLOW"/>
+  <brick elementID="4206482" designID="43093" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4206482.jpg" name="Conn.Bush W.Fric./Crossale" color="BRIGHT BLUE"/>
+  <brick elementID="4210633" designID="6141" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210633.jpg" name="Round Plate 1X1" color="DARK STONE GREY"/>
+  <brick elementID="4210640" designID="30373" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210640.jpg" name="Edged Brick W. Snap 6X6X2" color="DARK STONE GREY"/>
+  <brick elementID="4210678" designID="3832" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210678.jpg" name="Plate 2X10" color="DARK STONE GREY"/>
+  <brick elementID="4210688" designID="32192" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210688.jpg" name="Angle Element 135 Deg. [4]" color="DARK STONE GREY"/>
+  <brick elementID="4210723" designID="30364" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210723.jpg" name="Brick 1X2 W/Stub Vertical End" color="DARK STONE GREY"/>
+  <brick elementID="4210762" designID="32000" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210762.jpg" name="Brick 1X2 M. 2 Holes &#216; 4,87" color="DARK STONE GREY"/>
+  <brick elementID="4210892" designID="44567" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210892.jpg" name="Plate 1X2 W. Stub/Vertical" color="DARK STONE GREY"/>
+  <brick elementID="4210906" designID="4855" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210906.jpg" name="Roof Tile 4X2/18&#176; Inv." color="DARK STONE GREY"/>
+  <brick elementID="4210980" designID="41677" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4210980.jpg" name="Technic Lever 2M" color="DARK STONE GREY"/>
+  <brick elementID="4211001" designID="3710" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211001.jpg" name="Plate 1X4" color="DARK STONE GREY"/>
+  <brick elementID="4211042" designID="4032" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211042.jpg" name="Plate 2X2 Round" color="DARK STONE GREY"/>
+  <brick elementID="4211043" designID="3021" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211043.jpg" name="Plate 2X3" color="DARK STONE GREY"/>
+  <brick elementID="4211054" designID="3039" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211054.jpg" name="Roof Tile 2X2/45&#176;" color="DARK STONE GREY"/>
+  <brick elementID="4211055" designID="3068" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211055.jpg" name="Flat Tile 2X2" color="DARK STONE GREY"/>
+  <brick elementID="4211056" designID="3666" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211056.jpg" name="Plate 1X6" color="DARK STONE GREY"/>
+  <brick elementID="4211060" designID="3003" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211060.jpg" name="Brick 2X2" color="DARK STONE GREY"/>
+  <brick elementID="4211061" designID="3035" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211061.jpg" name="Plate 4X8" color="DARK STONE GREY"/>
+  <brick elementID="4211067" designID="2445" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211067.jpg" name="Plate 2X12" color="DARK STONE GREY"/>
+  <brick elementID="4211076" designID="4871" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211076.jpg" name="Roof Tile 4X2/45&#176; Inv." color="DARK STONE GREY"/>
+  <brick elementID="4211087" designID="2458" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211087.jpg" name="Brick 1X2 W. Horizontal Snap" color="DARK STONE GREY"/>
+  <brick elementID="4211096" designID="3665" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211096.jpg" name="Roof Tile 1X2 Inv." color="DARK STONE GREY"/>
+  <brick elementID="4211104" designID="3622" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211104.jpg" name="Brick 1X3" color="DARK STONE GREY"/>
+  <brick elementID="4211109" designID="2357" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211109.jpg" name="Brick Corner 1X2X2" color="DARK STONE GREY"/>
+  <brick elementID="4211133" designID="3623" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211133.jpg" name="Plate 1X3" color="DARK STONE GREY"/>
+  <brick elementID="4211135" designID="3040" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211135.jpg" name="Roof Tile 1X2/45&#176;" color="DARK STONE GREY"/>
+  <brick elementID="4211350" designID="2412" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211350.jpg" name="Radiator Grille 1X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211353" designID="2420" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211353.jpg" name="Corner Plate 1X2X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211356" designID="2431" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211356.jpg" name="Flat Tile 1X4" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211361" designID="2450" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211361.jpg" name="Corner Plate 45 Deg. 3X3" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211364" designID="2458" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211364.jpg" name="Brick 1X2 W. Horizontal Snap" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211376" designID="2817" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211376.jpg" name="Technic Doub. Bearing Pl. 2X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211383" designID="2877" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211383.jpg" name="Profile Brick 1X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211385" designID="3001" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211385.jpg" name="Brick 2X4" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211386" designID="3002" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211386.jpg" name="Brick 2X3" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211394" designID="3010" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211394.jpg" name="Brick 1X4" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211395" designID="3020" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211395.jpg" name="Plate 2X4" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211397" designID="3022" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211397.jpg" name="Plate 2X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211398" designID="3023" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211398.jpg" name="Plate 1X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211410" designID="3039" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211410.jpg" name="Roof Tile 2X2/45&#176;" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211412" designID="3062" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211412.jpg" name="Round Brick 1X1" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211413" designID="3068" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211413.jpg" name="Flat Tile 2X2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211415" designID="3070" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211415.jpg" name="Flat Tile 1X1" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211421" designID="3298" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211421.jpg" name="Roof Tile 2X3/25&#176;" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211436" designID="3660" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211436.jpg" name="Roof Tile 2X2/45&#176; Inv." color="MEDIUM STONE GREY"/>
+  <brick elementID="4211440" designID="3700" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211440.jpg" name="Technic Brick 1X2, &#216;4.9" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211441" designID="3701" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211441.jpg" name="Technic Brick 1X4, &#216;4,9" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211481" designID="4162" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211481.jpg" name="Flat Tile 1X8" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211549" designID="6636" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211549.jpg" name="Flat Tile 1X6" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211570" designID="3747" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211570.jpg" name="Roof Tile 2X3/25&#176; Inv." color="MEDIUM STONE GREY"/>
+  <brick elementID="4211694" designID="30365" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211694.jpg" name="Brick 1X2/Fric/Fork Vert./End" color="MEDIUM STONE GREY"/>
+  <brick elementID="4211779" designID="42003" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4211779.jpg" name="Cross Blok 3M" color="MEDIUM STONE GREY"/>
+  <brick elementID="4212075" designID="30357" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4212075.jpg" name="Plate 3X3, 1/4 Circle" color="DARK STONE GREY"/>
+  <brick elementID="4212363" designID="47919" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4212363.jpg" name="Flat Tile 1X2 &quot;No. 86&quot;" color="MEDIUM STONE GREY"/>
+  <brick elementID="4225201" designID="48336" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4225201.jpg" name="Plate 1X2 W. Stick 3.18" color="BLACK"/>
+  <brick elementID="4225832" designID="50057" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4225832.jpg" name="Round Plate &#216;32X6.4, Tie" color="DARK STONE GREY"/>
+  <brick elementID="4225873" designID="48933" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4225873.jpg" name="Roof Tile 4X2/18&#176; W/Cor." color="DARK STONE GREY"/>
+  <brick elementID="4233493" designID="32064" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4233493.jpg" name="Brick 1X2 With Cross Hole" color="MEDIUM STONE GREY"/>
+  <brick elementID="4243819" designID="3031" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4243819.jpg" name="Plate 4X4" color="BLACK"/>
+  <brick elementID="4243831" designID="3031" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4243831.jpg" name="Plate 4X4" color="DARK STONE GREY"/>
+  <brick elementID="4261857" designID="52342" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4261857.jpg" name="Mini Head No.&quot;402&quot;" color="MEDIUM STONE GREY"/>
+  <brick elementID="427402" designID="4274" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/427402.jpg" name="Connector Peg W. Knob" color="GREY"/>
+  <brick elementID="4275255" designID="76382" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4275255.jpg" name="Mini Upper Part &quot;No. 1143&quot;" color="WHITE"/>
+  <brick elementID="4275311" designID="76382" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4275311.jpg" name="Mini Upper Part &quot;No. 1148&quot;" color="BLACK"/>
+  <brick elementID="4278275" designID="2654" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4278275.jpg" name="Slide Shoe Round 2X2" color="BRIGHT RED"/>
+  <brick elementID="428226" designID="4282" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/428226.jpg" name="Plate 2X16" color="BLACK"/>
+  <brick elementID="4283046" designID="54383" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4283046.jpg" name="Right Plate 3X6 W. Angle" color="BLACK"/>
+  <brick elementID="4283047" designID="54384" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4283047.jpg" name="Left Plate 3X6 W Angle" color="BLACK"/>
+  <brick elementID="4498713" designID="58247" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4498713.jpg" name="Blaster Medium" color="BLACK"/>
+  <brick elementID="4508553" designID="59426" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4508553.jpg" name="Cross Axle 5,5 With Stop 1M." color="DARK STONE GREY"/>
+  <brick elementID="4511007" designID="60208" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4511007.jpg" name="Turbine &#216;31,37 W.Holes &#216; 4,85" color="MEDIUM STONE GREY"/>
+  <brick elementID="4514553" designID="6558" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4514553.jpg" name="Connector Peg W. Friction 3M" color="BRIGHT BLUE"/>
+  <brick elementID="4515341" designID="60471" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4515341.jpg" name="Plate 1X2 W/Fork, Vertical" color="MEDIUM STONE GREY"/>
+  <brick elementID="4520320" designID="61184" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4520320.jpg" name="3 M.Arch W.Knob And Shaft &#216;3.2" color="MEDIUM STONE GREY"/>
+  <brick elementID="4521921" designID="54200" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4521921.jpg" name="Roof Tile 1X1X2/3, Abs" color="MEDIUM STONE GREY"/>
+  <brick elementID="4523145" designID="32000" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4523145.jpg" name="Brick 1X2 M. 2 Holes &#216; 4,87" color="BRICK YELLOW"/>
+  <brick elementID="4529241" designID="59900" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4529241.jpg" name="Nose Cone Small 1X1" color="MEDIUM STONE GREY"/>
+  <brick elementID="4535739" designID="63868" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4535739.jpg" name="Plate 2X1 W/Holder,Vertical" color="BLACK"/>
+  <brick elementID="4547958" designID="85943" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4547958.jpg" name="2X1 St.&#216;4.9 Hole W. Half Beam" color="DARK STONE GREY"/>
+  <brick elementID="4548726" designID="76382" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4548726.jpg" name="Mini Upper Part &quot;No.1469&quot;" color="BLACK"/>
+  <brick elementID="4549997" designID="60219" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4549997.jpg" name="Inv. Roof Tile 4X6, 3X&#248;4.9" color="MEDIUM STONE GREY"/>
+  <brick elementID="4549999" designID="60219" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4549999.jpg" name="Inv. Roof Tile 4X6, 3X&#248;4.9" color="DARK STONE GREY"/>
+  <brick elementID="4550017" designID="60897" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4550017.jpg" name="Plate 1X1 W. Holder" color="BLACK"/>
+  <brick elementID="4560033" designID="58846" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4560033.jpg" name="Circle 90D 10X10, Wry 18D" color="MEDIUM STONE GREY"/>
+  <brick elementID="4563044" designID="33299" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4563044.jpg" name="2X1X3 Steering Knuckle Arm" color="BLACK"/>
+  <brick elementID="4565884" designID="88103" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4565884.jpg" name="At At/Tie Pilot Helmet No. 1" color="BLACK"/>
+  <brick elementID="4568027" designID="44374" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4568027.jpg" name="Technic Lever 3X120" color="MEDIUM STONE GREY"/>
+  <brick elementID="4593678" designID="87552" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4593678.jpg" name="Wallelement 1X2X2" color="BLACK"/>
+  <brick elementID="4617860" designID="92538" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4617860.jpg" name="Brick 2X10" color="BLACK"/>
+  <brick elementID="4632567" designID="4081" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4632567.jpg" name="Lamp Holder" color="BRIGHT BLUE"/>
+  <brick elementID="4632571" designID="4081" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/4632571.jpg" name="Lamp Holder" color="BLACK"/>
+  <brick elementID="6011815" designID="11055" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/6011815.jpg" name="Flag With 2 Holders" color="BLACK"/>
+  <brick elementID="6021504" designID="90194" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/6021504.jpg" name="Plate 3X4 W/Angles" color="BLACK"/>
+  <brick elementID="6051389" designID="15556" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/6051389.jpg" name="Light Sword Stock, No. &quot;1000&quot;" color="SILVER INK"/>
+  <brick elementID="614123" designID="6141" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/614123.jpg" name="Round Plate 1X1" color="BRIGHT BLUE"/>
+  <brick elementID="614126" designID="6141" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/614126.jpg" name="Round Plate 1X1" color="BLACK"/>
+  <brick elementID="617926" designID="6179" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/617926.jpg" name="Plate 4X4 W. 4 Knobs" color="BLACK"/>
+  <brick elementID="654126" designID="6541" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/654126.jpg" name="Technic Brick 1X1" color="BLACK"/>
+  <brick elementID="655826" designID="6558" imageURL="https://www.lego.com/cdn/product-assets/element.img.lod5photo.192x192/655826.jpg" name="Connector Peg W. Friction 3M" color="BLACK"/>
+</data>
