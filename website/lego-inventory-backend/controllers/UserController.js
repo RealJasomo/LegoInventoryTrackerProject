@@ -20,6 +20,9 @@ var passwordValidator = require('password-validator');
 
 var attempts = require('../middleware/loginAttempt').attempts;
 
+let secureEnv = require('secure-env');
+global.env = secureEnv({secret: process.env.ENC_PASS});
+
 //Password validation schema
 var passwordSchema  = new passwordValidator();
 passwordSchema
@@ -59,7 +62,7 @@ passwordSchema
                res.json({
                   message: 'user created sucessfully', 
                   user: req.body.username,
-                  token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET)});
+                  token: jwt.sign(req.body.username, global.env.API_TOKEN_SECRET)});
             });
 
          });
@@ -94,7 +97,7 @@ passwordSchema
                
                res.json({
                   message: "Signed in successfully",
-                  token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET),
+                  token: jwt.sign(req.body.username, global.env.API_TOKEN_SECRET),
                   user: req.body.username
                });
                return;
