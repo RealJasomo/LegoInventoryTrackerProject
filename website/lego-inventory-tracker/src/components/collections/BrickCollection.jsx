@@ -46,7 +46,7 @@ export default class BrickCollection extends Component {
             <InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 
             next={this.props.data?()=>{}:this.fetchBricks.bind(this)}
-            hasMore={true}
+            hasMore={!this.props.data}
             loader={<h4>Loading...</h4>}
             endMessage={
                 <p style={{ textAlign: 'center' }}>
