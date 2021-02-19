@@ -240,15 +240,28 @@ exports.brickSearch = (req, res) =>{
             request.input('userName', sql.VarChar(20), req.user);
             request.input('setID', sql.VarChar(20), req.body.name);
             request.execute('bricksNeededForSet', (err, rs) =>{
-               if(err){
-                   res.status(500).json({error: err});
-                   console.log(err);
-                   return;
-               }
-               res.json({
-                   data: rs.recordset
-               });
+                if(err){
+                    res.status(500).json({error: err});
+                    console.log(err);
+                    return;
+                }
+                res.json({
+                    data: rs.recordset
+                });
             });
+        }
+        else if (searchType === 4) {
+            request.input('setID', sql.VarChar(20), req.body.name);
+            request.execute('getSetContents', (err, rs) => {
+                if(err){
+                    res.status(500).json({error: err});
+                    console.log(err);
+                    return;
+                }
+                res.json({
+                    data: rs.recordset
+                });
+            })
         }
 
         else{

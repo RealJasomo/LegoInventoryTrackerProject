@@ -615,6 +615,7 @@ class UserCollection extends Component {
                         {(this.props.type === "sets") && (<MenuItem value={2}>Buildable sets (no search string required)</MenuItem>)}
                         {(this.props.type === "bircks") && (<MenuItem value={2}>Color</MenuItem>)}
                         {(this.props.type=="bricks") && (<MenuItem value={3}>Requirements</MenuItem>)}
+                        {(this.props.type=="bricks") && (<MenuItem value={4}>Bricks by SetID</MenuItem>)}
                         {console.log(this.state.searchType)}
                         </Select>
                         <div className={styles.submitContainer}>
