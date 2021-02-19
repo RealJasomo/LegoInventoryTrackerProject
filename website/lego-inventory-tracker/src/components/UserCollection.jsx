@@ -88,8 +88,8 @@ class UserCollection extends Component {
         // } 
         
 
-        
-        event.preventDefault()
+        if(event)
+            event.preventDefault()
         axios({
             method: 'POST',
             url:process.env.REACT_APP_API_ENDPOINT+`/api/${urlString[0]}/search`,//?name=`+this.state.searchTarget,
@@ -575,15 +575,13 @@ class UserCollection extends Component {
             </div>
                     <h1>List of {this.props.type}:</h1>
                     <form onSubmit={this.search}>
-                    <Container component="main" maxWidth="xs">
-                    <CssBaseline />
                     <div className={styles.searchBar}>
                     {errorMessage}
                         <TextField
                             variant="outlined"
                             margin="normal"
-                            required
                             fullWidth
+                            required={this.state.searchType != 2 || this.props.type == "bricks"}
                             id="searchID"
                             label="Search"
                             name="searchID"
@@ -601,10 +599,15 @@ class UserCollection extends Component {
                         required
                         label="Search Attribute"
                         value={this.state.searchType}
-                        onChange={e => this.setState({
+                        onChange={async e => {
+                            await this.setState({
                             ...this.state,
                             searchType: e.target.value
-                        })}
+                            })
+                            if(e.target.value == 2){
+                                this.search();
+                            }
+                    }}
                         
                         >
                         <MenuItem value={0}>Name</MenuItem>
@@ -626,7 +629,6 @@ class UserCollection extends Component {
                             </Button>
                         </div>
                     </div>
-                    </Container>
                     </form>
             {/* {<InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 
