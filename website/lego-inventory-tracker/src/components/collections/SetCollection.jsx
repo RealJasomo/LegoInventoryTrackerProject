@@ -14,7 +14,8 @@ export default class SetCollection extends Component {
         super(props);
         this.state = {
             data: [],
-            page: 1
+            page: 1,
+            loading: true
         }
     }   
     
@@ -25,6 +26,9 @@ export default class SetCollection extends Component {
     fetchSets() {
         axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/sets/${this.state.page}/50`)
         .then((res) => {
+           if(!res.data.data){
+                this.setState({loading: false});
+           }
             this.setState({
                 data: this.state.data.concat(res.data.data),
                 page: this.state.page+1
@@ -41,14 +45,14 @@ export default class SetCollection extends Component {
         const sets = () =>{ 
         var data = this.props.data || this.state.data;
         return data.map((data, idx) => {
-            return <SetCard onClick={this.props.onChildClick&&this.props.onChildClick(data.ID)} key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantityOwned={data.Quantity} quantityBuilt={data.QuantityBuilt} quantityOnWishlist={data.WantsQuantity}/>
+            return data&&<SetCard onClick={this.props.onChildClick&&this.props.onChildClick(data.ID)} key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantityOwned={data.Quantity} quantityBuilt={data.QuantityBuilt} quantityOnWishlist={data.WantsQuantity}/>
         });
     }
         return (
             <InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 
             next={this.props.data?()=>{}:this.fetchSets.bind(this)}
-            hasMore={true}
+            hasMore={this.state.loading}
             loader={<h4>Loading...</h4>}
             endMessage={
                 <p style={{ textAlign: 'center' }}>

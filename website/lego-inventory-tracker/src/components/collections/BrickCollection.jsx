@@ -14,7 +14,8 @@ export default class BrickCollection extends Component {
         super(props);
         this.state = {
             data: [],
-            page: 1
+            page: 1,
+            loading: true
         }
     }   
     
@@ -26,6 +27,9 @@ export default class BrickCollection extends Component {
     fetchBricks() {
         axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/bricks/${this.state.page}/50`)
         .then((res) => {
+            if(!res.data.data){
+                this.setState({loading: false});
+           }
             this.setState({
                 data: this.state.data.concat(res.data.data),
                 page: this.state.page+1
@@ -39,14 +43,14 @@ export default class BrickCollection extends Component {
         const bricks = () =>{ 
         var data = this.props.data || this.state.data;
         return data.map((data, idx) => {
-            return <BrickCard onClick={this.props.onChildClick&&this.props.onChildClick(data.ID)} key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantity={this.normalizeQuantity(data.Quantity)} quantityInUse={this.normalizeQuantity(data.QuantityInUse)} />
+            return data&&<BrickCard onClick={this.props.onChildClick&&this.props.onChildClick(data.ID)} key={idx} id={data.ID} url={data.ImageURL} color={data.Color} name={data.Name} quantity={this.normalizeQuantity(data.Quantity)} quantityInUse={this.normalizeQuantity(data.QuantityInUse)} />
         });
         }
         return (
             <InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 
             next={this.props.data?()=>{}:this.fetchBricks.bind(this)}
-            hasMore={!this.props.data}
+            hasMore={!this.props.data&&this.state.loading}
             loader={<h4>Loading...</h4>}
             endMessage={
                 <p style={{ textAlign: 'center' }}>
