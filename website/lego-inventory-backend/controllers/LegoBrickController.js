@@ -149,7 +149,8 @@ exports.ownsLegoBrick = (req, res) => {
                 return;
             }
             res.json({
-                data: rs.recordset
+                data: rs.recordset,
+                message: 'bricks collected successfully', 
             });
          });
      })
@@ -354,5 +355,28 @@ exports.deleteOwnedBrick = (req,res) => {
                 message: 'Owned brick deleted sucessfully', 
              });
         })
+    })
+}
+
+exports.getAvailableBricks = (req, res) =>{
+    sql.connect(config, (err)=>{
+        if(err){
+           console.log(err);
+           res.status(500).send("database connection error");
+           return;
+        }
+        const request = new sql.Request();
+        request.input('username', sql.VarChar(20), req.user);
+        request.execute('getAvailableBricks', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           res.json({
+               data: rs.recordset,
+               message: 'bricks collected successfully', 
+           });
+        });
     })
 }

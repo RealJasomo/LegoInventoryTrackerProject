@@ -50,6 +50,9 @@ router.get('/brick/wants', authorization.authorize, legoBrickController.getWante
 //POST search for brick
 router.post('/brick/search', authorization.authorize, legoBrickController.brickSearch);
 
+//GET get onl availabl bricks 
+router.get('/brick/available', authorization.authorize, legoBrickController.getAvailableBricks);
+
 
 // Lego Set Routes //
 
@@ -91,6 +94,9 @@ router.post('/set/wants/update', authorization.authorize, legoSetController.upda
 
 //DELETE wanted set
 router.delete('/set/wants/delete',authorization.authorize, legoSetController.deleteFavoriteSet);
+
+//GET Buildable sets
+router.get('/set/buildable', authorization.authorize, legoSetController.getBuildableSets);
 
 // User Routes //
 

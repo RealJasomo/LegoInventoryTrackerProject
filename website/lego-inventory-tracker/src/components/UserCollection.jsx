@@ -34,8 +34,8 @@ class UserCollection extends Component {
             id: '',
             showUpdateOwned: false,
             showUpdateFavorite: false,
-            searchType: 0
-            
+            searchType: 0,
+            availableBricksOnly: false   
         }
     }
     componentDidMount(){
@@ -161,15 +161,31 @@ class UserCollection extends Component {
         if(this.props.type === "sets"){
             urlString = ['set']
         }
+        if(this.state.availableBricksOnly && this.props.type === "bricks"){
+            axios.get(`${process.env.REACT_APP_API_ENDPOINT}/api/${urlString[0]}/available`, {
+                headers:{
+                    'Authorization': `Bearer ${this.props.auth.token}`
+                }
+            }).then((res) => {
+                console.log(res.data.data)
+                this.setState({owned: res.data.data})
+            }).catch((err) => {
+                console.log(err);
+            });
+
+        }
+        else{
         axios.get(`${process.env.REACT_APP_API_ENDPOINT}/api/${urlString[0]}/owns`, {
             headers:{
                 'Authorization': `Bearer ${this.props.auth.token}`
             }
         }).then((res) => {
+            console.log(res.data.data)
             this.setState({owned: res.data.data})
         }).catch((err) => {
             console.log(err);
         });
+    }
     }
 
     fetchSets() {
@@ -302,6 +318,13 @@ class UserCollection extends Component {
         }).catch((err) => {
            this.setState({error: "Could not update favorites"})
         })
+    }
+
+    //onclick
+     swapAvailable = async () => {
+        console.log("ran " + this.state.availableBricksOnly)
+        await this.setState({availableBricksOnly: !this.state.availableBricksOnly})
+        this.fetchOwned()
     }
     
     render() {
@@ -534,6 +557,17 @@ class UserCollection extends Component {
                 </div>
                 <div id="owned">
                     <h1 className={styles.marginLeft}>Collection:</h1>
+                    {this.props.type === 'bricks' && <Button
+                                type="submit"
+                                
+                                variant="contained"
+                                color="primary"
+                                className={styles.submit}
+                                onClick={this.swapAvailable}
+                            >
+                                {this.state.availableBricksOnly ? 'Show all bricks' : 'Show available bricks only'}     
+                    </Button>}
+                    
                     <div className={styles.flex}>
                         <AddCard onClick={()=>this.setState({openOwned: true, ownedQuantity:1, quantityInUse:0})} />
                         <CollectionComponent data={this.state.owned} onChildClick={this.handleOwnedBrickClick} />
@@ -573,7 +607,7 @@ class UserCollection extends Component {
                         })}
                         ><MenuItem value={0}>Name</MenuItem>
                         <MenuItem value={1}>ID</MenuItem>
-                        {(this.props.type=="bricks") && (<MenuItem value={2}>Color</MenuItem>)}
+                        {(this.props.type === "bircks") && (<MenuItem value={2}>Color</MenuItem>)}
                         {(this.props.type=="bricks") && (<MenuItem value={3}>Requirements</MenuItem>)}
                         {console.log(this.state.searchType)}
                         </Select>

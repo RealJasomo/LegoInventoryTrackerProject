@@ -288,6 +288,31 @@ exports.getWantedSets = (req, res) =>{
     })
 }
 
+ //Get the Owned sets from a user  ROUTE:: /api/set/buildable
+ exports.getBuildableSets = (req, res) =>{
+    sql.connect(config, (err)=>{
+        if(err){
+           console.log(err);
+           res.status(500).send("database connection error");
+           return;
+        }
+        const request = new sql.Request();
+        request.input('userName', sql.VarChar(20), req.user);
+        request.execute('getBuildableSets', (err, rs) =>{
+           if(err){
+               res.status(500).json({error: err});
+               console.log(err);
+               return;
+           }
+           
+           res.json({
+               
+               data: rs.recordset
+           });
+        });
+    })
+}
+
 //Search for a set using a keyword  ROUTE:: /api/set/search/:name
 exports.setSearch = (req, res) =>{
     setName = req.body.name;
