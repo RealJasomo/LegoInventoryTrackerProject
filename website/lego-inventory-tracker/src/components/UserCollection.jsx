@@ -70,7 +70,7 @@ class UserCollection extends Component {
             //     ...this.state,
             //     error: err.response.data.error
             // });
-           this.setState({error: "Could not update favorites"})
+           this.setState({error: "Could not add favorite"})
         })
     }
 
@@ -136,7 +136,7 @@ class UserCollection extends Component {
             this.setState({openOwned: false});
             this.fetchOwned();
         }).catch((err) => {
-            this.setState({error: "Could not update owned"})
+            this.setState({error: "Could not add owned"})
         })
     }
 
@@ -242,7 +242,7 @@ class UserCollection extends Component {
             }
         }).then((res) => {
             console.log('completed successfully')
-            this.setState({showUpdateFavorite: false});
+            this.setState({showUpdateFavorite: false, error: ""});   
             this.fetchFavorites();
         }).catch((err) => {
            this.setState({error: "Could not update favorites"})
@@ -263,10 +263,10 @@ class UserCollection extends Component {
         }).then((res) => {
             console.log('completed successfully')
             if(route === 'wants'){
-                this.setState({showUpdateFavorite: false});
+                this.setState({showUpdateFavorite: false, error: ""});
                 this.fetchFavorites();
             }else{
-                this.setState({showUpdateOwned: false});
+                this.setState({showUpdateOwned: false, error: ""});
                 this.fetchOwned();
             }
         }).catch((err) => {
@@ -290,10 +290,10 @@ class UserCollection extends Component {
             }
         }).then((res) => {
             console.log('completed successfully')
-            this.setState({showUpdateOwned: false});
+            this.setState({showUpdateOwned: false, error: ""});
             this.fetchOwned();
         }).catch((err) => {
-           this.setState({error: "Could not update favorites"})
+           this.setState({error: "Could not update owned"})
         })
     }
 
@@ -313,10 +313,10 @@ class UserCollection extends Component {
             }
         }).then((res) => {
             console.log('completed successfully')
-            this.setState({showUpdateOwned: false});
+            this.setState({showUpdateOwned: false, error: ""});
             this.fetchOwned();
         }).catch((err) => {
-           this.setState({error: "Could not update favorites"})
+           this.setState({error: "Could not get requirements"})
         })
     }
 
@@ -353,6 +353,7 @@ class UserCollection extends Component {
             open={this.state.showUpdateFavorite}
             onClose={()=>this.setState({showUpdateFavorite: false})}>
                 <div className={styles.paper}>
+                    {errorMessage}
                     <h1 id="modal-title">Update favorited {this.props.type.slice(0,-1)} {this.state.id}</h1>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
@@ -392,6 +393,7 @@ class UserCollection extends Component {
             open={this.state.showUpdateOwned}
             onClose={()=>this.setState({showUpdateOwned: false})}>
                 <div className={styles.paper}>
+                    {errorMessage}
                     <h1 id="modal-title">Update Owned {this.props.type.slice(0,-1)} {this.state.id}</h1>
                     <Container component="main" maxWidth="xs">
                     <CssBaseline />
