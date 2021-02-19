@@ -15,12 +15,27 @@ var bcrypt = require('bcrypt');
 //Json web tokens for session
 var jwt = require('jsonwebtoken');
 
+//password validator
+var passwordValidator = require('password-validator');
+
 var attempts = require('../middleware/loginAttempt').attempts;
 
+//Password validation schema
+var passwordSchema  = new passwordValidator();
+passwordSchema
+.is().min(6) // minimum of 6 characters
+.has().uppercase() //at least one uppercase character
+.has().lowercase() //at least one lowercase
+.has().digits() //at least one number
+.has().symbols() //at least one symbol
 
  //creates new user ROUTE:: /api/users/create
  exports.createUser = (req, res) => {
     console.log(req.body);
+    if(!checkPassword(req.body.password, res)){
+      console.log('password fails');
+      return;
+    }
     sql.connect(config, (err) => {
       if(err){
          console.log(err);
@@ -92,6 +107,9 @@ var attempts = require('../middleware/loginAttempt').attempts;
 
  //Update password ROUTE:: /api/users/updatePassword
  exports.updateUserPassword = (req, res) => {
+   if(!checkPassword(req.body.newPassword, res)){
+      return;
+    }
     sql.connect(config, (err) => {
       if(err){
          console.log(err);
@@ -159,4 +177,24 @@ var attempts = require('../middleware/loginAttempt').attempts;
          })
       
     });
+ }
+
+
+ checkPassword = (password, res) =>{
+    console.log(password);
+    var errors = passwordSchema.validate(password, {list: true});
+    console.log(errors);
+    if(errors.length > 0){
+       var err = errors.map(err => {switch(err){
+            case 'min': return "The password must have at least 6 characters"
+            case 'uppercase': return "The password must have at least one uppercase value."
+            case 'lowercase': return "The password must have at least one lowercase value."
+            case 'digits': return "The password must have at least one digit."
+            case 'symbols': return "The password must contain at least one special character."
+       }
+      }).join('\n');
+      res.status(500).send({error: err});
+      return false;
+    }
+    return true;
  }
