@@ -52,7 +52,7 @@ export default class SetCollection extends Component {
             <InfiniteScroll
             dataLength={this.props.data||this.state.data.length} 
             next={this.props.data?()=>{}:this.fetchSets.bind(this)}
-            hasMore={this.state.loading}
+            hasMore={!this.props.data&&this.state.loading}
             loader={<h4>Loading...</h4>}
             endMessage={
                 <p style={{ textAlign: 'center' }}>
