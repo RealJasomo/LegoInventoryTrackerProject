@@ -60,7 +60,8 @@ class Profile extends Component {
             }).then((res) => {
                 this.handlePasswordModalClose();
             }).catch((err) => {
-                this.setState({error: "Ther was an error updating your credentials"})
+                this.setState({error: err.response.data.error})
+                
                 this.handlePasswordModalClose();
             })
     }
