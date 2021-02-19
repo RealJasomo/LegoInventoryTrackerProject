@@ -26,7 +26,7 @@ export default class SetCollection extends Component {
     fetchSets() {
         axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/sets/${this.state.page}/50`)
         .then((res) => {
-           if(!res.data.data){
+           if(!res.data.data || res.data.data.length < 50){
                 this.setState({loading: false});
            }
             this.setState({

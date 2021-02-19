@@ -27,7 +27,7 @@ export default class BrickCollection extends Component {
     fetchBricks() {
         axios.get(process.env.REACT_APP_API_ENDPOINT+`/api/bricks/${this.state.page}/50`)
         .then((res) => {
-            if(!res.data.data){
+            if(!res.data.data || res.data.data.length < 50){
                 this.setState({loading: false});
            }
             this.setState({
