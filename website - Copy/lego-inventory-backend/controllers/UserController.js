@@ -66,7 +66,7 @@ exports.createUser = (req, res) => {
           res.json({
             message: "user created sucessfully",
             user: req.body.username,
-            token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET),
+            token: jwt.sign(req.body.username, global.env.API_TOKEN_SECRET),
           });
         });
       });
@@ -87,9 +87,11 @@ exports.loginUser = (req, res) => {
       request.input("Username", sql.VarChar(20), req.body.username);
       request.execute("login_User", (err, result) => {
         if (err) {
-          res.status(403).json({
-            error: "Error attempting to login the user, please try again",
-          });
+          res
+            .status(403)
+            .json({
+              error: "Error attempting to login the user, please try again",
+            });
           console.log(err);
           return;
         }
@@ -103,7 +105,7 @@ exports.loginUser = (req, res) => {
 
           res.json({
             message: "Signed in successfully",
-            token: jwt.sign(req.body.username, process.env.API_TOKEN_SECRET),
+            token: jwt.sign(req.body.username, global.env.API_TOKEN_SECRET),
             user: req.body.username,
           });
           return;
@@ -129,9 +131,11 @@ exports.updateUserPassword = (req, res) => {
     request.input("Username", sql.VarChar(20), req.user);
     request.execute("login_User", (err, result) => {
       if (err) {
-        res.status(403).json({
-          error: "Error attempting to login the user, please try again",
-        });
+        res
+          .status(403)
+          .json({
+            error: "Error attempting to login the user, please try again",
+          });
         console.log(err);
         return;
       }

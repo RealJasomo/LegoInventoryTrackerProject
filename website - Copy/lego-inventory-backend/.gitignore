@@ -1,0 +1,6 @@
+# Node packages
+node_modules/
+
+# Environment Variables
+.env
+.eslintcache

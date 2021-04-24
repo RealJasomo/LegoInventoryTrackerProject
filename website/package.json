@@ -1,0 +1,10 @@
+{"scripts": {
+    "test": "nodemon ./server.js",
+    "build": "cd ../lego-inventory-tracker && npm run build",
+    "install-client": "cd ../lego-inventory-tracker && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "start": "cd lego-inventory-backend && npm start && cd ../lego-inventory-tracker && npm start"
+
+  }
+  
+}
