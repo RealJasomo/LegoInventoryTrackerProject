@@ -1,0 +1,9 @@
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: space-around;
+}

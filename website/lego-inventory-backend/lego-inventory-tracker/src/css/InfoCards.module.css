@@ -1,0 +1,14 @@
+.root {
+    position: relative;
+    height: 70vh;
+    width: 30vw;
+
+  }
+  .media {
+    position: relative;
+    height: 80%;    
+  }
+  .docMedia {
+    position: relative;
+    height: 300px;    
+  }

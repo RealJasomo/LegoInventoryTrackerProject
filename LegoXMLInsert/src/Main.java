@@ -15,8 +15,12 @@ public class Main {
 
 	public static void main(String[] args)
 	{
-		DatabaseConnectionService dcs = new DatabaseConnectionService("titan.csse.rose-hulman.edu", "LegoInventoryTracker2");
-		dcs.connect("lego_application", "[FO>i9l7.)XDJ^(6L*:_:Yj,SNh3n");
+		DatabaseConnectionService dcs = new DatabaseConnectionService("legoinventorytracker.c2oxnp5y0vck.us-east-2.rds.amazonaws.com", "LegoInventoryTracker");
+		try{
+			dcs.connect("lego_application", "V32Wz54^CaKbx-rZ");
+		} catch(ClassNotFoundException e){
+
+		}
 
 		insertBricks(dcs);
 		insertSets(dcs);
