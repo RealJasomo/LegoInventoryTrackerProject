@@ -128,6 +128,25 @@ class App extends Component {
                 {this.props.auth.token?<Profile />:<Redirect to={{pathname:'/'}}/>}
               </Route>
             </Switch>
+            <Switch>
+              <Route path="/sec-analysis"  component={() => { 
+              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/tree/production'; 
+              return null;
+              }}/>
+            </Switch>
+            <Switch>
+              <Route path="/design-report"  component={() => { 
+              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/tree/production'; 
+              return null;
+              }}/>
+            </Switch>
+            <Switch>
+              <Route path="/code"  component={() => { 
+              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/tree/production'; 
+              return null;
+              }}/>
+            </Switch>
+            
         </div>
         </Router>
       </>

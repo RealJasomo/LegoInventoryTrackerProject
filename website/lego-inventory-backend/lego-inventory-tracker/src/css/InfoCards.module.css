@@ -6,9 +6,6 @@
   }
   .media {
     position: relative;
-    height: 80%;    
+    height: 40vh;    
   }
-  .docMedia {
-    position: relative;
-    height: 300px;    
-  }
+  

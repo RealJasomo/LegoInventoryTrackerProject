@@ -2,6 +2,7 @@ import styles from '../../css/InfoCards.module.css'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import axios from 'axios'
+import {Link} from "react-router-dom";
 import {Card, 
         CardActionArea, 
         CardContent,
@@ -16,7 +17,7 @@ export default class BickInfoCard extends Component {
     render() {
         return (
           <Card className={styles.root}>
-          <CardActionArea>
+          <CardActionArea component={Link} to='/bricks'>
             <CardMedia
               className={styles.media}
               component='img'
@@ -34,7 +35,7 @@ export default class BickInfoCard extends Component {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="large" color="primary">
+            <Button size="large" color="primary" component={Link} to='/bricks'>
               GO TO BRICKS
             </Button>
             

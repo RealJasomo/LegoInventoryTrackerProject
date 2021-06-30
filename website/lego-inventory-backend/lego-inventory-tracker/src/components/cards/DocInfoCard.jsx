@@ -2,6 +2,7 @@ import styles from '../../css/InfoCards.module.css'
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import axios from 'axios'
+import {Link} from "react-router-dom";
 import {Card, 
         CardActionArea, 
         CardContent,
@@ -18,11 +19,10 @@ export default class DocInfoCard extends Component {
           <Card className={styles.root}>
           <CardActionArea>
             <CardMedia
-              className={styles.docMedia} 
+              className={styles.media} 
               component='img'
               image={image}
               title="Documentation"
-              
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
@@ -34,16 +34,15 @@ export default class DocInfoCard extends Component {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="large" color="primary">
+            <Button size="large" color="primary" component={Link} to='/code'>
               CODE
             </Button>
-            <Button size="large" color="primary">
+            <Button size="large" color="primary" component={Link} to='/design-report'>
               DESIGN REPORT 
             </Button>
-            <Button size="large" color="primary">
+            <Button size="large" color="primary" component={Link} to='/sec-analysis'>
               SECURITY ANALYSIS
             </Button>
-            
           </CardActions>
         </Card>
         )
