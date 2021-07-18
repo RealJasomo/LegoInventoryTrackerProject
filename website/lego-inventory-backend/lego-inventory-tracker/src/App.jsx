@@ -130,13 +130,13 @@ class App extends Component {
             </Switch>
             <Switch>
               <Route path="/sec-analysis"  component={() => { 
-              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/tree/production'; 
+              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/blob/production/PDFs/Database%20Security%20Analysis.pdf'; 
               return null;
               }}/>
             </Switch>
             <Switch>
               <Route path="/design-report"  component={() => { 
-              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/tree/production'; 
+              window.location.href = 'https://github.com/RealJasomo/LegoInventoryTrackerProject/blob/production/PDFs/Final%20Report.pdf'; 
               return null;
               }}/>
             </Switch>
